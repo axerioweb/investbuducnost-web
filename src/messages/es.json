@@ -1,0 +1,1002 @@
+{
+  "meta": {
+    "siteName": "Invest Budućnost",
+    "titleTemplate": "Invest Budućnost — Estudios, visados y trabajo en el extranjero",
+    "home": {
+      "title": "Estudiar, visados y empleo en EE. UU.",
+      "description": "Tu guía para estudiar, tramitar visados y trabajar en EE. UU., Europa y China. 8 años de experiencia y más de 320 casos. Reserva tu consulta gratuita."
+    },
+    "europe": {
+      "title": "Estudiar en Europa — 25 universidades",
+      "description": "Matricúlate en grados y másteres en más de 25 universidades europeas. Elegimos el programa, preparamos los documentos y gestionamos tu visado."
+    },
+    "camps": {
+      "title": "Campamentos en Europa — 15 % menos",
+      "description": "Más de 12 escuelas y universidades en Barcelona, Roma, Berlín y Budapest. Idiomas, amigos y experiencia con un 15 % de descuento para 2026. Reserva ya."
+    },
+    "china": {
+      "title": "Estudiar en China — becas XJTLU",
+      "description": "Grados y másteres en inglés en la universidad XJTLU con becas de hasta 26.000 €. Representante oficial para los Balcanes: apoyo completo en 6 fases."
+    },
+    "f1": {
+      "title": "Visado de estudiante F1 para EE. UU.",
+      "description": "De los documentos y el formulario I-20 a la entrevista en la embajada: te guiamos en los 6 pasos del visado F1, con becas deportivas incluidas."
+    },
+    "b1b2": {
+      "title": "Visado de turista B1/B2 para EE. UU.",
+      "description": "El visado de turista para EE. UU. en 7 pasos: análisis del perfil, formulario DS-160 y preparación de la entrevista. Descuentos familiares. Empieza hoy."
+    },
+    "usa": {
+      "title": "Trabajar en EE. UU. — empleo legal",
+      "description": "Camiones, mudanzas, hostelería y catering en Nueva York, Chicago y Miami. Gana de 5.000 a 10.000 USD al mes. Apoyo del visado al alojamiento."
+    },
+    "about": {
+      "title": "Sobre nosotros — tu socio de confianza",
+      "description": "8 años de experiencia, 13 expertos y oficinas en Jagodina, Podgorica y Liubliana. Conoce al equipo que te lleva a estudiar y trabajar fuera."
+    },
+    "faq": {
+      "title": "Preguntas frecuentes sobre visados",
+      "description": "Cuánto dura el proceso, qué documentos necesitas y cómo trabajamos juntos: respuestas a las dudas más frecuentes sobre los visados para EE. UU."
+    },
+    "contact": {
+      "title": "Contacto — Jagodina, Podgorica, Liubliana",
+      "description": "Llama al +381 65 9010-720 o escribe a investbuducnost@gmail.com. Oficinas en Jagodina, Podgorica y Liubliana. Escríbenos y te respondemos enseguida."
+    }
+  },
+  "nav": {
+    "home": "Inicio",
+    "europe": "Europa",
+    "camps": "Campamentos",
+    "china": "China",
+    "process": "Proceso",
+    "f1": "Visado de estudiante F1",
+    "b1b2": "Visado de turista B1/B2",
+    "usa": "Trabajar en EE. UU.",
+    "about": "Sobre nosotros",
+    "faq": "Preguntas frecuentes",
+    "contact": "Contacto",
+    "apply": "Solicitar",
+    "menuOpen": "Abrir menú",
+    "menuClose": "Cerrar menú",
+    "languageSwitcher": "Elegir idioma",
+    "skipToContent": "Saltar al contenido",
+    "mainNav": "Navegación principal",
+    "mobileNav": "Navegación móvil"
+  },
+  "common": {
+    "learnMore": "Saber más",
+    "apply": "Solicitar",
+    "contactUs": "Contáctanos",
+    "viewAll": "Ver todo",
+    "step": "Paso",
+    "phase": "Fase",
+    "years": "años",
+    "year": "año",
+    "duration": "Duración",
+    "price": "Precio",
+    "program": "Programa",
+    "perYear": "al año",
+    "perSemester": "por semestre",
+    "perMonth": "al mes",
+    "total": "en total"
+  },
+  "home": {
+    "hero": {
+      "kicker": "Estudios · Visados · Viajes",
+      "title": "¿Estás listo para tu visado?",
+      "titleAccent": "¡Nosotros sí!",
+      "subtitle": "Invest Budućnost es tu guía en estudios, visados y viajes por Europa, China y EE. UU. Desde el primer documento hasta el aterrizaje: estamos contigo en cada paso.",
+      "imageAlt": "Ala de un avión sobre las nubes rumbo a un nuevo destino",
+      "ctaPrimary": "Solicitar ahora",
+      "ctaSecondary": "Explorar servicios",
+      "availability": "Disponibles en Serbia, Eslovenia y Montenegro",
+      "scrollAria": "Desplazarse a la siguiente sección"
+    },
+    "services": {
+      "kicker": "Nuestros servicios",
+      "title": "Todo lo que necesitas para tu viaje — en un solo lugar",
+      "subtitle": "Apoyo completo para estudiantes, deportistas, turistas y trabajadores.",
+      "docs": {
+        "title": "Documentación",
+        "text": "Preparamos y verificamos cada documento con el máximo cuidado: expedientes, traducciones, certificaciones y formularios de visado."
+      },
+      "interview": {
+        "title": "Preparación de la entrevista",
+        "text": "No dejamos nada al azar. Te preparamos para cada pregunta con simulaciones de la entrevista en la embajada."
+      },
+      "cards": {
+        "europe": {
+          "title": "Estudiar en Europa",
+          "text": "Más de 25 universidades asociadas para grados y másteres."
+        },
+        "china": {
+          "title": "Estudiar en China",
+          "text": "Universidad XJTLU — becas de hasta 26.000 € en 4 años."
+        },
+        "camps": {
+          "title": "Campamentos de verano",
+          "text": "Más de 12 programas por toda Europa con un 15 % de descuento para 2026."
+        },
+        "f1": {
+          "title": "Visado de estudiante F1",
+          "text": "El camino completo hasta un campus americano, incluidas becas deportivas."
+        },
+        "b1b2": {
+          "title": "Visado de turista B1/B2",
+          "text": "Del formulario DS-160 al pasaporte con el visado en mano."
+        },
+        "usa": {
+          "title": "Trabajar en EE. UU.",
+          "text": "Empleos legales de 5.000 a 10.000 USD al mes."
+        }
+      }
+    },
+    "stats": {
+      "kicker": "Los números hablan por nosotros",
+      "title": "Experiencia en la que confiar",
+      "years": "años de experiencia",
+      "experts": "expertos en el equipo",
+      "clients": "clientes al año",
+      "partners": "socios internacionales",
+      "locations": "sedes",
+      "collaborations": "colaboraciones exitosas",
+      "universities": "universidades y escuelas"
+    },
+    "stories": {
+      "kicker": "Historias de éxito",
+      "title": "Nuestros estudiantes, sus logros",
+      "subtitle": "De las canchas balcánicas a los campus americanos: estos son los caminos que hemos recorrido juntos.",
+      "badge": "EE. UU.",
+      "lazar": {
+        "name": "Lazar Janković",
+        "path": "Grace Christian High School (Vermont) → Santa Rosa Junior College (California)"
+      },
+      "bogdan": {
+        "name": "Bogdan Milić",
+        "path": "Hoosac High School (Nueva York) → Missouri Valley College — beca de baloncesto"
+      },
+      "aleksa": {
+        "name": "Aleksa Svilar",
+        "path": "Missouri Valley College — beca deportiva completa (fútbol)"
+      },
+      "borivoje": {
+        "name": "Borivoje Bigović",
+        "path": "Missouri Valley College — baloncesto, con beca"
+      }
+    },
+    "testimonial": {
+      "kicker": "Opiniones de clientes",
+      "quote": "¡El equipo es genial! Estuvieron conmigo desde la primera consulta hasta obtener el visado. Cada paso fue claro y sin estrés — los recomiendo de corazón.",
+      "author": "Andrej Pap",
+      "role": "cliente — visado de turista"
+    },
+    "partners": {
+      "kicker": "Socios",
+      "title": "Instituciones con las que colaboramos",
+      "logoAlt": "Logotipo de {name}"
+    },
+    "cta": {
+      "title": "Tu futuro no espera.",
+      "text": "Reserva una consulta gratuita y descubre tus opciones — sin compromiso.",
+      "button": "Reservar consulta"
+    },
+    "newsletter": {
+      "title": "Mantente al día — ve un paso por delante",
+      "placeholder": "Tu correo electrónico",
+      "button": "Suscribirme",
+      "note": "Al suscribirte aceptas recibir nuestras novedades. Sin spam."
+    }
+  },
+  "europe": {
+    "hero": {
+      "kicker": "Europa",
+      "title": "Estudiar en Europa",
+      "subtitle": "Nuestra agencia colabora con más de 25 universidades europeas — grados y másteres, ¡tú eliges!",
+      "imageAlt": "Calle histórica de Praga, una de las ciudades universitarias de Europa"
+    },
+    "unis": {
+      "kicker": "Universidades y escuelas",
+      "title": "Instituciones asociadas por toda Europa",
+      "subtitle": "Haz clic en el logotipo de una institución para ver los detalles: programas, matrícula, coste de vida y plazos de admisión."
+    },
+    "cta": {
+      "title": "¿No sabes qué universidad es para ti?",
+      "text": "Envíanos tus notas y preferencias — te propondremos las mejores opciones gratis.",
+      "button": "Evaluación gratuita"
+    },
+    "detail": {
+      "founded": "Fundada",
+      "students": "Estudiantes",
+      "campuses": "Campus",
+      "tuitionBachelor": "Matrícula — grado",
+      "tuitionMaster": "Matrícula — máster",
+      "living": "Coste de vida",
+      "about": "Sobre la universidad",
+      "bachelor": "Estudios de grado",
+      "master": "Estudios de máster",
+      "programsNote": "Se muestra una selección de programas. La oferta completa, los importes exactos y los requisitos de admisión están disponibles a consulta.",
+      "more": "Más detalles",
+      "close": "Cerrar",
+      "cta": "Evaluación gratuita",
+      "camp": "Campamento de verano",
+      "campBadge": "Campamento",
+      "logoAlt": "Logotipo de {name}"
+    },
+    "items": {
+      "emuni": {
+        "tagline": "Universidad euromediterránea en la costa eslovena, con docencia en inglés.",
+        "about": "EMUNI es una universidad intergubernamental fundada en 2008 como proyecto conjunto de los países de la asociación euromediterránea, con sede en la costa eslovena. Los programas se imparten en inglés, en colaboración con una red de universidades asociadas de todo el Mediterráneo, y en verano acoge la escuela HALS en Piran y Koper."
+      },
+      "metu": {
+        "tagline": "Programas creativos y de negocios en Budapest, con cuatro estrellas QS.",
+        "about": "La Budapest Metropolitan University es la mayor universidad privada de Hungría, con facultades sólidas en el ámbito creativo y empresarial. El sistema QS Stars le otorgó cuatro estrellas sobre cinco, con la máxima puntuación en internacionalización. La docencia es en inglés, con convocatorias de otoño y primavera."
+      },
+      "aydin": {
+        "tagline": "Más de 40.000 estudiantes de más de 100 países, en la parte europea de Estambul.",
+        "about": "Fundada en 2007, la Istanbul Aydin University se ha convertido en una de las universidades privadas más prestigiosas de Turquía: más de 40.000 estudiantes, de los cuales más de 4.000 internacionales de más de 100 países, y convenios con más de 450 universidades a través de Erasmus+. El campus está en el barrio de Florya, cerca del aeropuerto y del centro."
+      },
+      "nicosia": {
+        "tagline": "La mayor universidad privada de Chipre, con más de 80 másteres.",
+        "about": "La University of Nicosia fue fundada en 1980 y hoy reúne estudiantes de más de 100 países. Destaca en medicina, negocios y tecnologías de la información. Ofrece grados en administración de empresas, más de 80 programas de máster —muchos disponibles también en línea— y una veintena de programas de doctorado. Cuenta además con un campus en Atenas."
+      },
+      "ais": {
+        "tagline": "Escuela de negocios suiza con más de 30 años de trayectoria, junto al lago Lemán.",
+        "about": "Escuela de negocios internacional privada en la Riviera suiza, entre Lausana y el lago Lemán. Está acreditada por IACBE (EE. UU.), mantiene acuerdos con IATA, IBM y Apple, y figura entre las cuatro primeras de Suiza en programas de máster. La admisión es continua, con convocatorias principales en octubre y febrero."
+      },
+      "cbs": {
+        "tagline": "Escuela de negocios alemana centrada en la práctica — Colonia, Maguncia y Potsdam.",
+        "about": "La CBS International Business School fue fundada en 1993 y es hoy una de las escuelas de negocios de referencia en Alemania, con campus en Colonia, Maguncia y Potsdam. Su enfoque es la formación práctica que conecta la teoría con casos empresariales reales. Acreditaciones: FIBAA, IACBE y el Wissenschaftsrat alemán."
+      },
+      "eubs": {
+        "tagline": "Barcelona, Ginebra y Múnich — estudios de negocios en inglés.",
+        "about": "EU Business School imparte todos sus programas en inglés en los campus de Barcelona, Ginebra y Múnich, además de un campus digital. Los grados duran tres años y los másteres un año, con convocatorias en octubre, febrero y —en algunos programas— junio o agosto."
+      },
+      "ibs": {
+        "tagline": "Budapest, Viena y Dubái — titulaciones acreditadas en el Reino Unido.",
+        "about": "IBS es una escuela de negocios privada fundada en 1991 en Budapest, con campus también en Viena y Dubái. Todos los programas se imparten exclusivamente en inglés y las titulaciones están acreditadas en el Reino Unido gracias al convenio con la University of Buckingham. La convocatoria principal es en septiembre, con una de primavera en febrero."
+      },
+      "wittenborg": {
+        "tagline": "Universidad neerlandesa con seis fechas de inicio al año.",
+        "about": "La Wittenborg University fue fundada en 1987 en Apeldoorn, en el corazón de los Países Bajos, y acoge a más de 1.200 estudiantes de más de 100 países. La docencia es 100 % en inglés, con campus en Ámsterdam y Múnich. Los estudios pueden comenzar seis veces al año, aproximadamente cada dos meses. Acreditaciones: NVAO y FIBAA."
+      },
+      "ucam": {
+        "tagline": "Universidad católica en Murcia, reconocida por el deporte y las ciencias de la salud.",
+        "about": "La Universidad Católica San Antonio de Murcia fue fundada en 1996 y reúne estudiantes de más de 60 países, con campus en Murcia, Cartagena y Madrid. Destaca en ciencias de la salud y deporte de alto rendimiento, y sus programas se imparten en español e inglés. La admisión es continua: los grados normalmente hasta el 31 de julio y los másteres hasta el 31 de agosto."
+      },
+      "fsm": {
+        "tagline": "Arquitectura otomana e ingeniería contemporánea en el Estambul histórico.",
+        "about": "La Fatih Sultan Mehmet Vakıf University fue fundada en 2010 y acoge a más de 8.000 estudiantes. Sus campus ocupan edificios otomanos del casco histórico de Estambul: Topkapı, Haliç y Yenikapı Mevlevihanesi. La docencia se imparte en turco, inglés y árabe, y las solicitudes se presentan de mayo a agosto para la convocatoria de septiembre."
+      },
+      "aubg": {
+        "tagline": "Una titulación estadounidense de artes liberales al pie del monte Rila.",
+        "about": "La American University in Bulgaria fue fundada en 1991 en Blagoevgrad, a una hora de Sofía y al pie del monte Rila. Acoge a más de 1.000 estudiantes de más de 40 países, imparte docencia en inglés y ofrece 13 grados además de un Executive MBA de 16 meses para profesionales en activo."
+      },
+      "jcu": {
+        "tagline": "Universidad estadounidense en el Trastevere romano, con docencia en inglés.",
+        "about": "La John Cabot University es una universidad estadounidense en pleno centro de Roma, en el barrio de Trastevere. La docencia es en inglés —salvo los cursos de italiano— y estudiantes de todo el mundo acuden también a dos sesiones de verano de cinco semanas que otorgan créditos académicos reconocidos."
+      },
+      "gbsb": {
+        "tagline": "Escuela de negocios con enfoque digital — Barcelona, Madrid y Malta.",
+        "about": "GBSB Global Business School imparte docencia en inglés en Barcelona, Madrid y Birkirkara (Malta), con énfasis en el negocio digital y la inteligencia artificial aplicada. Las convocatorias son en octubre, enero y abril, con becas que cubren entre el 15 y el 30 por ciento de la matrícula."
+      },
+      "bts": {
+        "tagline": "Escuela tecnológica en el distrito de innovación 22@ Poblenou.",
+        "about": "La Barcelona Technology School está especializada en programas de tecnología e inteligencia artificial, con campus en el Eixample y vínculos con startups del distrito de innovación 22@ Poblenou. La docencia es en inglés y orientada a proyectos, y en verano organiza un curso intensivo de fundamentos de la IA."
+      },
+      "htl": {
+        "tagline": "Hostelería, turismo e idiomas en Barcelona — cuatro convocatorias al año.",
+        "about": "La HTL International School of Hospitality, Tourism and Languages cuenta con más de 15 años de experiencia y figura entre las diez mejores escuelas europeas de gestión hotelera. La docencia es en inglés, los grados duran tres años y hay cuatro convocatorias al año: enero, abril, julio y octubre."
+      },
+      "mai": {
+        "tagline": "La principal escuela rusa de aviación, cohetería e ingeniería espacial.",
+        "about": "El Instituto de Aviación de Moscú fue fundado en 1930 y está especializado en aviación, aeronáutica, cohetería e ingeniería espacial. Acoge a más de 20.000 estudiantes de más de 50 países y sus programas se imparten en ruso e inglés. La admisión es continua, con convocatorias principales en octubre y febrero."
+      },
+      "srh": {
+        "tagline": "Universidad alemana de ciencias aplicadas — Berlín y Heidelberg.",
+        "about": "SRH University imparte docencia en inglés en Berlín y Heidelberg, con foco en energías renovables, inteligencia artificial y sostenibilidad. Junto a sus titulaciones ordinarias organiza escuelas de verano breves: sobre sistemas solares en Berlín y sobre IA y sostenibilidad en Heidelberg."
+      },
+      "kozminski": {
+        "tagline": "Negocios y economía en inglés, en pleno centro de Varsovia.",
+        "about": "La Kozminski University es una universidad privada del barrio varsoviano de Praga Północ, reconocida por sus programas de negocios y economía en inglés. Las clases son de lunes a viernes, con actividades el fin de semana, y en verano organiza una International Summer School para universitarios y otra escuela para estudiantes de bachillerato."
+      }
+    }
+  },
+  "camps": {
+    "hero": {
+      "kicker": "Programas de verano e invierno",
+      "title": "Campamentos de verano",
+      "subtitle": "Más de 12 escuelas y universidades europeas ofrecen programas de verano e invierno: aprendizaje interactivo, experiencias internacionales y desarrollo personal.",
+      "imageAlt": "Grupo de jóvenes sentados en el césped durante un campamento de verano"
+    },
+    "promo": {
+      "badge": "-15%",
+      "text": "15 % de descuento en todos los campamentos de verano en el extranjero para 2026"
+    },
+    "chooseTitle": "Tú eliges",
+    "cta": {
+      "title": "Reserva tu plaza a tiempo",
+      "text": "Las plazas son limitadas — contáctanos y asegura tu descuento para 2026.",
+      "button": "Reservar con 15 % de descuento"
+    },
+    "chooseSubtitle": "Haz clic en el logotipo de una institución y se abrirá la ficha completa del programa: duración, fechas, precio, alojamiento y certificado.",
+    "detail": {
+      "dates": "Fechas",
+      "onRequest": "A consultar",
+      "age": "Edad",
+      "language": "Idioma",
+      "ects": "ECTS",
+      "about": "Sobre el programa",
+      "included": "Qué incluye",
+      "activities": "Actividades",
+      "accommodation": "Alojamiento",
+      "certificate": "Certificado",
+      "more": "Más detalles",
+      "close": "Cerrar",
+      "cta": "Inscríbete",
+      "studies": "Estudios en la universidad",
+      "logoAlt": "Logotipo de {name}",
+      "agePlus": "{min}+",
+      "ageRange": "{min}–{max}"
+    },
+    "items": {
+      "emuni": {
+        "tagline": "Vida sana y activa: kinesiología, nutrición mediterránea y realidad virtual en la salud.",
+        "about": "Una escuela de verano de cinco días dedicada al estilo de vida saludable y activo. Las clases y los talleres corren a cargo de especialistas reconocidos en kinesiología, nutrición y aplicación de la tecnología VR en la sanidad, con unas 20 horas lectivas en la costa del Adriático. El precio depende del número de participantes y admite pago a plazos.",
+        "duration": "5 días",
+        "dates": "8–12 de septiembre",
+        "language": "Inglés",
+        "included": [
+          "Unas 20 horas de clases y talleres",
+          "Certificado y 3 créditos ECTS con expediente",
+          "Visita guiada al casco antiguo de Piran",
+          "Visitas a instituciones asociadas"
+        ],
+        "activities": [
+          "Vóley playa",
+          "Slackline y yoga",
+          "Recorrido por Koper",
+          "Fiesta de despedida"
+        ],
+        "accommodation": "Residencias universitarias y alojamientos asociados en Piran y Koper — habitaciones individuales o dobles. Las comidas no están incluidas.",
+        "certificate": "Certificado de finalización y 3 créditos ECTS con expediente de notas."
+      },
+      "metu": {
+        "tagline": "Dos semanas de negocios, marketing y relaciones internacionales en Budapest.",
+        "about": "Programa de dos semanas de la Budapest Metropolitan University con asignaturas de recursos humanos, marketing, relaciones internacionales, innovación turística y estrategia empresarial. Las clases son cuatro días por semana, unas cinco horas diarias.",
+        "duration": "2 semanas",
+        "dates": "Julio — agosto",
+        "language": "Inglés",
+        "included": [
+          "Clases cuatro días por semana",
+          "Todo el material docente",
+          "Certificado de finalización",
+          "Alojamiento opcional con desayuno"
+        ],
+        "activities": [
+          "Talleres de estrategia empresarial",
+          "Proyectos en equipo",
+          "Descubrir Budapest",
+          "Networking con estudiantes"
+        ],
+        "accommodation": "Opcional junto al curso: habitación individual con desayuno 1.300 €, doble 1.100 €. Solo el curso, sin alojamiento, cuesta 600 €.",
+        "certificate": "Certificado de finalización expedido por la Budapest Metropolitan University."
+      },
+      "aydin": {
+        "tagline": "Entre diez y doce cursos, créditos ECTS y el Bósforo — Estambul en verano e invierno.",
+        "about": "Programa de dos semanas con 10–12 cursos: gestión de marca, relaciones internacionales, marketing digital, genética e inteligencia artificial aplicada a los negocios. Las clases son de 2–3 horas diarias, con talleres y trabajo en equipo, y el programa se celebra tanto en verano como en invierno.",
+        "duration": "2 semanas",
+        "dates": "Finales de julio — principios de agosto y finales de enero",
+        "language": "Inglés",
+        "included": [
+          "Clases, materiales y talleres",
+          "Certificado con 3–6 créditos ECTS",
+          "Excursiones de fin de semana y actividades culturales",
+          "Apoyo del A-Team de voluntarios 24/7"
+        ],
+        "activities": [
+          "Crucero por el Bósforo",
+          "Península histórica y bazares",
+          "Experiencias culinarias turcas",
+          "Estudiantes de más de 30 países"
+        ],
+        "accommodation": "Residencias, hoteles y apartamentos — unos 500–800 € por todo el programa. No está incluido en el precio del curso.",
+        "certificate": "Certificado con 3–6 créditos ECTS, transferibles a tu universidad de origen."
+      },
+      "eubs": {
+        "tagline": "Programa de negocios para estudiantes de bachillerato, pensión completa en Barcelona.",
+        "about": "Programa de dos semanas para estudiantes de 16 a 18 años que quieren su primera experiencia en un entorno empresarial internacional. Las clases son por la mañana de lunes a viernes, con talleres interactivos, casos prácticos y trabajo por proyectos. No incluye el viaje a Barcelona ni el traslado desde el aeropuerto.",
+        "duration": "2 semanas",
+        "dates": "Julio",
+        "language": "Inglés",
+        "included": [
+          "Docencia y todos los materiales",
+          "Alojamiento en habitaciones dobles",
+          "Pensión completa — tres comidas al día",
+          "Seguro médico"
+        ],
+        "activities": [
+          "Visitas a empresas",
+          "Conferencias de invitados",
+          "Rutas culturales por Barcelona",
+          "Playa, vóley y remo"
+        ],
+        "accommodation": "Residencia de estudiantes en habitaciones dobles, con wifi, seguridad y servicio de limpieza — incluida en el precio.",
+        "certificate": "Certificado de finalización de EU Business School."
+      },
+      "bts": {
+        "tagline": "Dos semanas de inteligencia artificial generativa en el distrito tecnológico de Barcelona.",
+        "about": "Programa orientado a proyectos para mayores de 18 años que quieren adquirir los fundamentos de la inteligencia artificial, en especial la IA generativa. Combina teoría, talleres prácticos y sesiones interactivas — unas 20 horas semanales, en el distrito de innovación 22@ Poblenou.",
+        "duration": "2 semanas",
+        "dates": "Julio — agosto",
+        "language": "Inglés",
+        "included": [
+          "Unas 20 horas lectivas por semana",
+          "Talleres prácticos de IA",
+          "Visitas a empresas tecnológicas y startups",
+          "Certificado oficial de BTS"
+        ],
+        "activities": [
+          "Talleres de innovation challenge",
+          "Actividades de team building",
+          "Ruta por la arquitectura de Gaudí",
+          "Centro de la ciudad y playas"
+        ],
+        "accommodation": "No incluido — BTS recomienda residencias, albergues o pisos compartidos, unos 400–800 € por dos semanas.",
+        "certificate": "Certificado oficial de asistencia de la Barcelona Technology School."
+      },
+      "ucam": {
+        "tagline": "Español de A1 a C2 en un monasterio del siglo XVIII, con flamenco y excursiones.",
+        "about": "Curso intensivo de español para estudiantes cuya lengua materna no es el español, con método comunicativo y grupos reducidos de 8 a 15 alumnos. Las clases se imparten en el campus de Los Jerónimos, ubicado en un monasterio del siglo XVIII.",
+        "duration": "2–4 semanas",
+        "dates": "Julio — septiembre y enero — febrero",
+        "language": "Español (A1–C2)",
+        "included": [
+          "50–100 horas de clase",
+          "Material docente y welcome pack",
+          "Comida de lunes a viernes",
+          "Acceso a las instalaciones deportivas"
+        ],
+        "activities": [
+          "Clases de salsa y flamenco",
+          "Degustación de cocina española",
+          "Excursiones los sábados a Cartagena",
+          "Playas de la Costa Cálida"
+        ],
+        "accommodation": "Familia de acogida con pensión completa (paquete desde 1.540 €), residencias, hoteles o apartamentos privados.",
+        "certificate": "Certificado oficial de la UCAM con el número de semanas y el nivel de idioma según el MCER, más 2–4 créditos ECTS."
+      },
+      "jcu": {
+        "tagline": "Dos sesiones de cinco semanas en Trastevere — créditos académicos en el corazón de Roma.",
+        "about": "La John Cabot University, en el barrio romano de Trastevere, organiza dos sesiones de verano de cinco semanas. Los estudiantes eligen uno o dos cursos entre historia del arte, negocios, comunicación, economía, literatura, psicología y artes plásticas.",
+        "duration": "2 × 5 semanas",
+        "dates": "Junio — julio y julio — agosto",
+        "language": "Inglés",
+        "included": [
+          "Uno o dos cursos por sesión",
+          "3 o 6 créditos académicos",
+          "Material docente",
+          "Apoyo al estudiante en el campus"
+        ],
+        "activities": [
+          "Recorridos por Roma",
+          "Clases de campo de historia del arte",
+          "Programas culturales",
+          "Estudiantes de todo el mundo"
+        ],
+        "accommodation": "Residencias y apartamentos cerca del campus en Trastevere.",
+        "certificate": "Créditos académicos reconocidos — 3 o 6 ECTS por los cursos superados."
+      },
+      "gbsb": {
+        "tagline": "Inteligencia artificial aplicada a los negocios — Barcelona o Malta.",
+        "about": "Programa intensivo de dos semanas sobre inteligencia artificial generativa y su aplicación empresarial, con clases interactivas, trabajo en grupo, casos prácticos y proyectos reales de IA. No se requieren conocimientos previos de IA, solo un nivel básico de inglés.",
+        "duration": "2 semanas",
+        "dates": "Julio — agosto",
+        "language": "Inglés",
+        "included": [
+          "Docencia y todos los materiales",
+          "Comida los días de clase",
+          "Proyectos prácticos de IA",
+          "Certificate of Completion"
+        ],
+        "activities": [
+          "Visitas a empresas",
+          "Rutas culturales y excursiones",
+          "Visita a lugares emblemáticos",
+          "Trabajo en grupo sobre casos prácticos"
+        ],
+        "accommodation": "Residencias o albergues asociados cerca del campus — habitación individual 350–500 €, compartida 250–400 €.",
+        "certificate": "GBSB Global Certificate of Completion."
+      },
+      "srh": {
+        "tagline": "Dieciocho días de energía solar, eólica y biomasa — en Berlín o en línea.",
+        "about": "Curso intensivo sobre sistemas solares: diseño, montaje y gestión de instalaciones fotovoltaicas conectadas a red, aisladas e híbridas, con talleres sobre energía eólica y biomasa. SRH ofrece además la International SustAInability Summer School de dos semanas en Heidelberg, dedicada a la IA, el IoT y la sostenibilidad.",
+        "duration": "18 días",
+        "dates": "Octubre — noviembre",
+        "language": "Inglés",
+        "included": [
+          "Docencia y todos los materiales",
+          "IVA incluido en el precio",
+          "Actividades complementarias y excursiones",
+          "Certificado con los temas y las horas"
+        ],
+        "activities": [
+          "Ferias de energías renovables",
+          "Visitas a empresas",
+          "Intercambio cultural",
+          "Excursiones por la zona"
+        ],
+        "accommodation": "No incluido — unos 400–700 € al mes, con recomendaciones de la universidad.",
+        "certificate": "Zertifikat / Certificate con los temas tratados y el número de horas."
+      },
+      "aubg": {
+        "tagline": "Cuatro programas — de la preparación del TOEFL y la robótica al liderazgo, de 8 a 17 años.",
+        "about": "La American University in Bulgaria ofrece cuatro programas de verano: preparación del TOEFL (4 semanas), la Sci-Tech Academy con robótica y experimentos (2 semanas), inglés de verano para niños de 8 a 12 años (3 semanas) y Leadership & Civic Engagement para jóvenes de 15 a 17 años.",
+        "duration": "2–4 semanas",
+        "dates": "Junio — agosto",
+        "language": "Inglés",
+        "included": [
+          "Docencia y todos los materiales",
+          "Jornada completa en el curso de Leadership",
+          "Certificado de finalización de AUBG",
+          "Residencia opcional en el campus"
+        ],
+        "activities": [
+          "Robótica con Arduino y sensores",
+          "Experimentos de física y química",
+          "Talleres de liderazgo",
+          "Proyectos comunitarios"
+        ],
+        "accommodation": "Residencias en el campus, opcionales. El traslado desde el aeropuerto de Sofía es obligatorio — Blagoevgrad está a unas dos horas en coche.",
+        "certificate": "AUBG Certificate of Completion."
+      },
+      "kozminski": {
+        "tagline": "IA en los negocios, fintech y sostenibilidad — y un itinerario para bachillerato.",
+        "about": "Kozminski ofrece dos programas de verano: la International Summer School para universitarios, con cursos de inteligencia artificial aplicada a los negocios, sostenibilidad, visualización de datos, fintech y liderazgo; y la Warsaw Summer School para estudiantes de bachillerato, con una introducción al marketing, las finanzas, la gestión y la IA.",
+        "duration": "3–4 semanas",
+        "dates": "Julio — agosto",
+        "language": "Inglés",
+        "included": [
+          "Docencia y todos los materiales",
+          "4 créditos ECTS por curso",
+          "Algunas comidas y actividades",
+          "Sesiones de bienvenida y apoyo"
+        ],
+        "activities": [
+          "Casco antiguo y Castillo Real",
+          "Parque Łazienki y Palacio de Wilanów",
+          "Centro de Ciencias Copérnico",
+          "Team building y networking los fines de semana"
+        ],
+        "accommodation": "No incluido — recomendaciones a través de PepeHousing y Spotahome, unos 120–190 € al mes.",
+        "certificate": "Certificado de finalización, más 4 créditos ECTS por curso en la International Summer School."
+      },
+      "europea": {
+        "tagline": "Una semana para descubrir tu profesión — negocios, tecnología, diseño, salud y deporte.",
+        "about": "Campamento breve e intensivo para estudiantes de bachillerato que aún están eligiendo carrera. En talleres de 9.30 a 17.30 los participantes prueban negocios, tecnología, diseño, salud y deporte, con visitas a facultades, laboratorios y simulaciones de hospital y plató.",
+        "duration": "1 semana",
+        "dates": "22–26 de junio y 29 de junio — 3 de julio",
+        "language": "Español e inglés",
+        "included": [
+          "Talleres de 9.30 a 17.30",
+          "Acceso al campus y a los laboratorios",
+          "Trabajo con profesionales del sector",
+          "Certificado de asistencia"
+        ],
+        "activities": [
+          "Proyectos prácticos por áreas",
+          "Simulaciones en hospital y plató",
+          "Visitas a facultades",
+          "Actividades de team building"
+        ],
+        "accommodation": "Es un campamento de día, así que el alojamiento no es obligatorio — opcional en residencias universitarias u hoteles de Madrid.",
+        "certificate": "Certificado oficial de asistencia al Summer Camp que acredita las competencias adquiridas."
+      }
+    }
+  },
+  "china": {
+    "hero": {
+      "kicker": "China · XJTLU",
+      "title": "Estudiar en China",
+      "subtitle": "en la Xi'an Jiaotong-Liverpool University — Invest Budućnost es el representante oficial de XJTLU para la región de los Balcanes.",
+      "imageAlt": "Panorámica de Shanghái con la torre Oriental Pearl en primer plano"
+    },
+    "about": {
+      "title": "El campus de XJTLU en el corazón de Suzhou",
+      "text": "Una mezcla perfecta de modernidad y tradición. Fundada en 2006 como alianza entre la Xi'an Jiaotong University y la University of Liverpool, XJTLU reúne hoy a más de 25.000 estudiantes de 93 países y está considerada la universidad internacional líder de China. Todos los programas se imparten en inglés y el título es doble: chino y británico.",
+      "imageAlt": "Campus de la universidad XJTLU entre Suzhou y Shanghái"
+    },
+    "scholarship": {
+      "badge": "Becas",
+      "text": "¡Puedes ahorrar hasta 26.000 € en 4 años con la beca máxima!"
+    },
+    "bachelor": {
+      "title": "Grados",
+      "subtitle": "Más de 50 programas en inglés — destacamos:",
+      "extra": "…y 43 especialidades más: Administración de Empresas, Marketing y Medios, Negocios Internacionales, Innovación Digital, Inteligencia Artificial, Contabilidad y Finanzas, Recursos Humanos y otras."
+    },
+    "master": {
+      "title": "Másteres",
+      "subtitle": "Programas MSc de un año:"
+    },
+    "phases": {
+      "1": {
+        "title": "Recopilación de documentos",
+        "text": "Revisamos gratis tus notas y diplomas, y traducimos y certificamos todos los documentos al inglés."
+      },
+      "2": {
+        "title": "Elección del programa y paquete de becas",
+        "text": "Te proponemos los programas y tipos de beca que mejor encajan con tu perfil."
+      },
+      "3": {
+        "title": "Solicitud a la universidad",
+        "text": "Enviamos tu solicitud a 3–5 universidades a la vez — las cartas de admisión llegan en 3–6 semanas."
+      },
+      "4": {
+        "title": "Preparación del visado de estudiante",
+        "text": "Rellenamos los formularios y reservamos tu cita en la Embajada de China."
+      },
+      "5": {
+        "title": "Vuelo, recepción y alojamiento",
+        "text": "Organizamos tu viaje, la recogida en el aeropuerto y el alojamiento en el campus."
+      },
+      "6": {
+        "title": "Apoyo durante todo el proceso",
+        "text": "Firmamos el contrato con la universidad en tu nombre y te acompañamos hasta el final de tus estudios."
+      },
+      "kicker": "Cómo funciona el proceso",
+      "title": "Nuestro apoyo en 6 fases"
+    },
+    "cta": {
+      "title": "¿Te interesa China?",
+      "text": "Envíanos tus notas — comprobamos gratis si cumples los requisitos para la beca.",
+      "button": "Comprobar mi beca"
+    }
+  },
+  "f1": {
+    "hero": {
+      "kicker": "EE. UU. · Estudios",
+      "title": "Visado de estudiante F1",
+      "subtitle": "Del primer documento al campus americano: te guiamos por todo el proceso, incluidas las becas deportivas.",
+      "imageAlt": "Graduados con toga frente a un edificio universitario americano"
+    },
+    "steps": {
+      "1": {
+        "title": "Recopilación de documentos",
+        "text": "Reunimos contigo todo lo necesario para la solicitud: notas, certificados, datos personales y — si eres deportista — referencias deportivas y vídeos."
+      },
+      "2": {
+        "title": "Highlight deportivo profesional",
+        "text": "Si buscas una beca deportiva, producimos un vídeo de calidad que muestra tus habilidades y logros."
+      },
+      "3": {
+        "title": "Elección del programa y paquete",
+        "text": "Según tus deseos, metas y presupuesto, elegimos el paquete de servicios que mejor te encaja."
+      },
+      "4": {
+        "title": "Ofertas concretas de escuelas",
+        "text": "Con tus datos, enviamos tu perfil a escuelas y universidades americanas."
+      },
+      "5": {
+        "title": "Matrícula y documento I-20",
+        "text": "Cuando eliges la escuela, Invest Budućnost completa todos los trámites por ti."
+      },
+      "6": {
+        "title": "El proceso del visado F1",
+        "text": "Te registramos en el sistema de visados de EE. UU. y programamos tu entrevista."
+      },
+      "kicker": "Proceso",
+      "title": "6 pasos hasta tu visado F1"
+    },
+    "cta": {
+      "title": "¿Sueñas con un campus americano?",
+      "text": "El 70 % de nuestros estudiantes consigue beca. Comprueba tus opciones — gratis.",
+      "button": "Comprobar mis opciones"
+    }
+  },
+  "b1b2": {
+    "hero": {
+      "kicker": "EE. UU. · Viajes",
+      "title": "Visado de turista B1/B2",
+      "subtitle": "El proceso completo de solicitud del visado de turista americano — profesional, rápido y sin estrés.",
+      "imageAlt": "Vista aérea de Nueva York con los rascacielos de Manhattan"
+    },
+    "steps": {
+      "1": {
+        "title": "Consulta y análisis del perfil",
+        "text": "Analizamos tu situación, historial de viajes, empleo y estabilidad financiera."
+      },
+      "2": {
+        "title": "Recopilación de documentos",
+        "text": "Certificado de empleo, extracto bancario, cartas de invitación, pasaporte y fotos — lo verificamos todo juntos."
+      },
+      "3": {
+        "title": "Formulario DS-160",
+        "text": "Rellenamos el formulario online de forma experta, evitando errores que pueden costarte el visado."
+      },
+      "4": {
+        "title": "Cita y tasa consular",
+        "text": "Reservamos tu cita en la embajada y te guiamos en el pago de la tasa consular."
+      },
+      "5": {
+        "title": "Preparación de la entrevista",
+        "text": "Simulación de la entrevista en la embajada — respuestas preparadas para cada pregunta."
+      },
+      "6": {
+        "title": "Resultado y recogida del pasaporte",
+        "text": "Seguimos el estado de tu solicitud y te avisamos en cuanto se apruebe el visado."
+      },
+      "7": {
+        "title": "Viaje e información adicional",
+        "text": "Te ayudamos a reservar vuelos, alojamiento y a crear tu plan de viaje."
+      },
+      "kicker": "Proceso",
+      "title": "7 pasos hasta tu visado"
+    },
+    "extras": {
+      "kicker": "Ventajas adicionales",
+      "family": {
+        "title": "Descuento familiar",
+        "text": "Precio reducido por persona y preparación conjunta de documentos para toda la familia."
+      },
+      "travel": {
+        "title": "Viajes y paquetes",
+        "text": "Descuentos en vuelos y alojamiento a través de nuestros socios."
+      }
+    },
+    "cta": {
+      "title": "América te espera.",
+      "text": "El proceso dura como máximo un mes — escríbenos y empezamos hoy.",
+      "button": "Iniciar el proceso"
+    }
+  },
+  "usa": {
+    "hero": {
+      "kicker": "EE. UU. · Carrera",
+      "title": "Trabajar en EE. UU.",
+      "subtitle": "Invest Budućnost gestiona todo el proceso de empleo en EE. UU. — apoyo completo desde la documentación hasta tu primer día de trabajo.",
+      "imageAlt": "Camión circulando por una autopista de Estados Unidos"
+    },
+    "locations": {
+      "kicker": "Dónde trabajarás",
+      "title": "Ubicaciones de trabajo en América"
+    },
+    "jobs": {
+      "kicker": "Puestos",
+      "title": "Empleos que ofrecemos",
+      "truck": {
+        "title": "Conducción de camiones",
+        "text": "El puesto mejor pagado — hasta 25.000 USD en temporada alta."
+      },
+      "moving": {
+        "title": "Mudanzas",
+        "text": "Trabajo en equipo, pago semanal, empleo todo el año."
+      },
+      "hospitality": {
+        "title": "Hostelería",
+        "text": "Hoteles y restaurantes en las mayores ciudades americanas."
+      },
+      "catering": {
+        "title": "Catering",
+        "text": "Eventos y contratos de temporada con horario flexible."
+      }
+    },
+    "eligibility": {
+      "title": "Quién puede aplicar",
+      "items": {
+        "1": "Hombres y mujeres de todos los perfiles",
+        "2": "Candidatos de los Balcanes y de toda Europa",
+        "3": "La experiencia es deseable, pero no siempre obligatoria"
+      }
+    },
+    "facts": {
+      "salary": {
+        "title": "Salario",
+        "text": "De 5.000 a 10.000 USD al mes — de 15.000 a 25.000+ USD en temporada alta."
+      },
+      "payment": {
+        "title": "Forma de pago",
+        "text": "Pago semanal, mensual o diario. Posibilidad de varios empleos a la vez."
+      },
+      "duration": {
+        "title": "Duración",
+        "text": "Puestos disponibles todo el año — periodos de temporada y vacantes permanentes."
+      }
+    },
+    "steps": {
+      "1": {
+        "title": "Recopilación de documentos",
+        "text": "Preparación completa de toda la documentación necesaria."
+      },
+      "2": {
+        "title": "Solicitud del visado",
+        "text": "Elegimos y solicitamos el visado americano adecuado."
+      },
+      "3": {
+        "title": "Preparación de la entrevista",
+        "text": "Simulación de la entrevista en la embajada."
+      },
+      "4": {
+        "title": "Entrevistas con empleadores",
+        "text": "Te conectamos con empleadores americanos y organizamos las entrevistas."
+      },
+      "5": {
+        "title": "Alojamiento y cuenta bancaria",
+        "text": "Ayuda con alojamiento, tarjetas y cuentas bancarias."
+      },
+      "6": {
+        "title": "Permiso de conducir",
+        "text": "Apoyo para obtener el permiso de conducir americano."
+      },
+      "7": {
+        "title": "Billetes de avión",
+        "text": "Encontramos los vuelos más económicos."
+      },
+      "kicker": "Proceso",
+      "title": "7 pasos hasta un empleo en América"
+    },
+    "cta": {
+      "title": "¿Listo para un sueldo americano?",
+      "text": "Envíanos tu CV — comprobamos qué puestos están abiertos ahora mismo.",
+      "button": "Solicitar empleo"
+    }
+  },
+  "about": {
+    "hero": {
+      "kicker": "Sobre nosotros",
+      "title": "Nuestra misión",
+      "subtitle": "Un camino seguro, accesible y exitoso hacia la educación y la carrera en el extranjero — con total transparencia y apoyo. Forma parte de ella.",
+      "imageAlt": "El equipo de Invest Budućnost durante una reunión en la oficina"
+    },
+    "story": {
+      "title": "Quiénes somos",
+      "text1": "Invest Budućnost nació con un objetivo claro: abrir a los jóvenes de los Balcanes las puertas de la educación y la carrera en EE. UU., Europa y China. Lo que empezó como ayuda a unos pocos estudiantes es hoy un equipo de 13 expertos con oficinas en Jagodina, Podgorica y Liubliana.",
+      "text2": "El director y fundador Bogdan Radosavljević tiene años de experiencia con estudiantes y deportistas — desde la primera consulta hasta el aterrizaje en un nuevo país, cada cliente cuenta con el pleno apoyo de nuestro equipo.",
+      "founderRole": "Director y fundador",
+      "imageAlt": "El equipo de Invest Budućnost conversando con un cliente"
+    },
+    "values": {
+      "kicker": "Valores",
+      "title": "Por qué somos la elección correcta",
+      "subtitle": "Invest Budućnost no es solo una agencia — somos tu socio de confianza en cada paso.",
+      "transparency": {
+        "title": "Transparencia",
+        "text": "Condiciones claras, precios claros y un plan realista — sin costes ocultos."
+      },
+      "experience": {
+        "title": "Experiencia",
+        "text": "8 años de trabajo y más de 320 colaboraciones exitosas con estudiantes, deportistas y turistas."
+      },
+      "network": {
+        "title": "Red de socios",
+        "text": "27 socios internacionales y más de 25 universidades en EE. UU., Europa y China."
+      },
+      "support": {
+        "title": "Apoyo 24/7",
+        "text": "Estamos contigo antes, durante y después del viaje — en cada paso."
+      }
+    },
+    "offices": {
+      "kicker": "Sedes",
+      "title": "Nuestras oficinas"
+    }
+  },
+  "faq": {
+    "hero": {
+      "kicker": "Ayuda",
+      "title": "Preguntas frecuentes",
+      "subtitle": "Todo lo que necesitas saber antes de empezar a trabajar juntos.",
+      "imageAlt": "Pasaporte, mapa y artículos de viaje sobre una mesa"
+    },
+    "items": {
+      "1": {
+        "q": "¿Cuánto dura el proceso?",
+        "a": "La solicitud del paquete turístico dura como máximo un mes, mientras que la del paquete de estudiante dura hasta dos meses."
+      },
+      "2": {
+        "q": "¿Qué documentos se necesitan?",
+        "a": "Certificado de empleo (contrato indefinido), extracto bancario (3.000–6.000 € disponibles), prueba de propiedad, certificado de matrimonio si procede, certificados de nacimiento de los hijos, pasaporte válido y sin daños, y una foto profesional para el visado."
+      },
+      "3": {
+        "q": "¿Qué necesito para registrarme en la agencia?",
+        "a": "Para empezar, basta con enviar un documento de identidad válido escaneado y realizar el pago en la cuenta oficial de la agencia."
+      },
+      "4": {
+        "q": "¿Cuánta experiencia tenéis?",
+        "a": "Más de 8 años de experiencia con estudiantes y turistas y más de 320 colaboraciones exitosas. Más del 70 % de nuestros estudiantes consigue beca."
+      },
+      "5": {
+        "q": "¿Quiénes son vuestros socios?",
+        "a": "Springfield College, Community College of Vermont, Santa Rosa Junior College, Missouri Valley College, Hunter College, Hoosac School, Grace Christian School, Akademija Oxford y Polaris Pro studio, además de 25+ universidades en Europa y XJTLU en China."
+      },
+      "6": {
+        "q": "¿Qué podéis hacer por los estudiantes?",
+        "a": "Gracias a una larga colaboración con instituciones educativas cuidadosamente seleccionadas, encontramos el programa y la beca que encajan con tu perfil, gestionamos todo el proceso de visado y organizamos el viaje y el alojamiento."
+      },
+      "7": {
+        "q": "¿Por qué Invest Budućnost?",
+        "a": "Invest Budućnost no es solo una agencia — somos tu socio de confianza en cada paso: desde la primera consulta, pasando por los documentos y las entrevistas, hasta el aterrizaje en un nuevo país."
+      },
+      "8": {
+        "q": "¿También ayudáis a deportistas?",
+        "a": "Sí — grabamos un vídeo profesional de highlights, enviamos tu perfil a entrenadores americanos y gestionamos el proceso hasta la beca deportiva. Nuestros clientes juegan al baloncesto y al fútbol en universidades americanas."
+      }
+    },
+    "cta": {
+      "title": "¿Tienes más preguntas?",
+      "text": "Escríbenos — respondemos rápido y al grano.",
+      "button": "Hacer una pregunta"
+    }
+  },
+  "contact": {
+    "hero": {
+      "kicker": "Contacto",
+      "title": "Contáctanos",
+      "subtitle": "Si aún no te has decidido o quieres más información, rellena el formulario — ¡nuestro equipo te contactará en breve!",
+      "imageAlt": "Dos colegas conversando frente a un portátil abierto"
+    },
+    "form": {
+      "title": "Envíanos un mensaje",
+      "firstName": "Nombre",
+      "lastName": "Apellidos",
+      "email": "Correo electrónico",
+      "phone": "Número de teléfono",
+      "topic": "Tema",
+      "topics": {
+        "f1": "Visado de estudiante F1",
+        "b1b2": "Visado de turista B1/B2",
+        "europe": "Estudiar en Europa",
+        "china": "Estudiar en China",
+        "camps": "Campamentos de verano",
+        "usa": "Trabajar en EE. UU.",
+        "other": "Otro"
+      },
+      "message": "Tu mensaje",
+      "submit": "Enviar mensaje",
+      "note": "¡Nos pondremos en contacto contigo pronto!",
+      "demo": "El formulario está en modo demo — el envío se activará próximamente."
+    },
+    "info": {
+      "title": "Contacto directo",
+      "addressLabel": "Dirección",
+      "phoneLabel": "Teléfono",
+      "emailLabel": "Correo",
+      "socialLabel": "Redes sociales"
+    },
+    "offices": {
+      "rs": "Serbia",
+      "me": "Montenegro",
+      "si": "Eslovenia"
+    }
+  },
+  "footer": {
+    "tagline": "Tu guía en estudios, visados y viajes por Europa, China y EE. UU.",
+    "explore": "Explorar",
+    "services": "Servicios",
+    "contact": "Contacto",
+    "newsletter": {
+      "title": "Ve un paso por delante",
+      "text": "Novedades sobre becas, campamentos y visados — directas a tu correo.",
+      "placeholder": "Correo electrónico",
+      "button": "Suscribirme",
+      "success": "¡Suscripción confirmada! Nos vemos en tu bandeja de entrada."
+    },
+    "rights": "Todos los derechos reservados.",
+    "availability": "Disponibles en Serbia, Montenegro y Eslovenia"
+  },
+  "chat": {
+    "open": "Abrir chat",
+    "close": "Cerrar chat",
+    "title": "Invest Budućnost",
+    "status": "Solemos responder en unas horas",
+    "greeting": "¡Hola! 👋 ¿En qué podemos ayudarte — visados, estudios o trabajo en el extranjero?",
+    "placeholder": "Escribe un mensaje…",
+    "send": "Enviar",
+    "demoNote": "El chat estará disponible muy pronto. Mientras tanto, contáctanos por el formulario o por teléfono.",
+    "ctaContact": "Ir a contacto"
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "text": "La página que buscas no existe o se ha movido.",
+    "button": "Volver al inicio"
+  }
+}

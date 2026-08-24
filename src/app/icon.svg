@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#ffffff"/>
+  <rect width="64" height="64" rx="14" fill="none" stroke="#bcdaf0" stroke-width="2"/>
+  <!-- kapa -->
+  <polygon points="32,14 56,25 32,36 8,25" fill="#3b82c4"/>
+  <!-- knjiga/ruke pojednostavljeno -->
+  <path d="M14 38 C22 33, 30 33, 32 40 C34 33, 42 33, 50 38 L50 44 C42 40, 34 41, 32 47 C30 41, 22 40, 14 44 Z" fill="#1d3a66"/>
+  <!-- kićanka -->
+  <line x1="52" y1="27" x2="52" y2="38" stroke="#1d3a66" stroke-width="2.4" stroke-linecap="round"/>
+  <circle cx="52" cy="41" r="3" fill="#1d3a66"/>
+</svg>

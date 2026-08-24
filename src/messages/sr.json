@@ -1,0 +1,1002 @@
+{
+  "meta": {
+    "siteName": "Invest Budućnost",
+    "titleTemplate": "Invest Budućnost — Studije, vize i zapošljavanje u inostranstvu",
+    "home": {
+      "title": "Studije, vize i posao u inostranstvu",
+      "description": "Vodimo te kroz studije, vize i zapošljavanje u SAD, Evropi i Kini. 8 godina iskustva i 320+ uspešnih saradnji. Zakaži besplatnu konsultaciju."
+    },
+    "europe": {
+      "title": "Studije u Evropi — 25+ univerziteta",
+      "description": "Upiši osnovne ili master studije na 25+ evropskih univerziteta. Biramo program, pripremamo dokumenta i vodimo te do vize. Besplatna procena."
+    },
+    "camps": {
+      "title": "Letnji kampovi u Evropi — 15% popusta",
+      "description": "12+ škola i univerziteta u Barseloni, Rimu, Berlinu i Budimpešti. Novo iskustvo, jezik i prijatelji uz 15% popusta za 2026. Rezerviši mesto."
+    },
+    "china": {
+      "title": "Studije u Kini — XJTLU i stipendije",
+      "description": "Osnovne i master studije na engleskom na XJTLU univerzitetu, uz stipendije do 26.000 €. Kao predstavnik za Balkan vodimo te kroz svih 6 faza."
+    },
+    "f1": {
+      "title": "Studentska viza F1 za SAD",
+      "description": "Od dokumentacije i I-20 obrasca do intervjua u ambasadi — vodimo te kroz svih 6 koraka do F1 vize, uz sportske stipendije. Proveri svoje šanse."
+    },
+    "b1b2": {
+      "title": "Turistička viza B1/B2 za SAD",
+      "description": "Američka turistička viza u 7 koraka: analiza profila, DS-160 formular i priprema za intervju. Porodični popusti, proces do mesec dana. Kreni odmah."
+    },
+    "usa": {
+      "title": "Zapošljavanje u SAD — legalni poslovi",
+      "description": "Vožnja kamiona, selidbe, ugostiteljstvo i ketering u New Yorku, Chicagu i Miamiju. Zarada 5.000–10.000 USD mesečno. Podrška od vize do smeštaja."
+    },
+    "about": {
+      "title": "O nama — tim za put u inostranstvo",
+      "description": "8 godina iskustva, 13 stručnjaka i kancelarije u Jagodini, Podgorici i Ljubljani. Upoznaj tim koji te vodi do studija i posla u inostranstvu."
+    },
+    "faq": {
+      "title": "Najčešća pitanja o vizama i procesu",
+      "description": "Koliko traje proces, koja dokumenta su potrebna i kako izgleda saradnja sa agencijom — odgovori na najčešća pitanja o vizama za SAD i studije."
+    },
+    "contact": {
+      "title": "Kontakt — Jagodina, Podgorica, Ljubljana",
+      "description": "Pozovi +381 65 9010-720 ili piši na investbuducnost@gmail.com. Kancelarije u Jagodini, Podgorici i Ljubljani. Javljamo se u najkraćem mogućem roku."
+    }
+  },
+  "nav": {
+    "home": "Početna",
+    "europe": "Evropa",
+    "camps": "Letnji kampovi",
+    "china": "Kina",
+    "process": "Proces",
+    "f1": "Studentska viza F1",
+    "b1b2": "Turistička viza B1/B2",
+    "usa": "Zapošljavanje u SAD",
+    "about": "O nama",
+    "faq": "Najčešća pitanja",
+    "contact": "Kontakt",
+    "apply": "Apliciraj",
+    "menuOpen": "Otvori meni",
+    "menuClose": "Zatvori meni",
+    "languageSwitcher": "Izbor jezika",
+    "skipToContent": "Preskoči na sadržaj",
+    "mainNav": "Glavna navigacija",
+    "mobileNav": "Mobilna navigacija"
+  },
+  "common": {
+    "learnMore": "Saznaj više",
+    "apply": "Apliciraj",
+    "contactUs": "Kontaktiraj nas",
+    "viewAll": "Pogledaj sve",
+    "step": "Korak",
+    "phase": "Faza",
+    "years": "godine",
+    "year": "godina",
+    "duration": "Trajanje",
+    "price": "Cena",
+    "program": "Program",
+    "perYear": "godišnje",
+    "perSemester": "po semestru",
+    "perMonth": "mesečno",
+    "total": "ukupno"
+  },
+  "home": {
+    "hero": {
+      "kicker": "Studije · Vize · Putovanja",
+      "title": "Da li si spreman za vizu?",
+      "titleAccent": "Mi jesmo!",
+      "subtitle": "Invest Budućnost je tvoj vodič kroz studije, vize i putovanja u Evropi, Kini i SAD. Od prvog dokumenta do sletanja — uz tebe smo na svakom koraku.",
+      "imageAlt": "Krilo aviona iznad oblaka na putu ka novoj destinaciji",
+      "ctaPrimary": "Apliciraj odmah",
+      "ctaSecondary": "Istraži usluge",
+      "availability": "Dostupni u Srbiji, Sloveniji i Crnoj Gori",
+      "scrollAria": "Skroluj do sledeće sekcije"
+    },
+    "services": {
+      "kicker": "Naše usluge",
+      "title": "Sve što ti treba za put — na jednom mestu",
+      "subtitle": "Kompletna podrška za studente, sportiste, turiste i radnike.",
+      "docs": {
+        "title": "Dokumentacija",
+        "text": "Pripremamo i proveravamo svaki dokument sa najvećom pažnjom — od svedočanstava i prevoda do overa i viznih obrazaca."
+      },
+      "interview": {
+        "title": "Priprema intervjua",
+        "text": "Ne ostavljamo ništa slučaju. Pripremamo te za svako pitanje kroz simulacije razgovora u ambasadi."
+      },
+      "cards": {
+        "europe": {
+          "title": "Studije u Evropi",
+          "text": "25+ partnerskih univerziteta za osnovne i master studije."
+        },
+        "china": {
+          "title": "Studije u Kini",
+          "text": "XJTLU univerzitet — stipendije do 26.000 € za 4 godine."
+        },
+        "camps": {
+          "title": "Letnji kampovi",
+          "text": "12+ programa širom Evrope uz 15% popusta za 2026."
+        },
+        "f1": {
+          "title": "Studentska viza F1",
+          "text": "Ceo proces do američkog kampusa, uz sportske stipendije."
+        },
+        "b1b2": {
+          "title": "Turistička viza B1/B2",
+          "text": "Od DS-160 formulara do pasoša sa vizom u ruci."
+        },
+        "usa": {
+          "title": "Zapošljavanje u SAD",
+          "text": "Legalni poslovi sa zaradom od 5.000 do 10.000 USD mesečno."
+        }
+      }
+    },
+    "stats": {
+      "kicker": "Brojevi govore za nas",
+      "title": "Iskustvo kojem se veruje",
+      "years": "godina iskustva",
+      "experts": "stručnjaka u timu",
+      "clients": "klijenata godišnje",
+      "partners": "internacionalnih partnera",
+      "locations": "lokacije",
+      "collaborations": "uspešnih saradnji",
+      "universities": "univerziteta i škola"
+    },
+    "stories": {
+      "kicker": "Priče uspeha",
+      "title": "Naši studenti, njihovi uspesi",
+      "subtitle": "Od balkanskih terena do američkih kampusa — ovo su putevi koje smo zajedno prošli.",
+      "badge": "SAD",
+      "lazar": {
+        "name": "Lazar Janković",
+        "path": "Grace Christian High School (Vermont) → Santa Rosa Junior College (Kalifornija)"
+      },
+      "bogdan": {
+        "name": "Bogdan Milić",
+        "path": "Hoosac High School (New York) → Missouri Valley College — košarkaška stipendija"
+      },
+      "aleksa": {
+        "name": "Aleksa Svilar",
+        "path": "Missouri Valley College — puna sportska stipendija (fudbal)"
+      },
+      "borivoje": {
+        "name": "Borivoje Bigović",
+        "path": "Missouri Valley College — košarka, stipendija"
+      }
+    },
+    "testimonial": {
+      "kicker": "Utisci klijenata",
+      "quote": "Ekipa je sjajna! Bili su uz mene od prve konsultacije do dobijanja vize. Svaki korak je bio jasan i bez stresa — toplo preporučujem svima.",
+      "author": "Andrej Pap",
+      "role": "klijent — turistička viza"
+    },
+    "partners": {
+      "kicker": "Partneri",
+      "title": "Institucije sa kojima sarađujemo",
+      "logoAlt": "Logotip partnera {name}"
+    },
+    "cta": {
+      "title": "Tvoja budućnost ne čeka.",
+      "text": "Zakaži besplatnu konsultaciju i saznaj koje su ti opcije — bez obaveza.",
+      "button": "Zakaži konsultaciju"
+    },
+    "newsletter": {
+      "title": "Budi u toku sa svim novostima — budi korak ispred",
+      "placeholder": "Tvoja email adresa",
+      "button": "Prijavi se",
+      "note": "Prijavom prihvataš da ti šaljemo novosti. Bez spama."
+    }
+  },
+  "europe": {
+    "hero": {
+      "kicker": "Evropa",
+      "title": "Studije u Evropi",
+      "subtitle": "Naša agencija sarađuje sa preko 25 univerziteta u evropskim zemljama — osnovne i master studije, na tebi je da odabereš!",
+      "imageAlt": "Istorijska ulica u Pragu, jednom od evropskih univerzitetskih gradova"
+    },
+    "unis": {
+      "kicker": "Univerziteti i škole",
+      "title": "Partnerske institucije širom Evrope",
+      "subtitle": "Klikni na logotip institucije za detalje — programe, školarinu, troškove života i upisne rokove."
+    },
+    "cta": {
+      "title": "Nisi siguran koji univerzitet je za tebe?",
+      "text": "Pošalji nam svoje ocene i želje — besplatno ćemo ti predložiti najbolje opcije.",
+      "button": "Besplatna procena"
+    },
+    "detail": {
+      "founded": "Osnovan",
+      "students": "Studenata",
+      "campuses": "Kampusi",
+      "tuitionBachelor": "Školarina — osnovne",
+      "tuitionMaster": "Školarina — master",
+      "living": "Troškovi života",
+      "about": "O univerzitetu",
+      "bachelor": "Osnovne studije",
+      "master": "Master studije",
+      "programsNote": "Prikazan je izbor programa. Puna ponuda, tačni iznosi i uslovi upisa dostupni su na upit.",
+      "more": "Detaljnije",
+      "close": "Zatvori",
+      "cta": "Besplatna procena",
+      "camp": "Letnji kamp",
+      "campBadge": "Letnji kamp",
+      "logoAlt": "Logotip institucije {name}"
+    },
+    "items": {
+      "emuni": {
+        "tagline": "Evro-mediteranski univerzitet na slovenačkoj obali, nastava na engleskom.",
+        "about": "EMUNI je međuvladin univerzitet osnovan 2008. godine kao zajednički projekat zemalja Evro-mediteranskog partnerstva, sa sedištem na slovenačkoj obali. Programi se izvode na engleskom, u saradnji sa mrežom partnerskih univerziteta širom Mediterana, a leti organizuje i HALS letnju školu u Piranu i Kopru."
+      },
+      "metu": {
+        "tagline": "Kreativni i poslovni programi u Budimpešti, četiri QS zvezdice.",
+        "about": "Budapest Metropolitan University je najveći privatni univerzitet u Mađarskoj, sa jakim kreativnim i poslovnim smerovima. QS Stars sistem dodelio mu je četiri zvezdice od pet, sa maksimalnih pet za internacionalizaciju. Nastava je na engleskom, a upis je moguć u jesenjem i prolećnom roku."
+      },
+      "aydin": {
+        "tagline": "Preko 40.000 studenata iz više od 100 zemalja, u evropskom delu Istanbula.",
+        "about": "Osnovan 2007. godine, Istanbul Aydin University je izrastao u jedan od najuglednijih privatnih univerziteta u Turskoj — preko 40.000 studenata, od toga više od 4.000 stranih iz preko 100 zemalja, i saradnja sa 450+ univerziteta kroz Erasmus+. Kampus je u kvartu Florja, blizu aerodroma i centra grada."
+      },
+      "nicosia": {
+        "tagline": "Najveći privatni univerzitet na Kipru, sa preko 80 master programa.",
+        "about": "University of Nicosia osnovan je 1980. godine i danas okuplja studente iz preko 100 zemalja. Poznat je po medicini, biznisu i informacionim tehnologijama. Nudi osnovne studije iz poslovne administracije, više od 80 master programa — od kojih su mnogi dostupni i onlajn — i dvadesetak doktorskih programa. Ima i kampus u Atini."
+      },
+      "ais": {
+        "tagline": "Švajcarska poslovna škola sa više od 30 godina tradicije, uz Ženevsko jezero.",
+        "about": "Privatna internacionalna poslovna škola na Švajcarskoj rivijeri, između Lozane i Ženevskog jezera. Akreditovana je od strane IACBE (SAD), sa partnerstvima sa IATA, IBM i Apple, i rangirana među top 4 u Švajcarskoj za master programe. Upis je rolling, sa glavnim terminima u oktobru i februaru."
+      },
+      "cbs": {
+        "tagline": "Nemačka poslovna škola sa fokusom na praksu — Keln, Majnc i Potsdam.",
+        "about": "CBS International Business School osnovana je 1993. godine i danas je jedna od vodećih nemačkih poslovnih škola, sa kampusima u Kelnu, Majncu i Potsdamu. Fokus je na praktičnom obrazovanju koje spaja teoriju sa realnim poslovnim slučajevima. Akreditacije: FIBAA, IACBE i nemački Wissenschaftsrat."
+      },
+      "eubs": {
+        "tagline": "Barselona, Ženeva i Minhen — poslovne studije na engleskom.",
+        "about": "EU Business School izvodi sve programe na engleskom, na kampusima u Barseloni, Ženevi i Minhenu, uz digitalni kampus. Osnovne studije traju tri godine, master programi godinu dana, a upis je moguć u oktobru, februaru i — za pojedine programe — u junu ili avgustu."
+      },
+      "ibs": {
+        "tagline": "Budimpešta, Beč i Dubai — diplome akreditovane u Velikoj Britaniji.",
+        "about": "IBS je privatna poslovna škola osnovana 1991. godine u Budimpešti, sa kampusima i u Beču i Dubaiju. Svi programi se izvode isključivo na engleskom, a diplome su akreditovane u Velikoj Britaniji kroz saradnju sa University of Buckingham. Glavni upisni rok je septembarski, uz prolećni u februaru."
+      },
+      "wittenborg": {
+        "tagline": "Holandski univerzitet sa šest upisnih rokova godišnje.",
+        "about": "Wittenborg University osnovan je 1987. godine u Apeldoornu, u srcu Holandije, i okuplja preko 1.200 studenata iz više od 100 zemalja. Nastava je sto posto na engleskom, uz kampuse u Amsterdamu i Minhenu. Studije mogu da počnu šest puta godišnje — otprilike na svaka dva meseca. Akreditacije: NVAO i FIBAA."
+      },
+      "ucam": {
+        "tagline": "Katolički univerzitet u Murciji, poznat po sportu i zdravstvenim naukama.",
+        "about": "Universidad Católica San Antonio de Murcia osnovan je 1996. godine i okuplja studente iz preko 60 zemalja, sa kampusima u Murciji, Kartaheni i Madridu. Poznat je po zdravstvenim naukama i vrhunskom sportu, a programi se izvode na španskom i engleskom. Upis je rolling — osnovne studije obično do 31. jula, master do 31. avgusta."
+      },
+      "fsm": {
+        "tagline": "Osmanska arhitektura i savremeni inženjering u istorijskom Istanbulu.",
+        "about": "Fatih Sultan Mehmet Vakıf University osnovan je 2010. godine i okuplja preko 8.000 studenata. Kampusi su smešteni u osmanskim zdanjima u istorijskom jezgru Istanbula — Topkapi, Halič i Jenikapi Mevlevihane. Nastava se izvodi na turskom, engleskom i arapskom, a prijave traju od maja do avgusta za septembarski upis."
+      },
+      "aubg": {
+        "tagline": "Američka liberal arts diploma u podnožju planine Rile.",
+        "about": "American University in Bulgaria osnovan je 1991. godine u Blagoevgradu, sat vremena od Sofije, u podnožju planine Rile. Okuplja preko 1.000 studenata iz više od 40 zemalja, nastava je na engleskom, a nudi 13 osnovnih programa i Executive MBA od 16 meseci za zaposlene profesionalce."
+      },
+      "jcu": {
+        "tagline": "Američki univerzitet u rimskom Trastevereu, nastava na engleskom.",
+        "about": "John Cabot University je američki univerzitet u srcu Rima, u četvrti Trastevere. Nastava se izvodi na engleskom — osim kurseva italijanskog jezika — a studenti iz celog sveta dolaze i na dve petonedeljne letnje sesije za koje se dobijaju priznati akademski krediti."
+      },
+      "gbsb": {
+        "tagline": "Digitalno orijentisana poslovna škola — Barselona, Madrid i Malta.",
+        "about": "GBSB Global Business School izvodi programe na engleskom u Barseloni, Madridu i Birkirkari na Malti, sa naglaskom na digitalni biznis i primenjenu veštačku inteligenciju. Upisne sesije su u oktobru, januaru i aprilu, uz stipendije koje pokrivaju od 15 do 30 odsto školarine."
+      },
+      "bts": {
+        "tagline": "Tehnološka škola u inovacionom distriktu 22@ Poblenou.",
+        "about": "Barcelona Technology School specijalizovana je za tehnološke i AI programe, sa kampusom u kvartu Eixample i vezama sa startapima u inovacionom distriktu 22@ Poblenou. Nastava je na engleskom i projektno orijentisana, a leti se održava intenzivni kurs osnova veštačke inteligencije."
+      },
+      "htl": {
+        "tagline": "Hotelijerstvo, turizam i jezici u Barseloni — četiri upisna roka godišnje.",
+        "about": "HTL International School of Hospitality, Tourism and Languages ima više od 15 godina iskustva i uvršten je među top 10 evropskih škola hotelijerskog menadžmenta. Nastava je na engleskom, osnovne studije traju tri godine, a upis je moguć četiri puta godišnje — u januaru, aprilu, julu i oktobru."
+      },
+      "mai": {
+        "tagline": "Vodeća ruska škola avijacije, raketne tehnike i svemirskog inženjerstva.",
+        "about": "Moskovski avijacioni institut osnovan je 1930. godine i specijalizovan je za avijaciju, aeronautiku, raketnu tehniku i svemirsko inženjerstvo. Okuplja preko 20.000 studenata iz više od 50 zemalja, a programi se izvode na ruskom i engleskom. Upis je rolling, sa glavnim terminima u oktobru i februaru."
+      },
+      "srh": {
+        "tagline": "Nemački univerzitet primenjenih nauka — Berlin i Hajdelberg.",
+        "about": "SRH University izvodi programe na engleskom u Berlinu i Hajdelbergu, sa fokusom na obnovljivu energiju, veštačku inteligenciju i održivost. Pored redovnih studija organizuje i kratke letnje škole — o solarnim sistemima u Berlinu i o veštačkoj inteligenciji i održivosti u Hajdelbergu."
+      },
+      "kozminski": {
+        "tagline": "Poslovne i ekonomske studije na engleskom, u srcu Varšave.",
+        "about": "Kozminski University je privatni univerzitet u Varšavi, u kvartu Praga Północ, poznat po poslovnim i ekonomskim programima na engleskom. Nastava je radnim danima uz vikend aktivnosti, a leti organizuje International Summer School za studente i posebnu letnju školu za srednjoškolce."
+      }
+    }
+  },
+  "camps": {
+    "hero": {
+      "kicker": "Letnji i zimski programi",
+      "title": "Letnji kampovi",
+      "subtitle": "Preko 12 evropskih škola i univerziteta nudi letnje i zimske programe — interaktivno učenje, međunarodna iskustva i lični razvoj.",
+      "imageAlt": "Grupa mladih na travi tokom letnjeg kampa u inostranstvu"
+    },
+    "promo": {
+      "badge": "-15%",
+      "text": "15% popusta na sve letnje kampove u inostranstvu za 2026. godinu"
+    },
+    "chooseTitle": "Na tebi je da odabereš",
+    "cta": {
+      "title": "Rezerviši mesto na vreme",
+      "text": "Broj mesta na kampovima je ograničen — javi nam se i obezbedi popust za 2026.",
+      "button": "Rezerviši uz 15% popusta"
+    },
+    "chooseSubtitle": "Klikni na logotip institucije i otvoriće se pun opis programa — trajanje, termin, cena, smeštaj i sertifikat.",
+    "detail": {
+      "dates": "Termin",
+      "onRequest": "Na upit",
+      "age": "Uzrast",
+      "language": "Jezik",
+      "ects": "ECTS",
+      "about": "O programu",
+      "included": "Šta je uključeno",
+      "activities": "Aktivnosti",
+      "accommodation": "Smeštaj",
+      "certificate": "Sertifikat",
+      "more": "Detaljnije",
+      "close": "Zatvori",
+      "cta": "Prijavi se",
+      "studies": "Studije na univerzitetu",
+      "logoAlt": "Logotip institucije {name}",
+      "agePlus": "{min}+",
+      "ageRange": "{min}–{max}"
+    },
+    "items": {
+      "emuni": {
+        "tagline": "Zdrav i aktivan život kroz kineziologiju, mediteransku ishranu i VR u zdravstvu.",
+        "about": "Petodnevna letnja škola posvećena zdravom i aktivnom stilu života. Predavanja i radionice vode priznati stručnjaci iz kineziologije, nutricionizma i primene VR tehnologije u zdravstvu, uz oko 20 časova nastave na obali Jadrana. Cena zavisi od broja učesnika, uz mogućnost plaćanja na rate.",
+        "duration": "5 dana",
+        "dates": "8–12. septembra",
+        "language": "Engleski",
+        "included": [
+          "Oko 20 časova nastave i radionica",
+          "Sertifikat i 3 ECTS kredita sa transkriptom",
+          "Vođena tura kroz stari grad Pirana",
+          "Posete partnerskim institucijama"
+        ],
+        "activities": [
+          "Odbojka na pesku",
+          "Slackline i joga",
+          "Obilazak Kopra",
+          "Završna žurka"
+        ],
+        "accommodation": "Studentske rezidencije i partnerski objekti u Piranu i Kopru — jednokrevetne ili dvokrevetne sobe. Obroci nisu uključeni u cenu.",
+        "certificate": "Sertifikat o završenom programu i 3 ECTS kredita sa transkriptom ocena."
+      },
+      "metu": {
+        "tagline": "Dve nedelje biznisa, marketinga i međunarodnih odnosa u srcu Budimpešte.",
+        "about": "Dvonedeljni program Budapest Metropolitan University-ja sa predmetima iz ljudskih resursa, marketinga, međunarodnih odnosa, turističkih inovacija i poslovne strategije. Nastava je četiri dana nedeljno, po oko pet sati dnevno.",
+        "duration": "2 nedelje",
+        "dates": "Jul — avgust",
+        "language": "Engleski",
+        "included": [
+          "Nastava četiri dana nedeljno",
+          "Svi nastavni materijali",
+          "Sertifikat o završenom programu",
+          "Opciono smeštaj sa doručkom"
+        ],
+        "activities": [
+          "Radionice poslovne strategije",
+          "Timski projekti",
+          "Upoznavanje Budimpešte",
+          "Umrežavanje sa studentima"
+        ],
+        "accommodation": "Opciono uz kurs: jednokrevetna soba sa doručkom 1.300 €, dvokrevetna 1.100 €. Samo nastava, bez smeštaja, košta 600 €.",
+        "certificate": "Sertifikat Budapest Metropolitan University-ja o završenom programu."
+      },
+      "aydin": {
+        "tagline": "Deset do dvanaest kurseva, ECTS krediti i Bosfor — Istanbul leti i zimi.",
+        "about": "Dvonedeljni program sa 10–12 kurseva: brend menadžment, međunarodni odnosi, digitalni marketing, genetika i veštačka inteligencija u poslovanju. Nastava je 2–3 sata dnevno uz radionice i timski rad, a program se održava i leti i zimi.",
+        "duration": "2 nedelje",
+        "dates": "Kraj jula — početak avgusta i kraj januara",
+        "language": "Engleski",
+        "included": [
+          "Nastava, materijali i radionice",
+          "Sertifikat sa 3–6 ECTS kredita",
+          "Vikend ture i kulturne aktivnosti",
+          "A-Team volonterska podrška 24/7"
+        ],
+        "activities": [
+          "Krstarenje Bosforom",
+          "Istorijsko poluostrvo i bazari",
+          "Turska kulinarska iskustva",
+          "Studenti iz preko 30 zemalja"
+        ],
+        "accommodation": "Studentski domovi, hoteli i apartmani — oko 500–800 € za ceo program. Nije uključeno u cenu kursa.",
+        "certificate": "Sertifikat sa 3–6 ECTS kredita, prenosivih na matični univerzitet."
+      },
+      "eubs": {
+        "tagline": "Poslovni program za srednjoškolce uz pun pansion i kampus u Barseloni.",
+        "about": "Dvonedeljni program za srednjoškolce od 16 do 18 godina koji žele prvo iskustvo u međunarodnom poslovnom okruženju. Nastava je radnim danima ujutru, sa interaktivnim radionicama, studijama slučaja i projektnim radom. U cenu nisu uključeni put do Barselone i transfer sa aerodroma.",
+        "duration": "2 nedelje",
+        "dates": "Jul",
+        "language": "Engleski",
+        "included": [
+          "Nastava i svi materijali",
+          "Smeštaj u dvokrevetnim sobama",
+          "Pun pansion — tri obroka dnevno",
+          "Zdravstveno osiguranje"
+        ],
+        "activities": [
+          "Posete kompanijama",
+          "Gostujuća predavanja",
+          "Kulturne ture po Barseloni",
+          "Plaža, odbojka i veslanje"
+        ],
+        "accommodation": "Studentska rezidencija u dvokrevetnim sobama, sa Wi-Fi mrežom, obezbeđenjem i održavanjem — uključena u cenu.",
+        "certificate": "Sertifikat EU Business School-a o završenom programu."
+      },
+      "bts": {
+        "tagline": "Dve nedelje generativne veštačke inteligencije u tehnološkom srcu Barselone.",
+        "about": "Projektno orijentisan program za polaznike od 18 godina koji žele osnove veštačke inteligencije, posebno generativne AI. Kombinuje teoriju, praktične radionice i interaktivne sesije — oko 20 časova nedeljno, u inovacionom distriktu 22@ Poblenou.",
+        "duration": "2 nedelje",
+        "dates": "Jul — avgust",
+        "language": "Engleski",
+        "included": [
+          "Oko 20 časova nastave nedeljno",
+          "Praktične AI radionice",
+          "Posete tehnološkim kompanijama i startapima",
+          "Zvanični BTS sertifikat"
+        ],
+        "activities": [
+          "Innovation challenge radionice",
+          "Team-building aktivnosti",
+          "Gaudijeva arhitektonska tura",
+          "Obilazak centra i plaža"
+        ],
+        "accommodation": "Nije uključen — BTS preporučuje studentske rezidencije, hostele ili deljene stanove, oko 400–800 € za dve nedelje.",
+        "certificate": "Zvanični sertifikat Barcelona Technology School-a o pohađanju programa."
+      },
+      "ucam": {
+        "tagline": "Španski jezik od A1 do C2 u manastiru iz 18. veka, uz flamenko i ekskurzije.",
+        "about": "Intenzivni kurs španskog jezika za polaznike kojima španski nije maternji, po komunikativnoj metodi i u malim grupama od 8 do 15 studenata. Nastava se drži na kampusu Los Jerónimos, smeštenom u manastiru iz 18. veka.",
+        "duration": "2–4 nedelje",
+        "dates": "Jul — septembar i januar — februar",
+        "language": "Španski (A1–C2)",
+        "included": [
+          "50–100 časova nastave",
+          "Nastavni materijali i welcome pack",
+          "Ručak radnim danima",
+          "Pristup sportskim objektima"
+        ],
+        "activities": [
+          "Časovi salse i flamenka",
+          "Degustacija španske kuhinje",
+          "Subotnje ekskurzije u Kartahenu",
+          "Plaže Costa Cálida"
+        ],
+        "accommodation": "Smeštaj kod domaćina sa punim pansionom (paket od 1.540 €), studentski domovi, hoteli ili privatni apartmani.",
+        "certificate": "Zvanični UCAM sertifikat sa brojem nedelja i nivoom jezika po CEFR standardu, uz 2–4 ECTS kredita."
+      },
+      "jcu": {
+        "tagline": "Dve petonedeljne sesije u Trastevereu — akademski krediti u srcu Rima.",
+        "about": "John Cabot University u rimskoj četvrti Trastevere organizuje dve petonedeljne letnje sesije. Studenti biraju jedan ili dva kursa iz istorije umetnosti, biznisa, komunikacija, ekonomije, književnosti, psihologije i studijskih umetnosti.",
+        "duration": "2 × 5 nedelja",
+        "dates": "Jun — jul i jul — avgust",
+        "language": "Engleski",
+        "included": [
+          "Jedan ili dva kursa po sesiji",
+          "3 ili 6 akademskih kredita",
+          "Nastavni materijali",
+          "Podrška studentima na kampusu"
+        ],
+        "activities": [
+          "Obilasci Rima",
+          "Terenska nastava iz istorije umetnosti",
+          "Kulturni programi",
+          "Studenti iz celog sveta"
+        ],
+        "accommodation": "Rezidencije i apartmani u blizini kampusa u četvrti Trastevere.",
+        "certificate": "Priznati akademski krediti — 3 ili 6 ECTS za završene kurseve."
+      },
+      "gbsb": {
+        "tagline": "Primenjena veštačka inteligencija u biznisu — Barselona ili Malta.",
+        "about": "Intenzivni dvonedeljni program o generativnoj veštačkoj inteligenciji i njenoj primeni u poslovanju, kroz interaktivna predavanja, grupni rad, studije slučaja i praktične AI projekte. Nije potrebno prethodno znanje o veštačkoj inteligenciji, samo osnovno poznavanje engleskog.",
+        "duration": "2 nedelje",
+        "dates": "Jul — avgust",
+        "language": "Engleski",
+        "included": [
+          "Nastava i svi materijali",
+          "Ručak tokom dana nastave",
+          "Praktični AI projekti",
+          "Certificate of Completion"
+        ],
+        "activities": [
+          "Posete kompanijama",
+          "Kulturne ture i izleti",
+          "Obilazak znamenitosti",
+          "Grupni rad na studijama slučaja"
+        ],
+        "accommodation": "Studentski domovi ili partnerski hosteli u blizini kampusa — jednokrevetna soba 350–500 €, deljena 250–400 €.",
+        "certificate": "GBSB Global Certificate of Completion."
+      },
+      "srh": {
+        "tagline": "Osamnaest dana solarnih sistema, vetra i bioenergije — u Berlinu ili onlajn.",
+        "about": "Intenzivni kurs o solarnim sistemima: projektovanje, montaža i upravljanje on-grid, off-grid i hibridnim fotonaponskim sistemima, uz radionice o energiji vetra i bioenergiji. SRH nudi i dvonedeljnu International SustAInability Summer School u Hajdelbergu, posvećenu veštačkoj inteligenciji, IoT-u i održivosti.",
+        "duration": "18 dana",
+        "dates": "Oktobar — novembar",
+        "language": "Engleski",
+        "included": [
+          "Nastava i svi materijali",
+          "PDV uračunat u cenu",
+          "Prateće aktivnosti i izleti",
+          "Sertifikat sa temama i brojem časova"
+        ],
+        "activities": [
+          "Sajmovi obnovljive energije",
+          "Posete kompanijama",
+          "Kulturna razmena",
+          "Izleti po okolini"
+        ],
+        "accommodation": "Nije uključen — oko 400–700 € mesečno, uz preporuke univerziteta.",
+        "certificate": "Zertifikat / Certificate sa spiskom obrađenih tema i brojem časova."
+      },
+      "aubg": {
+        "tagline": "Četiri programa — od pripreme za TOEFL i robotike do liderstva, uzrast 8–17.",
+        "about": "Američki univerzitet u Bugarskoj nudi četiri letnja programa: pripremu za TOEFL (4 nedelje), Sci-Tech akademiju sa robotikom i eksperimentima (2 nedelje), letnji engleski za decu od 8 do 12 godina (3 nedelje) i Leadership & Civic Engagement za uzrast od 15 do 17 godina.",
+        "duration": "2–4 nedelje",
+        "dates": "Jun — avgust",
+        "language": "Engleski",
+        "included": [
+          "Nastava i svi materijali",
+          "Celodnevni program na Leadership kursu",
+          "AUBG sertifikat o završenom programu",
+          "Opciono smeštaj u domu na kampusu"
+        ],
+        "activities": [
+          "Robotika sa Arduinom i senzorima",
+          "Eksperimenti iz fizike i hemije",
+          "Radionice liderstva",
+          "Društveni projekti"
+        ],
+        "accommodation": "Studentski domovi na kampusu, opciono. Transfer sa aerodroma u Sofiji je obavezan — do Blagoevgrada ima oko dva sata vožnje.",
+        "certificate": "AUBG Certificate of Completion."
+      },
+      "kozminski": {
+        "tagline": "Veštačka inteligencija u biznisu, fintech i održivost — i program za srednjoškolce.",
+        "about": "Kozminski nudi dva letnja programa: International Summer School za studente, sa kursevima iz veštačke inteligencije u biznisu, održivosti, vizualizacije podataka, fintech-a i liderstva; i Warsaw Summer School za srednjoškolce, sa uvodom u marketing, finansije, menadžment i AI.",
+        "duration": "3–4 nedelje",
+        "dates": "Jul — avgust",
+        "language": "Engleski",
+        "included": [
+          "Nastava i svi materijali",
+          "4 ECTS kredita po kursu",
+          "Pojedini obroci i aktivnosti",
+          "Welcome sesije i podrška"
+        ],
+        "activities": [
+          "Stari grad i Kraljevski dvorac",
+          "Park Łazienki i palata Wilanów",
+          "Copernicus Science Center",
+          "Vikend team-building i networking"
+        ],
+        "accommodation": "Nije uključen — preporuke preko platformi PepeHousing i Spotahome, oko 120–190 € mesečno.",
+        "certificate": "Sertifikat o završenom programu, uz 4 ECTS kredita po kursu na International Summer School."
+      },
+      "europea": {
+        "tagline": "Nedelja otkrivanja profesije — biznis, tehnologija, dizajn, zdravstvo i sport.",
+        "about": "Kratki intenzivni kamp za srednjoškolce koji još biraju zanimanje. Kroz radionice od 9.30 do 17.30 polaznici isprobavaju biznis, tehnologiju, dizajn, zdravstvo i sport, uz posete fakultetima, laboratorijama i simulacijama bolnice i studija.",
+        "duration": "1 nedelja",
+        "dates": "22–26. juna i 29. juna — 3. jula",
+        "language": "Španski i engleski",
+        "included": [
+          "Radionice od 9.30 do 17.30",
+          "Pristup kampusu i laboratorijama",
+          "Rad sa profesionalcima iz struke",
+          "Sertifikat o pohađanju"
+        ],
+        "activities": [
+          "Praktični projekti po oblastima",
+          "Simulacije u bolnici i studiju",
+          "Posete fakultetima",
+          "Team-building aktivnosti"
+        ],
+        "accommodation": "Kamp je dnevni, pa smeštaj nije obavezan — opciono kroz univerzitetske rezidencije ili hotele u Madridu.",
+        "certificate": "Zvanični sertifikat o pohađanju Summer Camp-a sa dokazom stečenih veština."
+      }
+    }
+  },
+  "china": {
+    "hero": {
+      "kicker": "Kina · XJTLU",
+      "title": "Studiranje u Kini",
+      "subtitle": "na Xi'an Jiaotong-Liverpool University — Invest Budućnost je partnerski predstavnik XJTLU univerziteta za region Balkana.",
+      "imageAlt": "Panorama Šangaja sa tornjem Oriental Pearl u prvom planu"
+    },
+    "about": {
+      "title": "XJTLU kampus u srcu Suzhoua",
+      "text": "Savršena mešavina modernosti i tradicije. Osnovan 2006. kao partnerstvo Xi'an Jiaotong University i University of Liverpool, XJTLU danas okuplja preko 25.000 studenata iz 93 zemlje i važi za vodeći internacionalni univerzitet u Kini. Sve studije su na engleskom jeziku, a diploma je dvostruka — kineska i britanska.",
+      "imageAlt": "Kampus XJTLU univerziteta između Suzhoua i Šangaja"
+    },
+    "scholarship": {
+      "badge": "Stipendije",
+      "text": "Ukupno možeš uštedeti do 26.000 € za 4 godine sa maksimalnom stipendijom!"
+    },
+    "bachelor": {
+      "title": "Osnovne studije",
+      "subtitle": "Preko 50 programa na engleskom jeziku — izdvajamo:",
+      "extra": "…i još 43 različita opredeljenja: Poslovna administracija, Marketing i mediji, Međunarodni biznis, Digitalne inovacije, Artificial Intelligence, Računovodstvo i finansije, HR menadžment i druga."
+    },
+    "master": {
+      "title": "Master studije",
+      "subtitle": "Jednogodišnji MSc programi:"
+    },
+    "phases": {
+      "1": {
+        "title": "Prikupljanje dokumentacije",
+        "text": "Besplatno proveravamo tvoje ocene i diplome, prevodimo i overavamo sva dokumenta na engleski."
+      },
+      "2": {
+        "title": "Izbor programa i stipendijskog paketa",
+        "text": "Predlažemo programe i tipove stipendija koji najviše odgovaraju tvom profilu."
+      },
+      "3": {
+        "title": "Prijava na univerzitet",
+        "text": "Šaljemo aplikaciju na 3–5 univerziteta odjednom — za 3–6 nedelja stižu zvanična prijemna pisma."
+      },
+      "4": {
+        "title": "Priprema studentske vize",
+        "text": "Popunjavamo obrasce i zakazujemo termin u Ambasadi Kine."
+      },
+      "5": {
+        "title": "Avionska karta, doček i smeštaj",
+        "text": "Organizujemo putovanje, doček na aerodromu i smeštaj na kampusu."
+      },
+      "6": {
+        "title": "Podrška tokom čitavog procesa",
+        "text": "Potpisujemo ugovor sa univerzitetom u tvoje ime i ostajemo uz tebe do kraja studija."
+      },
+      "kicker": "Kako izgleda proces",
+      "title": "6 faza naše podrške"
+    },
+    "cta": {
+      "title": "Zainteresovan za Kinu?",
+      "text": "Pošalji nam ocene — besplatno proveravamo da li ispunjavaš uslove za stipendiju.",
+      "button": "Proveri stipendiju"
+    }
+  },
+  "f1": {
+    "hero": {
+      "kicker": "SAD · Studije",
+      "title": "Studentska viza F1",
+      "subtitle": "Od prvog dokumenta do američkog kampusa — vodimo te kroz ceo proces, uključujući sportske stipendije.",
+      "imageAlt": "Diplomci u togama ispred zgrade američkog univerziteta"
+    },
+    "steps": {
+      "1": {
+        "title": "Prikupljanje dokumentacije",
+        "text": "Zajedno sa tobom prikupljamo sve što je potrebno za apliciranje: ocene, svedočanstva, lične podatke i — ako si sportista — sportske reference i video-materijale."
+      },
+      "2": {
+        "title": "Profesionalni sportski highlight",
+        "text": "Ako želiš sportsku stipendiju, pravimo kvalitetan video koji prikazuje tvoje veštine i postignuća."
+      },
+      "3": {
+        "title": "Izbor programa i paketa",
+        "text": "Na osnovu tvojih želja, ciljeva i budžeta, biramo paket usluga koji ti najviše odgovara."
+      },
+      "4": {
+        "title": "Konkretne školske ponude",
+        "text": "Na osnovu tvojih podataka, šaljemo tvoj profil američkim školama i univerzitetima."
+      },
+      "5": {
+        "title": "Ugovaranje upisa i I-20 dokument",
+        "text": "Nakon što izabereš školu, Invest Budućnost završava sve formalnosti umesto tebe."
+      },
+      "6": {
+        "title": "Proces dobijanja F1 vize",
+        "text": "Prijavljujemo te u američki vizni sistem i zakazujemo termin za intervju."
+      },
+      "kicker": "Proces",
+      "title": "6 koraka do F1 vize"
+    },
+    "cta": {
+      "title": "Sanjaš američki kampus?",
+      "text": "70% naših studenata dobija stipendiju. Proveri svoje šanse — besplatno.",
+      "button": "Proveri svoje šanse"
+    }
+  },
+  "b1b2": {
+    "hero": {
+      "kicker": "SAD · Putovanja",
+      "title": "Turistička viza B1/B2",
+      "subtitle": "Kompletan proces apliciranja za američku turističku vizu — stručno, brzo i bez stresa.",
+      "imageAlt": "Panorama Njujorka iz vazduha sa neboderima Menhetna"
+    },
+    "steps": {
+      "1": {
+        "title": "Konsultacija i analiza profila",
+        "text": "Analiziramo tvoju situaciju, istoriju putovanja, zaposlenje i finansijsku stabilnost."
+      },
+      "2": {
+        "title": "Prikupljanje dokumentacije",
+        "text": "Potvrda o zaposlenju, izvod iz banke, pozivna pisma, pasoš i fotografije — sve proveravamo zajedno."
+      },
+      "3": {
+        "title": "Popunjavanje DS-160 formulara",
+        "text": "Stručno popunjavamo online formular bez grešaka koje mogu koštati vize."
+      },
+      "4": {
+        "title": "Zakazivanje termina i taksa",
+        "text": "Zakazujemo termin u ambasadi i vodimo te kroz plaćanje konzularne takse."
+      },
+      "5": {
+        "title": "Priprema za intervju",
+        "text": "Simulacija razgovora u ambasadi — spremni odgovori na svako pitanje."
+      },
+      "6": {
+        "title": "Ishod i preuzimanje pasoša",
+        "text": "Pratimo status tvoje aplikacije i obaveštavamo te čim viza bude odobrena."
+      },
+      "7": {
+        "title": "Putovanje i dodatne informacije",
+        "text": "Pomažemo pri rezervaciji letova, smeštaja i pravljenju putnog plana."
+      },
+      "kicker": "Proces",
+      "title": "7 koraka do vize"
+    },
+    "extras": {
+      "kicker": "Dodatne pogodnosti",
+      "family": {
+        "title": "Porodični popust",
+        "text": "Snižena cena obrade po osobi i zajednička priprema dokumentacije za celu porodicu."
+      },
+      "travel": {
+        "title": "Putovanja i aranžmani",
+        "text": "Popusti na letove i smeštaj preko naših partnera."
+      }
+    },
+    "cta": {
+      "title": "Amerika te čeka.",
+      "text": "Proces traje najviše mesec dana — javi se i krenimo odmah.",
+      "button": "Započni proces"
+    }
+  },
+  "usa": {
+    "hero": {
+      "kicker": "SAD · Karijera",
+      "title": "Zapošljavanje u SAD",
+      "subtitle": "Invest Budućnost vodi ceo proces zapošljavanja u SAD — kompletna podrška od dokumentacije do prvog radnog dana.",
+      "imageAlt": "Kamion na američkom autoputu pod otvorenim nebom"
+    },
+    "locations": {
+      "kicker": "Gde se radi",
+      "title": "Lokacije rada u Americi"
+    },
+    "jobs": {
+      "kicker": "Pozicije",
+      "title": "Poslovi koje nudimo",
+      "truck": {
+        "title": "Vožnja kamiona",
+        "text": "Najplaćenija pozicija — do 25.000 USD u špicu sezone."
+      },
+      "moving": {
+        "title": "Selidbe",
+        "text": "Timski rad, nedeljna isplata, posao tokom cele godine."
+      },
+      "hospitality": {
+        "title": "Ugostiteljstvo",
+        "text": "Hoteli i restorani u najvećim američkim gradovima."
+      },
+      "catering": {
+        "title": "Ketering",
+        "text": "Eventi i sezonski angažmani uz fleksibilno radno vreme."
+      }
+    },
+    "eligibility": {
+      "title": "Ko može da aplicira",
+      "items": {
+        "1": "Muškarci i žene svih profila",
+        "2": "Kandidati sa Balkana i iz cele Evrope",
+        "3": "Iskustvo je poželjno, ali nije uvek obavezno"
+      }
+    },
+    "facts": {
+      "salary": {
+        "title": "Zarada",
+        "text": "Od 5.000 do 10.000 USD mesečno — u špicu sezone 15.000–25.000+ USD."
+      },
+      "payment": {
+        "title": "Način isplate",
+        "text": "Nedeljna, mesečna ili dnevna isplata. Mogućnost više poslova istovremeno."
+      },
+      "duration": {
+        "title": "Trajanje poslova",
+        "text": "Pozicije dostupne tokom cele godine — sezonski periodi i stalno otvorena radna mesta."
+      }
+    },
+    "steps": {
+      "1": {
+        "title": "Prikupljanje dokumentacije",
+        "text": "Kompletna priprema svih potrebnih dokumenata."
+      },
+      "2": {
+        "title": "Apliciranje za vizu",
+        "text": "Biramo i apliciramo za odgovarajuću američku vizu."
+      },
+      "3": {
+        "title": "Priprema za intervju",
+        "text": "Simulacija razgovora u ambasadi."
+      },
+      "4": {
+        "title": "Intervjui sa poslodavcima",
+        "text": "Povezujemo te i organizujemo razgovore sa američkim poslodavcima."
+      },
+      "5": {
+        "title": "Smeštaj i bankovni račun",
+        "text": "Pomoć oko smeštaja, bankovnih kartica i računa."
+      },
+      "6": {
+        "title": "Vozačka dozvola",
+        "text": "Podrška pri polaganju američke vozačke dozvole."
+      },
+      "7": {
+        "title": "Aviokarte",
+        "text": "Pronalazimo najpovoljnije avionske karte."
+      },
+      "kicker": "Proces",
+      "title": "7 koraka do posla u Americi"
+    },
+    "cta": {
+      "title": "Spreman za američku platu?",
+      "text": "Pošalji nam svoju radnu biografiju — proveravamo koje pozicije su trenutno otvorene.",
+      "button": "Prijavi se za posao"
+    }
+  },
+  "about": {
+    "hero": {
+      "kicker": "O nama",
+      "title": "Naša misija",
+      "subtitle": "Siguran, pristupačan i uspešan put ka obrazovanju i karijeri u inostranstvu — uz punu transparentnost i podršku. Budi i ti deo nje.",
+      "imageAlt": "Tim Invest Budućnosti tokom sastanka u kancelariji"
+    },
+    "story": {
+      "title": "Ko smo mi",
+      "text1": "Invest Budućnost je osnovana sa jasnim ciljem: da mladima sa Balkana otvori vrata obrazovanja i karijere u SAD, Evropi i Kini. Ono što je počelo kao pomoć nekolicini studenata, danas je tim od 13 stručnjaka sa kancelarijama u Jagodini, Podgorici i Ljubljani.",
+      "text2": "Direktor i osnivač Bogdan Radosavljević ima višegodišnje iskustvo u radu sa studentima i sportistima — od prve konsultacije do sletanja u novu zemlju, svaki klijent ima punu podršku našeg tima.",
+      "founderRole": "Direktor i osnivač",
+      "imageAlt": "Tim Invest Budućnosti u razgovoru sa klijentom"
+    },
+    "values": {
+      "kicker": "Vrednosti",
+      "title": "Zašto smo pravi izbor",
+      "subtitle": "Invest Budućnost nije samo agencija — mi smo tvoj pouzdan partner na svakom koraku.",
+      "transparency": {
+        "title": "Transparentnost",
+        "text": "Jasni uslovi, jasne cene i realan plan — bez skrivenih troškova."
+      },
+      "experience": {
+        "title": "Iskustvo",
+        "text": "8 godina rada i preko 320 uspešnih saradnji sa studentima, sportistima i turistima."
+      },
+      "network": {
+        "title": "Mreža partnera",
+        "text": "27 internacionalnih partnera i 25+ univerziteta u SAD, Evropi i Kini."
+      },
+      "support": {
+        "title": "Podrška 0–24",
+        "text": "Uz tebe smo pre, tokom i posle puta — na svakom koraku."
+      }
+    },
+    "offices": {
+      "kicker": "Lokacije",
+      "title": "Naše kancelarije"
+    }
+  },
+  "faq": {
+    "hero": {
+      "kicker": "Pomoć",
+      "title": "Najčešća pitanja",
+      "subtitle": "Sve što treba da znaš pre nego što započnemo saradnju.",
+      "imageAlt": "Pasoš, mapa i putne potrepštine spremni na stolu"
+    },
+    "items": {
+      "1": {
+        "q": "Koliko vremena traje proces?",
+        "a": "Proces aplikacije za turistički paket traje najviše mesec dana, dok proces aplikacije studentskog paketa traje do dva meseca."
+      },
+      "2": {
+        "q": "Koja dokumenta su potrebna?",
+        "a": "Potvrda o radnom odnosu (zaposlenje na neodređeno), izvod sa bankovnog računa (raspoloživih 3.000–6.000 €), dokaz o imovini, venčani list ako si u braku, izvodi iz matične knjige rođenih za decu, važeći i neoštećen pasoš i profesionalna fotografija za vizu."
+      },
+      "3": {
+        "q": "Šta je potrebno za prijavu agenciji?",
+        "a": "Za početak saradnje dovoljno je dostaviti skeniran važeći lični dokument i izvršiti uplatu na zvanični račun agencije."
+      },
+      "4": {
+        "q": "Koliko iskustva imate?",
+        "a": "Više od 8 godina iskustva u radu sa studentima i turistima i preko 320 uspešnih saradnji. Više od 70% naših studenata dobija stipendije."
+      },
+      "5": {
+        "q": "Ko su vaši saradnici?",
+        "a": "Springfield College, Community College of Vermont, Santa Rosa Junior College, Missouri Valley College, Hunter College, Hoosac School, Grace Christian School, Akademija Oxford i Polaris Pro studio, kao i 25+ univerziteta u Evropi i XJTLU u Kini."
+      },
+      "6": {
+        "q": "Šta možete da uradite za studente?",
+        "a": "Kroz dugogodišnju saradnju sa pažljivo odabranim obrazovnim institucijama pronalazimo program i stipendiju koji odgovaraju tvom profilu, vodimo ceo vizni proces i organizujemo put i smeštaj."
+      },
+      "7": {
+        "q": "Zašto baš Invest Budućnost?",
+        "a": "Invest Budućnost nije samo agencija — mi smo tvoj pouzdan partner na svakom koraku: od prve konsultacije, preko dokumentacije i intervjua, do sletanja u novu zemlju."
+      },
+      "8": {
+        "q": "Da li pomažete i sportistima?",
+        "a": "Da — snimamo profesionalni sportski highlight video, šaljemo tvoj profil američkim trenerima i vodimo proces do sportske stipendije. Naši klijenti igraju košarku i fudbal na američkim koledžima."
+      }
+    },
+    "cta": {
+      "title": "Imaš još pitanja?",
+      "text": "Javi nam se — odgovaramo brzo i konkretno.",
+      "button": "Postavi pitanje"
+    }
+  },
+  "contact": {
+    "hero": {
+      "kicker": "Kontakt",
+      "title": "Kontaktirajte nas",
+      "subtitle": "Ukoliko se niste odlučili ili želite više informacija, popunite formular — naš tim će vas ubrzo kontaktirati!",
+      "imageAlt": "Kolege u razgovoru za stolom uz otvoren laptop"
+    },
+    "form": {
+      "title": "Pošaljite nam poruku",
+      "firstName": "Ime",
+      "lastName": "Prezime",
+      "email": "Email adresa",
+      "phone": "Broj telefona",
+      "topic": "Tema",
+      "topics": {
+        "f1": "Studentska viza F1",
+        "b1b2": "Turistička viza B1/B2",
+        "europe": "Studije u Evropi",
+        "china": "Studije u Kini",
+        "camps": "Letnji kampovi",
+        "usa": "Zapošljavanje u SAD",
+        "other": "Drugo"
+      },
+      "message": "Vaša poruka",
+      "submit": "Pošalji poruku",
+      "note": "Uskoro ćemo stupiti u kontakt sa vama!",
+      "demo": "Forma je trenutno u demo režimu — slanje će uskoro biti aktivirano."
+    },
+    "info": {
+      "title": "Direktan kontakt",
+      "addressLabel": "Adresa",
+      "phoneLabel": "Telefon",
+      "emailLabel": "Email",
+      "socialLabel": "Društvene mreže"
+    },
+    "offices": {
+      "rs": "Srbija",
+      "me": "Crna Gora",
+      "si": "Slovenija"
+    }
+  },
+  "footer": {
+    "tagline": "Tvoj vodič kroz studije, vize i putovanja u Evropi, Kini i SAD.",
+    "explore": "Istraži",
+    "services": "Usluge",
+    "contact": "Kontakt",
+    "newsletter": {
+      "title": "Budi korak ispred",
+      "text": "Novosti o stipendijama, kampovima i vizama — direktno u inbox.",
+      "placeholder": "Email adresa",
+      "button": "Prijavi se",
+      "success": "Uspešno si prijavljen — vidimo se u inboxu!"
+    },
+    "rights": "Sva prava zadržana.",
+    "availability": "Dostupni u Srbiji, Crnoj Gori i Sloveniji"
+  },
+  "chat": {
+    "open": "Otvori chat",
+    "close": "Zatvori chat",
+    "title": "Invest Budućnost",
+    "status": "Obično odgovaramo u roku od nekoliko sati",
+    "greeting": "Zdravo! 👋 Kako možemo da ti pomognemo — viza, studije ili posao u inostranstvu?",
+    "placeholder": "Napiši poruku…",
+    "send": "Pošalji",
+    "demoNote": "Chat je u pripremi — uskoro dostupan. Do tada nas kontaktiraj preko forme ili telefona.",
+    "ctaContact": "Idi na kontakt"
+  },
+  "notFound": {
+    "title": "Stranica nije pronađena",
+    "text": "Stranica koju tražiš ne postoji ili je premeštena.",
+    "button": "Nazad na početnu"
+  }
+}

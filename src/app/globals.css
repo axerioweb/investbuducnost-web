@@ -1,0 +1,150 @@
+@import "tailwindcss";
+
+/* ─── Invest Budućnost design tokens — svetla plavo-bela tema (po logou) ── */
+@theme {
+  /* Plave iz logoa: svetlija (kapa) i tamnija (ruke) */
+  --color-brand-50: #f0f7fc;
+  --color-brand-100: #ddedf8;
+  --color-brand-200: #bcdaf0;
+  --color-brand-300: #8dc0e5;
+  --color-brand-400: #5ba1d6;
+  --color-brand-500: #3b82c4;
+  --color-brand-600: #2c6aa6;
+  --color-brand-650: #29618f;
+  --color-brand-700: #235587;
+  --color-navy-800: #1d3a66;
+  --color-navy-900: #152c50;
+  --color-navy-950: #0e1f3a;
+
+  /* Neutralne */
+  --color-ink: #16273d;
+  --color-slate-body: #51637a;
+  --color-mist: #6b7d93;
+  --color-cloud: #f5f9fd;
+  --color-line: #e3ecf4;
+
+  --font-display: "Sora Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Inter Variable", ui-sans-serif, system-ui, sans-serif;
+
+  --marquee-duration: 40s;
+  --animate-marquee: marquee var(--marquee-duration) linear infinite;
+  --animate-scroll-dot: scroll-dot 1.6s cubic-bezier(0.45, 0, 0.35, 1) infinite;
+
+  /* Traka klizi s leva na desno: kreće pomerena za jednu polovinu i vraća se
+     na nulu, pa se druga (duplirana) polovina uvek nadovezuje s leve strane. */
+  @keyframes marquee {
+    from { transform: translateX(-50%); }
+    to { transform: translateX(0); }
+  }
+
+  /* Tockic misa: gore-dole, imitira skrol */
+  @keyframes scroll-dot {
+    0%, 100% { transform: translateY(0); }
+    50%      { transform: translateY(16px); }
+  }
+}
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #ffffff;
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+@layer components {
+  /* Vidljiv fokus prsten svuda (WCAG 2.4.7) */
+  :focus-visible {
+    outline: 2px solid var(--color-brand-600);
+    outline-offset: 2px;
+  }
+
+  ::selection {
+    background: var(--color-brand-500);
+    color: #ffffff;
+  }
+
+  /* Bela kartica sa mekom senkom (nekad "glass") */
+  .card {
+    background: #ffffff;
+    border: 1px solid var(--color-line);
+    box-shadow: 0 6px 24px rgba(29, 58, 102, 0.06);
+  }
+
+  /* Poluprovidna bela traka (header na scroll) */
+  .bar-blur {
+    background: rgba(255, 255, 255, 0.9);
+    border-bottom: 1px solid var(--color-line);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+  }
+
+  /* Plavi gradijent tekst za naglaske */
+  .text-brand-gradient {
+    background: linear-gradient(120deg, #5ba1d6 0%, #3b82c4 45%, #2c6aa6 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  /* Svetloplava tačkasta tekstura za hero/sekcije */
+  .bg-dots {
+    background-image: radial-gradient(rgba(59, 130, 196, 0.14) 1px, transparent 1px);
+    background-size: 26px 26px;
+    -webkit-mask-image: radial-gradient(ellipse 90% 70% at 50% 0%, black 40%, transparent 100%);
+    mask-image: radial-gradient(ellipse 90% 70% at 50% 0%, black 40%, transparent 100%);
+  }
+
+  /* Meki plavi sjaj */
+  .glow-brand {
+    background: radial-gradient(ellipse at center, rgba(59, 130, 196, 0.12) 0%, transparent 65%);
+  }
+
+  /* Marquee fade ivice */
+  .marquee-mask {
+    -webkit-mask-image: linear-gradient(90deg, transparent, black 12%, black 88%, transparent);
+    mask-image: linear-gradient(90deg, transparent, black 12%, black 88%, transparent);
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  /* Izuzetak: scroll indikator ostaje ziv (spor, mali, bez treperenja) —
+     to je jedina naznaka korisniku da stranica ide dalje. */
+  .animate-scroll-dot {
+    animation-duration: 2.2s !important;
+    animation-iteration-count: infinite !important;
+  }
+
+  /* Izuzetak: traka partnera po odluci vlasnika sajta uvek klizi. WCAG 2.2.2
+     ostaje ispunjen jer se zaustavlja na hover i na fokus. */
+  .marquee-track {
+    animation-duration: var(--marquee-duration) !important;
+    animation-iteration-count: infinite !important;
+  }
+}
+
+/* Bez JavaScript-a: prikaži sadržaj koji framer-motion inicijalno skriva */
+@media (scripting: none) {
+  [style*="opacity:0"],
+  [style*="opacity: 0"],
+  [style*="height:0px"] {
+    height: auto !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
