@@ -41,13 +41,16 @@
     "contact": {
       "title": "Kontakt — Jagodina, Podgorica, Ljubljana",
       "description": "Pozovi +381 65 9010-720 ili piši na investbuducnost@gmail.com. Kancelarije u Jagodini, Podgorici i Ljubljani. Javljamo se u najkraćem mogućem roku."
+    },
+    "institution": {
+      "title": "{name}"
     }
   },
   "nav": {
     "home": "Početna",
-    "europe": "Evropa",
+    "europe": "Studije u Evropi",
     "camps": "Letnji kampovi",
-    "china": "Kina",
+    "china": "Studije u Kini",
     "process": "Proces",
     "f1": "Studentska viza F1",
     "b1b2": "Turistička viza B1/B2",
@@ -211,14 +214,10 @@
       "tuitionBachelor": "Školarina — osnovne",
       "tuitionMaster": "Školarina — master",
       "living": "Troškovi života",
-      "about": "O univerzitetu",
       "bachelor": "Osnovne studije",
       "master": "Master studije",
       "programsNote": "Prikazan je izbor programa. Puna ponuda, tačni iznosi i uslovi upisa dostupni su na upit.",
       "more": "Detaljnije",
-      "close": "Zatvori",
-      "cta": "Besplatna procena",
-      "camp": "Letnji kamp",
       "campBadge": "Letnji kamp",
       "logoAlt": "Logotip institucije {name}"
     },
@@ -298,6 +297,10 @@
       "kozminski": {
         "tagline": "Poslovne i ekonomske studije na engleskom, u srcu Varšave.",
         "about": "Kozminski University je privatni univerzitet u Varšavi, u kvartu Praga Północ, poznat po poslovnim i ekonomskim programima na engleskom. Nastava je radnim danima uz vikend aktivnosti, a leti organizuje International Summer School za studente i posebnu letnju školu za srednjoškolce."
+      },
+      "europea": {
+        "tagline": "Vodeći privatni univerzitet u Španiji, nastava po modelu „learning by doing“.",
+        "about": "Universidad Europea ima kampuse u Madridu, Valensiji, Alikanteu i na Kanarskim ostrvima, a preko 40 odsto studenata dolazi iz inostranstva, iz više od 110 zemalja. Nastava se gradi oko praktičnog rada — simulirane bolnice, laboratorija i produkcijskih studija — a saradnja sa Real Madrid Graduate School izdvaja njene sportske programe u Evropi."
       }
     }
   },
@@ -325,15 +328,7 @@
       "age": "Uzrast",
       "language": "Jezik",
       "ects": "ECTS",
-      "about": "O programu",
-      "included": "Šta je uključeno",
-      "activities": "Aktivnosti",
-      "accommodation": "Smeštaj",
-      "certificate": "Sertifikat",
       "more": "Detaljnije",
-      "close": "Zatvori",
-      "cta": "Prijavi se",
-      "studies": "Studije na univerzitetu",
       "logoAlt": "Logotip institucije {name}",
       "agePlus": "{min}+",
       "ageRange": "{min}–{max}"
@@ -998,5 +993,33 @@
     "title": "Stranica nije pronađena",
     "text": "Stranica koju tražiš ne postoji ili je premeštena.",
     "button": "Nazad na početnu"
+  },
+  "institution": {
+    "kicker": "Partnerska institucija",
+    "website": "Zvanični sajt",
+    "backToCamps": "Svi letnji kampovi",
+    "overview": "U kratkim crtama",
+    "about": "O instituciji",
+    "reputation": "Reputacija i akreditacije",
+    "programs": "Studijski programi",
+    "programsSubtitle": "Izbor iz ponude — pun spisak i tačni uslovi dostupni su na upit.",
+    "campus": "Kampus, smeštaj i ishrana",
+    "admissions": "Upisni rokovi i stipendije",
+    "documents": "Dokumentacija za upis",
+    "gallery": "Kampus u slikama",
+    "photoAlt": "{name}, {city} — fotografija {index} od {total}",
+    "campTitle": "Letnji i zimski programi",
+    "campLead": "Ova institucija ima i kratki program tokom leta ili zime, uz 15% popusta za 2026.",
+    "included": "Šta je uključeno",
+    "activities": "Aktivnosti",
+    "accommodation": "Smeštaj",
+    "certificate": "Sertifikat",
+    "related": "Slične institucije",
+    "relatedSubtitle": "Još partnerskih institucija iz naše mreže — iz iste zemlje ili sa sličnom ponudom.",
+    "ctaTitle": "Zanima te {name}?",
+    "ctaText": "Pošalji nam svoje ocene i želje — proveravamo uslove direktno kod institucije i besplatno ti kažemo koliko realno stojiš.",
+    "ctaButton": "Besplatna procena",
+    "cityPhotoAlt": "{city} — grad u kome se nalazi {name}",
+    "breadcrumb": "Putanja"
   }
 }

@@ -61,12 +61,13 @@ po stranici i jeziku, kompletan SSG. Detalji u `DESIGN.md`.
 
 ```
 src/
-  app/[locale]/         # 10 stranica (interni engleski nazivi ruta)
+  app/[locale]/         # 10 stranica + /institutions/[slug] (20 institucija)
   app/sitemap.ts        # sitemap sa hreflang alternates
   components/           # layout / ui / home / forms / chat / seo
-  data/                 # site.ts (kontakti, statistika), catalog.ts, assets.ts
+  data/                 # site.ts (kontakti), catalog.ts, institutions.ts, assets.ts
   i18n/                 # routing (lokalizovani slugovi), config, request
-  messages/             # sr.json, en.json, es.json — SAV tekst sajta
+  messages/             # sr/en/es.json — tekst sajta
+  messages/institutions/  # sr/en/es.json — prozni tekstovi 20 institucija
   lib/seo.ts            # buildPageMetadata helper
 .claude/
   agents/               # translator, ui-builder, seo-auditor, qa-reviewer, content-scraper

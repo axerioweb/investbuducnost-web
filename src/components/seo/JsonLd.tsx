@@ -169,14 +169,22 @@ export function OfficesJsonLd({ locale }: { locale: string }) {
 
 /**
  * ItemList sa `Course` elementima — letnji kampovi.
- * Detalji programa žive u modalnom dijalogu, pa strukturirani podaci nose
- * iste činjenice u formi koju pretraživači čitaju bez izvršavanja JS-a.
+ * `url` po stavci vodi na stranicu institucije koja program izvodi, pa
+ * pretraživač povezuje listu sa pojedinačnim stranicama umesto da je vidi
+ * kao skup nepovezanih naslova.
  */
 export function CourseListJsonLd({
   items,
   url,
 }: {
-  items: { name: string; description: string; provider: string; city: string; price?: string }[];
+  items: {
+    name: string;
+    description: string;
+    provider: string;
+    city: string;
+    price?: string;
+    url: string;
+  }[];
   url: string;
 }) {
   const data = {
@@ -191,13 +199,102 @@ export function CourseListJsonLd({
         "@type": "Course",
         name: item.name,
         description: item.description,
+        url: item.url,
         provider: { "@type": "CollegeOrUniversity", name: item.provider },
         locationCreated: { "@type": "Place", name: item.city },
-        ...(item.price ? { offers: { "@type": "Offer", description: item.price } } : {}),
+        // Cena se namerno ne šalje: u katalogu je raspon teksta („600–1.300 €"),
+        // a `Offer` traži `price` + `priceCurrency`. Search Console nepotpun
+        // `Offer` prijavljuje kao grešku, pa je bolje izostaviti nego lagati tip.
       },
     })),
   };
   return <Script data={data} />;
+}
+
+/**
+ * Puna `CollegeOrUniversity` shema za stranicu jedne institucije.
+ *
+ * `sameAs` vodi na zvanični sajt — time se naša stranica eksplicitno vezuje za
+ * poznati entitet umesto da izgleda kao još jedna istoimena. Školarine se
+ * namerno ne šalju kao `Offer`: u katalogu su rasponi teksta („5.000–9.000 €"),
+ * a `Offer` traži broj i valutu — pogrešno tipizovana cena je lošija od nikakve.
+ */
+export function InstitutionJsonLd({
+  name,
+  description,
+  url,
+  website,
+  image,
+  city,
+  country,
+  founded,
+}: {
+  name: string;
+  description: string;
+  url: string;
+  website: string;
+  image: string;
+  city: string;
+  country: string;
+  founded?: number;
+}) {
+  const data = {
+    "@context": "https://schema.org",
+    "@type": "CollegeOrUniversity",
+    "@id": `${url}#institution`,
+    name,
+    description,
+    // `url` entiteta je njegov zvanični sajt; naša stranica o njemu je
+    // `mainEntityOfPage`. Obrnuto bi tvrdilo da je institucija „na" našem domenu.
+    url: website,
+    sameAs: [website],
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": url,
+      isPartOf: { "@id": `${site.url}/#website` },
+    },
+    image,
+    address: {
+      "@type": "PostalAddress",
+      // Katalog za EMUNI drži dva grada u jednom polju („Piran & Koper");
+      // `addressLocality` prima jedan, pa se uzima prvi.
+      addressLocality: city.split(/\s*&\s*/)[0],
+      addressCountry: country,
+    },
+    ...(founded ? { foundingDate: String(founded) } : {}),
+  };
+  return <Script data={data} />;
+}
+
+/** Troslojni breadcrumb: Početna → Studije u Evropi → institucija. */
+export async function InstitutionBreadcrumbJsonLd({
+  locale,
+  slug,
+  name,
+}: {
+  locale: string;
+  slug: string;
+  name: string;
+}) {
+  const nav = await getTranslations({ locale, namespace: "nav" });
+  const europe = await getTranslations({ locale, namespace: "europe" });
+  return (
+    <BreadcrumbJsonLd
+      items={[
+        { name: nav("home"), url: absoluteUrl(getPathname({ locale, href: "/" })) },
+        {
+          name: europe("hero.title"),
+          url: absoluteUrl(getPathname({ locale, href: "/europe" })),
+        },
+        {
+          name,
+          url: absoluteUrl(
+            getPathname({ locale, href: { pathname: "/institutions/[slug]", params: { slug } } })
+          ),
+        },
+      ]}
+    />
+  );
 }
 
 /** ItemList sa `CollegeOrUniversity` elementima — partnerski univerziteti. */
@@ -205,7 +302,7 @@ export function UniversityListJsonLd({
   items,
   url,
 }: {
-  items: { name: string; description: string; city: string; country: string }[];
+  items: { name: string; description: string; city: string; country: string; url: string }[];
   url: string;
 }) {
   const data = {
@@ -220,6 +317,7 @@ export function UniversityListJsonLd({
         "@type": "CollegeOrUniversity",
         name: item.name,
         description: item.description,
+        url: item.url,
         address: {
           "@type": "PostalAddress",
           addressLocality: item.city,

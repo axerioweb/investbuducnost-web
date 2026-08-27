@@ -93,6 +93,18 @@ const ASSETS = {
   contactBg: { url: px(8134173), ext: ".jpg" },
   campusFriends: { url: px(1454360), ext: ".jpg" },
   gradsCelebrate: { url: px(29229903), ext: ".jpg" },
+
+  // Fotografije kampusa za stranice institucija. Isti JSON čita i
+  // `src/data/assets.ts` — .mjs ne može da importuje .ts, pa je zajednički
+  // izvor JSON umesto da se 50+ URL-ova održava na dva mesta.
+  // Wix URL-ovi već nose `/v1/fill/.../photo.jpg` transformaciju: bez nje
+  // (`enc_auto` ili goli `/media/` put) Wix vraća AVIF pod .png imenom, a
+  // takav fajl `next/image` ne prepoznaje po ekstenziji.
+  ...Object.fromEntries(
+    Object.entries(
+      JSON.parse(await readFile(path.resolve("src/data/institution-photos.json"), "utf8"))
+    ).map(([key, url]) => [key, { url, ext: ".jpg" }])
+  ),
 };
 
 // `sharp` stiže preko Next-a, nije direktna zavisnost — bez njega se preuzimanje

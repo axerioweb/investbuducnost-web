@@ -93,6 +93,18 @@ export const europeanUniversities: readonly University[] = [
     logo: "uniNicosia",
     founded: 1980,
     campuses: ["Nicosia", "Athens"],
+    bachelor: [
+      { name: "BBA Tourism, Leisure and Events Management", years: 4 },
+      { name: "BBA Entrepreneurship and Innovation", years: 4 },
+      { name: "BBA Finance and Economics", years: 4 },
+      { name: "BBA Management and Human Resources", years: 4 },
+    ],
+    master: [
+      { name: "MSc Blockchain and Digital Currency", years: 1 },
+      { name: "MBA Business Administration", years: 1 },
+      { name: "MBA Business Administration (online)", years: 1 },
+      { name: "MSc Energy, Oil and Natural Gas", years: 1 },
+    ],
     tuitionMaster: { amount: "8.000–15.000 €", per: "total" },
     living: "700–1.200 €",
   },
@@ -264,6 +276,22 @@ export const europeanUniversities: readonly University[] = [
     city: "Roma",
     country: "IT",
     logo: "uniJcu",
+    bachelor: [
+      { name: "Art and Design", years: 4 },
+      { name: "Political Science", years: 4 },
+      { name: "Computer and Information Science", years: 4 },
+      { name: "English Literature", years: 4 },
+    ],
+    // Stara stranica je u tabeli mastera navela MBA i MA in Psychology — JCU
+    // nema nijedan od njih. Zvanično nudi 16 BA smerova i tačno dva mastera
+    // (provereno na johncabot.edu, 2026-08-27), pa stoje samo ta dva.
+    master: [
+      { name: "MA Art History", years: 2 },
+      { name: "MA International Affairs", years: 2 },
+    ],
+    tuitionBachelor: { amount: "9.000–12.000 €", per: "semester" },
+    tuitionMaster: { amount: "od 15.000 €", per: "total" },
+    living: "500–800 €",
     hasCamp: true,
   },
   {
@@ -280,7 +308,7 @@ export const europeanUniversities: readonly University[] = [
   },
   {
     id: "bts",
-    name: "BTS Technology School",
+    name: "Barcelona Technology School",
     city: "Barcelona",
     country: "ES",
     logo: "uniBts",
@@ -334,6 +362,47 @@ export const europeanUniversities: readonly University[] = [
     city: "Warszawa",
     country: "PL",
     logo: "uniKozminski",
+    founded: 1993,
+    // Stara stranica je u tabeli osnovnih studija dvaput navela „Big Data
+    // Analysis" — ponovljeni red je izostavljen, ne izmišlja se četvrti.
+    bachelor: [
+      { name: "Big Data Analysis", years: 4 },
+      { name: "Management", years: 4 },
+      { name: "Finance and Accounting", years: 4 },
+    ],
+    master: [
+      { name: "International Business and Management", years: 1 },
+      { name: "Big Data Science", years: 1 },
+      { name: "Human Resource Management", years: 1 },
+      { name: "Marketing", years: 1 },
+    ],
+    tuitionBachelor: { amount: "5.000–7.000 €", per: "year" },
+    tuitionMaster: { amount: "6.000–9.000 €", per: "year" },
+    living: "500–800 €",
+    hasCamp: true,
+  },
+  {
+    id: "europea",
+    name: "Universidad Europea",
+    city: "Madrid",
+    country: "ES",
+    logo: "uniEuropea",
+    campuses: ["Madrid", "Valencia", "Alicante", "Canarias"],
+    bachelor: [
+      { name: "Aerospace and Aircraft Engineering", years: 4 },
+      { name: "Psychology", years: 4 },
+      { name: "Biotechnology", years: 4 },
+      { name: "Dentistry", years: 4 },
+    ],
+    master: [
+      { name: "Applied Artificial Intelligence", years: 1 },
+      { name: "International Trade", years: 1 },
+      { name: "Teaching English as a Foreign Language (TEFL)", years: 1 },
+      { name: "Sports Training and Nutrition", years: 1 },
+    ],
+    tuitionBachelor: { amount: "10.000–18.000 €", per: "year" },
+    tuitionMaster: { amount: "12.000–21.000 €", per: "total" },
+    living: "900–1.600 €",
     hasCamp: true,
   },
 ] as const;
@@ -489,6 +558,7 @@ export const summerCamps: readonly SummerCamp[] = [
     price: "300–600 €",
     ageMin: 15,
     ageMax: 18,
+    universityId: "europea",
   },
 ] as const;
 

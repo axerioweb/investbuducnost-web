@@ -41,13 +41,16 @@
     "contact": {
       "title": "Contact — Jagodina, Podgorica, Ljubljana",
       "description": "Call +381 65 9010-720 or write to investbuducnost@gmail.com. Offices in Jagodina, Podgorica and Ljubljana. Fill in the form and we get back to you fast."
+    },
+    "institution": {
+      "title": "{name}"
     }
   },
   "nav": {
     "home": "Home",
-    "europe": "Europe",
+    "europe": "Study in Europe",
     "camps": "Summer Camps",
-    "china": "China",
+    "china": "Study in China",
     "process": "Process",
     "f1": "F1 Student Visa",
     "b1b2": "B1/B2 Tourist Visa",
@@ -211,14 +214,10 @@
       "tuitionBachelor": "Tuition — bachelor's",
       "tuitionMaster": "Tuition — master's",
       "living": "Living costs",
-      "about": "About the university",
       "bachelor": "Bachelor's programmes",
       "master": "Master's programmes",
       "programsNote": "A selection of programmes is shown. The full catalogue, exact fees and entry requirements are available on request.",
       "more": "Details",
-      "close": "Close",
-      "cta": "Free assessment",
-      "camp": "Summer camp",
       "campBadge": "Summer camp",
       "logoAlt": "{name} logo"
     },
@@ -298,6 +297,10 @@
       "kozminski": {
         "tagline": "Business and economics taught in English, in the heart of Warsaw.",
         "about": "Kozminski University is a private university in Warsaw's Praga Północ district, known for business and economics programmes taught in English. Classes run on weekdays with weekend activities, and in summer it hosts an International Summer School for university students and a separate school for high-school students."
+      },
+      "europea": {
+        "tagline": "Spain's leading private university, teaching through a learning-by-doing model.",
+        "about": "Universidad Europea has campuses in Madrid, Valencia, Alicante and the Canary Islands, and over 40 percent of its students come from abroad, from more than 110 countries. Teaching is built around practical work — a simulated hospital, laboratories and production studios — and the partnership with Real Madrid Graduate School sets its sports programmes apart in Europe."
       }
     }
   },
@@ -325,15 +328,7 @@
       "age": "Age",
       "language": "Language",
       "ects": "ECTS",
-      "about": "About the programme",
-      "included": "What's included",
-      "activities": "Activities",
-      "accommodation": "Accommodation",
-      "certificate": "Certificate",
       "more": "Details",
-      "close": "Close",
-      "cta": "Apply now",
-      "studies": "Degrees at this university",
       "logoAlt": "{name} logo",
       "agePlus": "{min}+",
       "ageRange": "{min}–{max}"
@@ -998,5 +993,33 @@
     "title": "Page not found",
     "text": "The page you're looking for doesn't exist or has been moved.",
     "button": "Back to home"
+  },
+  "institution": {
+    "kicker": "Partner institution",
+    "website": "Official website",
+    "backToCamps": "All summer camps",
+    "overview": "At a glance",
+    "about": "About the institution",
+    "reputation": "Reputation and accreditation",
+    "programs": "Study programmes",
+    "programsSubtitle": "A selection from the catalogue — the full list and exact conditions are available on request.",
+    "campus": "Campus, accommodation and food",
+    "admissions": "Deadlines and scholarships",
+    "documents": "Application documents",
+    "gallery": "The campus in pictures",
+    "photoAlt": "{name}, {city} — photo {index} of {total}",
+    "campTitle": "Summer and winter programmes",
+    "campLead": "This institution also runs a short summer or winter programme, with 15% off for 2026.",
+    "included": "What's included",
+    "activities": "Activities",
+    "accommodation": "Accommodation",
+    "certificate": "Certificate",
+    "related": "Similar institutions",
+    "relatedSubtitle": "More partner institutions from our network — in the same country or with a comparable offer.",
+    "ctaTitle": "Interested in {name}?",
+    "ctaText": "Send us your grades and preferences — we check the requirements directly with the institution and tell you where you realistically stand, free of charge.",
+    "ctaButton": "Free assessment",
+    "cityPhotoAlt": "{city} — the city where {name} is based",
+    "breadcrumb": "Breadcrumb"
   }
 }

@@ -6,21 +6,9 @@ import { Check } from "@/components/ui/icons";
  * Logo institucije na beloj pločici. Logotipi su raznih proporcija i pozadina,
  * pa idu `object-contain` na belom — nikad izrezani i uvek čitljivi.
  */
-export function LogoTile({
-  src,
-  alt,
-  size = "card",
-}: {
-  src: string;
-  alt: string;
-  size?: "card" | "dialog";
-}) {
-  const box =
-    size === "card"
-      ? "h-24 rounded-xl p-4 md:h-28"
-      : "h-20 w-20 shrink-0 rounded-2xl p-2.5 md:h-24 md:w-24 md:p-3";
+export function LogoTile({ src, alt }: { src: string; alt: string }) {
   return (
-    <div className={`flex items-center justify-center bg-white ${box}`}>
+    <div className="flex h-24 items-center justify-center rounded-xl bg-white p-4 md:h-28">
       <Image
         src={src}
         alt={alt}
@@ -44,7 +32,7 @@ export function Pill({ children }: { children: ReactNode }) {
 
 export type Fact = { label: string; value: string };
 
-/** Mreža „ključnih činjenica" u dijalogu (trajanje, termin, cena…). */
+/** Mreža „ključnih činjenica" (osnovan, školarina, troškovi života…). */
 export function FactGrid({ facts }: { facts: Fact[] }) {
   if (facts.length === 0) return null;
   return (
@@ -58,24 +46,6 @@ export function FactGrid({ facts }: { facts: Fact[] }) {
         </div>
       ))}
     </dl>
-  );
-}
-
-/** Naslovljena sekcija unutar dijaloga. */
-export function DialogSection({
-  title,
-  children,
-}: {
-  title: string;
-  children: ReactNode;
-}) {
-  return (
-    <section>
-      <h3 className="mb-3 font-display text-[13px] font-bold uppercase tracking-[0.16em] text-brand-600">
-        {title}
-      </h3>
-      {children}
-    </section>
   );
 }
 
@@ -109,7 +79,7 @@ export function ChipList({ items }: { items: string[] }) {
   );
 }
 
-/** Tabela studijskih programa (naziv + trajanje) u dijalogu univerziteta. */
+/** Tabela studijskih programa (naziv + trajanje). */
 export function ProgramList({
   programs,
   yearLabel,
@@ -130,41 +100,5 @@ export function ProgramList({
         </li>
       ))}
     </ul>
-  );
-}
-
-/** Zaglavlje dijaloga: plavi gradijent, logo na beloj pločici, naslov i lokacija. */
-export function DialogHeader({
-  logo,
-  logoAlt,
-  titleId,
-  title,
-  subtitle,
-  location,
-}: {
-  logo: string;
-  logoAlt: string;
-  titleId: string;
-  title: string;
-  subtitle?: string;
-  /** Zastava + grad — `ReactNode` jer zastava više nije emodži u tekstu. */
-  location: ReactNode;
-}) {
-  return (
-    <div className="flex items-center gap-4 bg-gradient-to-br from-navy-900 via-navy-800 to-brand-600 px-5 py-5 pr-14 md:gap-5 md:px-7 md:py-6">
-      <LogoTile src={logo} alt={logoAlt} size="dialog" />
-      <div className="min-w-0">
-        <h2
-          id={titleId}
-          className="font-display text-lg font-bold leading-tight text-white md:text-2xl"
-        >
-          {title}
-        </h2>
-        {subtitle && <p className="mt-1 text-sm text-brand-100 md:text-[15px]">{subtitle}</p>}
-        <p className="mt-1.5 flex items-center gap-1.5 text-[13px] font-medium text-white/80">
-          {location}
-        </p>
-      </div>
-    </div>
   );
 }

@@ -26,9 +26,16 @@ Sajt koristi next-intl sa lokalizovanim slugovima. Novi jezik = 4 koraka:
 - `localeNames`: dodaj prikazno ime (`de: "Deutsch"`).
 - `ogLocales`: dodaj OG kod (`de: "de_DE"`).
 
-## 3. `src/messages/<kod>.json`
+## 3. Prevodi — DVA fajla
 
-- Kopiraj `en.json` i prevedi SVE vrednosti (struktura ključeva mora ostati identična).
+- `src/messages/<kod>.json`: kopiraj `en.json` i prevedi SVE vrednosti
+  (struktura ključeva mora ostati identična).
+- `src/messages/institutions/<kod>.json`: kopiraj `institutions/en.json` i
+  prevedi. Tu su prozni tekstovi 20 institucija; drže se odvojeno jer su duži
+  od celog ostatka sajta. `src/i18n/request.ts` ih spaja pod ključ
+  `institutions` — ne treba ga menjati, čita `<kod>` iz rute.
+- Nizovi (`highlights`, `documents`) moraju imati ISTI broj stavki kao u
+  `en.json` — stranica ih renderuje jedan uz drugi po jezicima.
 - Pravila prevođenja su u `.claude/agents/translator.md` (vlastite imenice se ne
   prevode; `meta.*` tekstovi moraju biti SEO optimizovani za taj jezik).
 

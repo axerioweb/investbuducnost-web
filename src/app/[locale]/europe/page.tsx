@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { buildPageMetadata, absoluteUrl } from "@/lib/seo";
 import { getPathname } from "@/i18n/navigation";
-import { europeanUniversities, type Tuition } from "@/data/catalog";
+import { europeanUniversities } from "@/data/catalog";
+import { slugForId } from "@/data/institutions";
 import { asset } from "@/data/assets";
 import { PageHero } from "@/components/ui/PageHero";
 import { SectionHeading } from "@/components/ui/SectionHeading";
@@ -25,38 +26,21 @@ export default async function EuropePage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("europe");
-  const common = await getTranslations("common");
   const meta = await getTranslations("meta.europe");
 
-  /** „7.050 €" + „po semestru" — iznos je podatak, period se prevodi. */
-  const money = (tuition?: Tuition) => {
-    if (!tuition) return undefined;
-    const per =
-      tuition.per === "year"
-        ? common("perYear")
-        : tuition.per === "semester"
-          ? common("perSemester")
-          : common("total");
-    return `${tuition.amount} ${per}`;
-  };
-
   // Prevodi se razrešavaju na serveru — mreža dobija gotove stringove.
+  // Kartica nosi samo ono što se na njoj i vidi; školarine, programi i uslovi
+  // upisa žive na stranici institucije, pa ih više ne treba slati ovde.
   const universities: UniversityView[] = europeanUniversities.map((uni) => ({
     id: uni.id,
+    slug: slugForId(uni.id)!,
     name: uni.name,
     city: uni.city,
     countryCode: uni.country,
     logo: asset(uni.logo as Parameters<typeof asset>[0]),
     tagline: t(`items.${uni.id}.tagline`),
-    about: t(`items.${uni.id}.about`),
     founded: uni.founded ? String(uni.founded) : undefined,
     students: uni.students,
-    campuses: uni.campuses?.join(" · "),
-    tuitionBachelor: money(uni.tuitionBachelor),
-    tuitionMaster: money(uni.tuitionMaster),
-    living: uni.living ? `${uni.living} ${common("perMonth")}` : undefined,
-    bachelor: uni.bachelor,
-    master: uni.master,
     hasCamp: uni.hasCamp ?? false,
   }));
 
@@ -73,6 +57,12 @@ export default async function EuropePage({ params }: Props) {
           description: t(`items.${uni.id}.about`),
           city: uni.city,
           country: uni.country,
+          url: absoluteUrl(
+            getPathname({
+              locale,
+              href: { pathname: "/institutions/[slug]", params: { slug: slugForId(uni.id)! } },
+            })
+          ),
         }))}
       />
 
@@ -94,22 +84,7 @@ export default async function EuropePage({ params }: Props) {
           <UniversityGrid
             universities={universities}
             labels={{
-              founded: t("detail.founded"),
-              students: t("detail.students"),
-              campuses: t("detail.campuses"),
-              tuitionBachelor: t("detail.tuitionBachelor"),
-              tuitionMaster: t("detail.tuitionMaster"),
-              living: t("detail.living"),
-              about: t("detail.about"),
-              bachelor: t("detail.bachelor"),
-              master: t("detail.master"),
-              programsNote: t("detail.programsNote"),
-              year: common("year"),
-              years: common("years"),
               more: t("detail.more"),
-              close: t("detail.close"),
-              cta: t("detail.cta"),
-              camp: t("detail.camp"),
               campBadge: t("detail.campBadge"),
               logoAlt: t.raw("detail.logoAlt") as string,
             }}

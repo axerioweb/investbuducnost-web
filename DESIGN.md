@@ -46,13 +46,15 @@ mogle da ih nadjačaju — neslojevit CSS uvek pobeđuje slojevit.
 - **Sekcije se smenjuju**: bela → `cloud` → bela; statistika i CTA na plavom gradijentu
 - **Kartica institucije** (`components/institutions/`): logo na beloj pločici (`object-contain`,
   nikad izrezan) u `cloud` okviru, pa lokacija sa zastavicom, naziv, tagline i pilule sa
-  ključnim podacima. Ceo blok je klikabilan preko `after:absolute after:inset-0` na dugmetu
-  u naslovu — validan HTML (dugme prima samo phrasing content) i pristupačno ime dugmeta
+  ključnim podacima. Ceo blok je klikabilan preko `after:absolute after:inset-0` na linku
+  u naslovu — validan HTML (link prima samo phrasing content) i pristupačno ime linka
   ostaje samo naziv institucije
-- **Modalni dijalog** (`ui/Modal.tsx`): portal na `body` (kartice su unutar `motion.div`
-  elemenata čiji `transform` pravi novi stacking context i lomi `position: fixed`),
-  zamka fokusa, Escape u capture fazi, zaključan scroll sa kompenzacijom scrollbar-a i
-  povratak fokusa na okidač. Zaglavlje nosi isti plavi gradijent kao hero
+- **Stranica institucije** (`app/[locale]/institutions/[slug]`): klik na karticu vodi na
+  punu stranicu, ne na modalni dijalog. Dijalog je držao sadržaj van indeksa, nije se
+  mogao deliti linkom i nije imao mesta za fotografije kampusa; stranica ima hero sa
+  logotipom, činjenice, programe, kampus, upisne rokove, galeriju i sekciju letnjeg
+  programa. Zato su `UniversityGrid` i `CampGrid` prestali da budu klijentske komponente
+  — bez stanja i dijaloga u pregledač ne odlazi ništa osim `Reveal` omotača
 
 ## Ikonografija
 
@@ -93,6 +95,11 @@ na strani ponavlja.
 ## Fotografije
 
 Besplatne sa Pexels-a (bez obavezne atribucije), mapirane u `src/data/assets.ts`;
+fotografije kampusa (55 komada) stoje u `src/data/institution-photos.json` — isti JSON
+čitaju i `assets.ts` i `scripts/download-assets.mjs`, jer .mjs ne može da importuje .ts.
+Wix URL-ovi nose `/v1/fill/…/photo.jpg` transformaciju: bez nje Wix vraća AVIF pod .png
+imenom, a takav fajl `next/image` ne prepoznaje po ekstenziji.
+
 `npm run download-assets` ih preuzima lokalno. Logo, fotografije stvarnih
 studenata/klijenata i 20 logotipa partnerskih institucija (`uni*`) su sa starog sajta.
 Skripta čuva ručno dodate ključeve iz `assets.local.json` (npr. `logoMark`) — bez toga
@@ -105,6 +112,14 @@ Za `uni*`, `partner*` i `*Logo` ključeve skripta meri **najtamniji neprozirni p
 upozorava ako je iznad 200: logotipi za tamnu podlogu (beo tekst na providnom) preuzimaju
 se sa HTTP 200 kao i svaki drugi, a na beloj pločici su nevidljivi. Udeo tamnih piksela
 ne valja kao mera — proređeni logotipi bi davali lažne uzbune.
+
+## Klijentski payload
+
+`NextIntlClientProvider` u `app/[locale]/layout.tsx` dobija samo imenske prostore koje
+traže klijentske komponente (`CLIENT_NAMESPACES`). Bez toga next-intl serijalizuje ceo
+katalog poruka na svaku stranicu — sa 20 institucija to je bilo dodatnih ~41 KB proze
+koju čita isključivo serverska komponenta. Merljivo: kontakt 148 → 70 KB, početna
+227 → 147 KB. Kad neka klijentska komponenta dobije nov imenski prostor, mora i u taj spisak.
 
 ## Animacije (framer-motion)
 
@@ -119,7 +134,8 @@ ne valja kao mera — proređeni logotipi bi davali lažne uzbune.
 | Partneri | Beskonačni CSS marquee s leva na desno, logotipi vode na sajt partnera; pauza na hover i na fokus (WCAG 2.2.2), duplikat je `aria-hidden` + `inert`. Jedina animacija izuzeta iz `prefers-reduced-motion` kill-switch-a (`.marquee-track`) — odluka vlasnika sajta |
 | Header | Providan (beli tekst preko fotografije) → bela blur traka na scroll |
 | Chat | Plavi mehurić, scale/fade otvaranje, ping puls |
-| Dijalog institucije | Fade zatamnjenja + slide-up/scale panela; oba gase trajanje na `prefers-reduced-motion` |
+| Hero institucije | Parallax fotografije kampusa, staggered ulazak logotipa, naziva i pilula |
+| Galerija | `RevealGroup` stagger; hover zoom fotografije unutar `overflow-hidden` okvira |
 
 **Pristupačnost:** `prefers-reduced-motion` poštovan svuda — CSS kill-switch + `useReducedMotion`
 koji gasi **trajanje** animacije (nikad `initial`, da ne bi bilo hydration mismatch-a).
@@ -138,8 +154,18 @@ animiraju samo pomeraj (bez `opacity`) da bi bili vidljivi i bez JavaScript-a
 - Jedinstveni title/description po stranici i jeziku (`messages/*.json` → `meta.*`);
   title ≤ 42 znaka (layout dodaje „| Invest Budućnost"), description 140–155 znakova
 - `BreadcrumbList` na podstranicama, `LocalBusiness` po kancelariji na kontaktu
-- `ItemList` sa `Course` (letnji kampovi) i `CollegeOrUniversity` (Evropa) — detalji programa
-  žive u dijalogu, pa strukturirani podaci nose iste činjenice bez izvršavanja JavaScript-a
+- `ItemList` sa `Course` (letnji kampovi) i `CollegeOrUniversity` (Evropa); svaka stavka
+  nosi `url` ka stranici institucije, pa pretraživač povezuje listu sa pojedinačnim stranicama
+- Stranica institucije: puna `CollegeOrUniversity` shema sa `sameAs` ka zvaničnom sajtu
+  (vezuje stranicu za poznati entitet) i `OfferCatalog` sa programima; troslojni
+  `BreadcrumbList` (Početna → Studije u Evropi → institucija). Školarine se namerno ne
+  šalju kao `Offer` — u katalogu su rasponi teksta, a `Offer` traži broj i valutu
 - OG vizual 1200×630 (`public/images/ogDefault.png`), `manifest.ts` + `apple-icon.png`
 - Bez automatske detekcije jezika (`localeDetection: false`) — „/" je uvek srpski
+- Meta opis stranice institucije je tekst PO instituciji (`institutions.<id>.metaDescription`),
+  ne šablon: fiksni deo šablona je ~115 znakova, a naziv i grad variraju od 23 do 54, pa
+  nijedan šablon ne pogađa opseg 140–155 — trećina opisa bi bila odsečena u rezultatima
+- `CollegeOrUniversity.url` je zvanični sajt institucije, a naša stranica je
+  `mainEntityOfPage`; obrnuto bi tvrdilo da institucija „živi" na našem domenu.
+  Cene se ne šalju kao `Offer` — u katalogu su rasponi teksta, a `Offer` traži broj i valutu
 - Sav sadržaj SSG — brz TTFB, potpuno indeksabilan

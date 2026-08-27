@@ -30,6 +30,13 @@ export const routing = defineRouting({
       en: "/summer-camps",
       es: "/campamentos-de-verano",
     },
+    // Slug institucije je vlastito ime i isti je na svim jezicima; prevodi se
+    // samo segment ispred njega. Vidi `src/data/institutions.ts`.
+    "/institutions/[slug]": {
+      sr: "/institucije/[slug]",
+      en: "/institutions/[slug]",
+      es: "/instituciones/[slug]",
+    },
     "/china": {
       sr: "/studije-u-kini",
       en: "/study-in-china",
@@ -68,4 +75,14 @@ export const routing = defineRouting({
   },
 });
 
-export type AppPathname = keyof typeof routing.pathnames;
+/**
+ * Putanje koje se navode golim stringom (`href="/europe"`).
+ *
+ * Dinamičke rute su namerno izuzete: `/institutions/[slug]` bez `params` nije
+ * upotrebljiva putanja, pa bi je tip propuštao kao ispravnu, a `getPathname` i
+ * `Link` bi je odbili tek u radu. Za njih se koristi objektni oblik
+ * `{ pathname: "/institutions/[slug]", params: { slug } }`.
+ */
+type StaticPathname<T> = T extends `${string}[${string}` ? never : T;
+
+export type AppPathname = StaticPathname<keyof typeof routing.pathnames>;

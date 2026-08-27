@@ -41,13 +41,16 @@
     "contact": {
       "title": "Contacto — Jagodina, Podgorica, Liubliana",
       "description": "Llama al +381 65 9010-720 o escribe a investbuducnost@gmail.com. Oficinas en Jagodina, Podgorica y Liubliana. Escríbenos y te respondemos enseguida."
+    },
+    "institution": {
+      "title": "{name}"
     }
   },
   "nav": {
     "home": "Inicio",
-    "europe": "Europa",
+    "europe": "Estudiar en Europa",
     "camps": "Campamentos",
-    "china": "China",
+    "china": "Estudiar en China",
     "process": "Proceso",
     "f1": "Visado de estudiante F1",
     "b1b2": "Visado de turista B1/B2",
@@ -211,14 +214,10 @@
       "tuitionBachelor": "Matrícula — grado",
       "tuitionMaster": "Matrícula — máster",
       "living": "Coste de vida",
-      "about": "Sobre la universidad",
       "bachelor": "Estudios de grado",
       "master": "Estudios de máster",
       "programsNote": "Se muestra una selección de programas. La oferta completa, los importes exactos y los requisitos de admisión están disponibles a consulta.",
       "more": "Más detalles",
-      "close": "Cerrar",
-      "cta": "Evaluación gratuita",
-      "camp": "Campamento de verano",
       "campBadge": "Campamento",
       "logoAlt": "Logotipo de {name}"
     },
@@ -298,6 +297,10 @@
       "kozminski": {
         "tagline": "Negocios y economía en inglés, en pleno centro de Varsovia.",
         "about": "La Kozminski University es una universidad privada del barrio varsoviano de Praga Północ, reconocida por sus programas de negocios y economía en inglés. Las clases son de lunes a viernes, con actividades el fin de semana, y en verano organiza una International Summer School para universitarios y otra escuela para estudiantes de bachillerato."
+      },
+      "europea": {
+        "tagline": "Universidad privada de referencia en España, con docencia basada en learning by doing.",
+        "about": "Universidad Europea tiene campus en Madrid, Valencia, Alicante y Canarias, y más del 40 por ciento de su alumnado procede del extranjero, de más de 110 países. La docencia se construye en torno al trabajo práctico —hospital simulado, laboratorios y platós de producción— y el acuerdo con la Real Madrid Graduate School distingue sus programas deportivos en Europa."
       }
     }
   },
@@ -325,15 +328,7 @@
       "age": "Edad",
       "language": "Idioma",
       "ects": "ECTS",
-      "about": "Sobre el programa",
-      "included": "Qué incluye",
-      "activities": "Actividades",
-      "accommodation": "Alojamiento",
-      "certificate": "Certificado",
       "more": "Más detalles",
-      "close": "Cerrar",
-      "cta": "Inscríbete",
-      "studies": "Estudios en la universidad",
       "logoAlt": "Logotipo de {name}",
       "agePlus": "{min}+",
       "ageRange": "{min}–{max}"
@@ -998,5 +993,33 @@
     "title": "Página no encontrada",
     "text": "La página que buscas no existe o se ha movido.",
     "button": "Volver al inicio"
+  },
+  "institution": {
+    "kicker": "Institución asociada",
+    "website": "Sitio web oficial",
+    "backToCamps": "Todos los campamentos de verano",
+    "overview": "En pocas palabras",
+    "about": "Sobre la institución",
+    "reputation": "Reputación y acreditaciones",
+    "programs": "Programas de estudio",
+    "programsSubtitle": "Una selección de la oferta: la lista completa y las condiciones exactas están disponibles a petición.",
+    "campus": "Campus, alojamiento y comida",
+    "admissions": "Plazos de admisión y becas",
+    "documents": "Documentación para la solicitud",
+    "gallery": "El campus en imágenes",
+    "photoAlt": "{name}, {city} — foto {index} de {total}",
+    "campTitle": "Programas de verano e invierno",
+    "campLead": "Esta institución también ofrece un programa corto de verano o invierno, con un 15% de descuento para 2026.",
+    "included": "Qué incluye",
+    "activities": "Actividades",
+    "accommodation": "Alojamiento",
+    "certificate": "Certificado",
+    "related": "Instituciones similares",
+    "relatedSubtitle": "Más instituciones asociadas de nuestra red, del mismo país o con una oferta comparable.",
+    "ctaTitle": "¿Te interesa {name}?",
+    "ctaText": "Envíanos tus notas y preferencias: consultamos los requisitos directamente con la institución y te decimos gratis cuáles son tus opciones reales.",
+    "ctaButton": "Evaluación gratuita",
+    "cityPhotoAlt": "{city}, la ciudad donde se encuentra {name}",
+    "breadcrumb": "Ruta de navegación"
   }
 }

@@ -6,6 +6,7 @@
  *   — skripta generiše `assets.local.json` i slike postaju lokalne.
  */
 import localManifest from "./assets.local.json";
+import institutionPhotos from "./institution-photos.json";
 
 const WIX = "https://static.wixstatic.com/media/";
 const px = (id: number) =>
@@ -78,6 +79,12 @@ const remote: Record<string, string> = {
   contactBg: px(8134173), // kolege razgovaraju uz laptop
   campusFriends: px(1454360), // studenti sa rančevima na kampusu
   gradsCelebrate: px(29229903), // diplomci bacaju kape u vazduh
+
+  // Fotografije kampusa za stranice institucija (`/institucije/<slug>`).
+  // Drže se u zasebnom JSON-u da bi ih i `scripts/download-assets.mjs` čitao
+  // iz istog izvora — .mjs ne može da importuje .ts, pa je JSON zajednički
+  // format umesto da se 50+ URL-ova prekucava na dva mesta.
+  ...institutionPhotos,
 };
 
 const local = localManifest as Record<string, string>;

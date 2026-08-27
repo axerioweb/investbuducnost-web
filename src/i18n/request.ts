@@ -8,8 +8,16 @@ export default getRequestConfig(async ({ requestLocale }) => {
     ? requested
     : routing.defaultLocale;
 
-  return {
-    locale,
-    messages: (await import(`../messages/${locale}.json`)).default,
-  };
+  /**
+   * Prozni tekstovi 20 institucija su duži od celog ostatka sajta, pa žive u
+   * zasebnom fajlu i spajaju se ovde pod `institutions`. Da su u `<locale>.json`,
+   * taj fajl bi bio nepregledan i svaka izmena teksta jedne institucije bi
+   * dirala isti fajl kao i navigacija.
+   */
+  const [messages, institutions] = await Promise.all([
+    import(`../messages/${locale}.json`).then((m) => m.default),
+    import(`../messages/institutions/${locale}.json`).then((m) => m.default),
+  ]);
+
+  return { locale, messages: { ...messages, institutions } };
 });

@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
-import { setRequestLocale, getTranslations } from "next-intl/server";
+import { setRequestLocale, getTranslations, getMessages } from "next-intl/server";
 import "@fontsource-variable/sora";
 import "@fontsource-variable/inter";
 import "../globals.css";
@@ -21,6 +21,25 @@ export const viewport: Viewport = {
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
+
+/**
+ * Imenski prostori koje traže KLIJENTSKE komponente (`useTranslations`).
+ *
+ * Bez ovog spiska `NextIntlClientProvider` serijalizuje ceo katalog poruka u
+ * flight payload svake stranice — uključujući `institutions`, gde je proza 20
+ * institucija (~41 KB) koju čita isključivo serverska komponenta. Spisak
+ * odgovara `useTranslations("<ns>")` pozivima u `src/`; kad neka klijentska
+ * komponenta dobije nov imenski prostor, mora i ovde.
+ */
+const CLIENT_NAMESPACES = [
+  "nav",
+  "common",
+  "home",
+  "contact",
+  "footer",
+  "chat",
+  "notFound",
+] as const;
 
 export async function generateMetadata({
   params,
@@ -52,10 +71,15 @@ export default async function LocaleLayout({
   setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: "nav" });
 
+  const all = await getMessages();
+  const clientMessages = Object.fromEntries(
+    CLIENT_NAMESPACES.map((ns) => [ns, all[ns]])
+  );
+
   return (
     <html lang={locale}>
       <body>
-        <NextIntlClientProvider>
+        <NextIntlClientProvider messages={clientMessages}>
           <OrganizationJsonLd />
           <WebSiteJsonLd />
           <a

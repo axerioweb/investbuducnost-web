@@ -3,6 +3,7 @@ import { setRequestLocale, getTranslations } from "next-intl/server";
 import { buildPageMetadata, absoluteUrl } from "@/lib/seo";
 import { getPathname } from "@/i18n/navigation";
 import { summerCamps } from "@/data/catalog";
+import { slugForId } from "@/data/institutions";
 import { asset } from "@/data/assets";
 import { PageHero } from "@/components/ui/PageHero";
 import { SectionHeading } from "@/components/ui/SectionHeading";
@@ -26,43 +27,33 @@ export default async function CampsPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("camps");
-  const common = await getTranslations("common");
   const meta = await getTranslations("meta.camps");
 
   /**
-   * Prevodi se razrešavaju na serveru, a mreža dobija gotove stringove —
-   * tako u klijentski bundle ne odlazi ceo `messages` katalog.
+   * Kartica vodi na stranicu institucije, na sidro `#kamp`. Putanja se sklapa
+   * ovde jer `Link` iz `next-intl` ne prima hash u objektu putanje — a bez
+   * sidra bi klik na kamp otvorio vrh stranice institucije, ne sam program.
    */
-  const camps: CampView[] = summerCamps.map((camp) => {
-    const item = `items.${camp.id}`;
-    const age =
-      camp.ageMin && camp.ageMax
-        ? t("detail.ageRange", { min: camp.ageMin, max: camp.ageMax })
-        : camp.ageMin
-          ? t("detail.agePlus", { min: camp.ageMin })
-          : undefined;
+  const campHref = (id: string) =>
+    `${getPathname({
+      locale,
+      href: { pathname: "/institutions/[slug]", params: { slug: slugForId(id)! } },
+    })}#kamp`;
 
-    return {
-      id: camp.id,
-      name: camp.name,
-      university: camp.university,
-      city: camp.city,
-      countryCode: camp.country,
-      logo: asset(camp.logo as Parameters<typeof asset>[0]),
-      price: camp.price,
-      ects: camp.ects,
-      age,
-      tagline: t(`${item}.tagline`),
-      about: t(`${item}.about`),
-      duration: t(`${item}.duration`),
-      dates: t(`${item}.dates`),
-      language: t(`${item}.language`),
-      included: t.raw(`${item}.included`) as string[],
-      activities: t.raw(`${item}.activities`) as string[],
-      accommodation: t(`${item}.accommodation`),
-      certificate: t(`${item}.certificate`),
-    };
-  });
+  // Prevodi se razrešavaju na serveru; puni detalji programa (šta je uključeno,
+  // aktivnosti, smeštaj, sertifikat) žive na stranici institucije.
+  const camps: CampView[] = summerCamps.map((camp) => ({
+    id: camp.id,
+    href: campHref(camp.universityId ?? camp.id),
+    name: camp.name,
+    university: camp.university,
+    city: camp.city,
+    countryCode: camp.country,
+    logo: asset(camp.logo as Parameters<typeof asset>[0]),
+    ects: camp.ects,
+    tagline: t(`items.${camp.id}.tagline`),
+    duration: t(`items.${camp.id}.duration`),
+  }));
 
   const pageUrl = absoluteUrl(getPathname({ locale, href: "/summer-camps" }));
 
@@ -72,12 +63,13 @@ export default async function CampsPage({ params }: Props) {
       <ServiceJsonLd name={meta("title")} description={meta("description")} url={pageUrl} />
       <CourseListJsonLd
         url={pageUrl}
-        items={camps.map((c) => ({
-          name: `${c.university} — ${c.name}`,
-          description: c.about,
-          provider: c.university,
-          city: c.city,
-          price: c.price,
+        items={summerCamps.map((camp) => ({
+          name: `${camp.university} — ${camp.name}`,
+          description: t(`items.${camp.id}.about`),
+          provider: camp.university,
+          city: camp.city,
+          price: camp.price,
+          url: absoluteUrl(campHref(camp.universityId ?? camp.id)),
         }))}
       />
 
@@ -105,22 +97,7 @@ export default async function CampsPage({ params }: Props) {
           <CampGrid
             camps={camps}
             labels={{
-              duration: common("duration"),
-              dates: t("detail.dates"),
-              price: common("price"),
-              onRequest: t("detail.onRequest"),
-              age: t("detail.age"),
-              language: t("detail.language"),
-              ects: t("detail.ects"),
-              about: t("detail.about"),
-              included: t("detail.included"),
-              activities: t("detail.activities"),
-              accommodation: t("detail.accommodation"),
-              certificate: t("detail.certificate"),
               more: t("detail.more"),
-              close: t("detail.close"),
-              cta: t("detail.cta"),
-              studies: t("detail.studies"),
               logoAlt: t.raw("detail.logoAlt") as string,
               discount: t("promo.badge"),
             }}

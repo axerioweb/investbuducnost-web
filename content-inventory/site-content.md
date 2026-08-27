@@ -114,3 +114,51 @@ Dodatno: Porodični popust (snižena cena obrade po osobi, zajednička priprema 
 ## Napomena o nekonzistentnostima (rešiti u redizajnu)
 - Statistika: početna kaže „8 godina / 70+ klijenata godišnje / 320+ saradnji", FAQ kaže „7+ godina / 100+ klijenata" → uskladiti (koristiti veće brojeve sa početne kao kanonske)
 - O nama pominje „Novi Sad predstavništvo", ostale strane Podgoricu i Ljubljanu → kanonski: Jagodina, Podgorica, Ljubljana
+
+---
+
+## PODSTRANICE INSTITUCIJA (scrape: 2026-08-27)
+
+Stari sajt ima **20 podstranica po instituciji** (nisu bile u prvom inventaru).
+Svaka spaja studije i letnju školu na jednoj strani, po fiksnom šablonu:
+*Master i doktorske studije → Fakultet i reputacija → Dokumentacija i troškovi →
+Kampus, smeštaj i ishrana → Datumi upisa i stipendije → tabele OSNOVNE/MASTER
+STUDIJE →* (ako postoji) *šest blokova letnje škole 01–06 + cena, dokumentacija,
+osnovne informacije, transport.*
+
+Slugovi: `emuni-university`, `budapest-metropolitan-university`,
+`istanbul-ayadin-university`, `university-of-nicosia`,
+`american-institutein-switzerland`, `cbs-international-business-school`,
+`eu-business-school`, `international-business-school`, `wittenborg-university`,
+`ucam-university`, `faith-sultan-mehmet-university`,
+`american-university-in-bulgaria` (+ `-1` za kamp), `john-cabot-university`,
+`global-business-school`, `bts-technology-school`, `htl-university`,
+`moscow-aviation-institute`, `srh-university`, `kozminski-university`,
+`universidad-europea`.
+
+### Greške na izvoru (NE prepisivati)
+- **Tabele programa su na više strana prekopirane.** Spisak *Gastronomy / Nursing /
+  Physiotherapy / Law* + *Hospitality Management / High Performance Sport / Innovation
+  and Tourism Marketing / Bilingual Education* pripada **UCAM-u**, a stoji i na
+  stranicama AIS-a, CBS-a i Moscow Aviation Institute-a. Spisak *Foundation Program in
+  Business / Hospitality & Tourism / International Business / Digital Business* +
+  master AI/Business Analytics/Digital Marketing/Fashion & Luxury pripada
+  **EU Business School-u**, a stoji i na Aydin i GBSB stranicama.
+- **John Cabot:** tabela navodi MBA i MA in Psychology — JCU ih nema. Zvanično nudi
+  16 BA smerova i samo dva mastera: MA Art History i MA International Affairs
+  (provereno na johncabot.edu, 2026-08-27).
+- **Kozminski:** tabela osnovnih studija dvaput navodi „Big Data Analysis".
+- **JCU:** sekcija „Fakultet i reputacija" je tekst EU Business School-a; cena letnjeg
+  programa je prekopirana sa EU Business School-a (€3.850 za Barselonu).
+- **AUBG i Universidad Europea:** naslov bloka letnje škole glasi „KOZMINSKI SUMMER".
+- **AUBG (studije) i BTS:** stranice su prazne — nema ni teksta ni slika.
+- **EMUNI:** prozni tekst kaže Portorož, a hero i letnja škola Piran i Koper.
+
+### Fotografije
+Podstranice nose ~51 pravu fotografiju kampusa (Wix `36a1e1_*` ključevi, sa
+originalnim imenima fajlova tipa `piran-emuni-1024x768.jpg`,
+`Kozminski-University-campus.jpg`, `unicmainentrance.jpg`). Ostale slike na tim
+stranicama (`11062b_*`, `nsplsh_*`) su Wix/Unsplash stock i ne prikazuju te
+institucije. Bez ijedne svoje fotografije ostaju METU, BTS i HTL.
+
+Preuzete fotografije i njihovi ključevi su u `src/data/institution-photos.json`.

@@ -96,8 +96,11 @@ export function Header() {
   const linkBase = solid
     ? "text-ink/80 hover:text-brand-600"
     : "text-white/90 hover:text-white";
+  // `px-2.5` do 1536px: oznake „Studije u Evropi" i „Estudiar en Europa" su
+  // duže od ranijih „Evropa"/„Europa", pa traka sa sedam stavki, logotipom,
+  // prekidačem jezika i CTA dugmetom na 1280px više ne staje sa `px-3`.
   const linkCls = (active: boolean) =>
-    `relative whitespace-nowrap px-3 py-2 text-[13px] font-medium tracking-wide transition-colors duration-200 ${
+    `relative whitespace-nowrap px-2.5 py-2 text-[13px] font-medium tracking-wide transition-colors duration-200 2xl:px-3 ${
       active ? (solid ? "text-brand-600" : "text-white") : linkBase
     }`;
 
