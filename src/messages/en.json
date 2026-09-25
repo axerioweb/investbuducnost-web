@@ -169,9 +169,33 @@
     },
     "testimonial": {
       "kicker": "Client testimonials",
-      "quote": "The team is amazing! They were with me from the first consultation to getting the visa. Every step was clear and stress-free — I warmly recommend them to everyone.",
-      "author": "Andrej Pap",
-      "role": "client — tourist visa"
+      "prev": "Previous testimonial",
+      "next": "Next testimonial",
+      "goTo": "Show testimonial {n}",
+      "pause": "Pause autoplay",
+      "play": "Start autoplay",
+      "items": {
+        "andrej": {
+          "quote": "The team is amazing! They were with me from the first consultation to getting the visa. Every step was clear and stress-free — I warmly recommend them to everyone.",
+          "author": "Andrej Pap",
+          "role": "client — tourist visa"
+        },
+        "igor": {
+          "quote": "An open approach and open communication, along with a clearly structured process and preparation. Thank you for all your help!",
+          "author": "Igor Jovanović",
+          "role": "client — tourist visa"
+        },
+        "aljosa": {
+          "quote": "Thank you for the opportunity to study in America. Extremely professional and always available for you!",
+          "author": "Aljoša Mitić",
+          "role": "client — student visa"
+        },
+        "marko": {
+          "quote": "Professional, fast and very understanding. I recommend them to everyone.",
+          "author": "Marko Drašković",
+          "role": "client — tourist visa"
+        }
+      }
     },
     "partners": {
       "kicker": "Partners",

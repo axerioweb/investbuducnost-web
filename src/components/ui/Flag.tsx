@@ -17,6 +17,8 @@ import type { ReactNode } from "react";
 /** Zvanične boje polja — jedno mesto za sve zastave. */
 const c = {
   white: "#ffffff",
+  usRed: "#b22234",
+  usBlue: "#3c3b6e",
   rsRed: "#c6363c",
   rsBlue: "#0c4076",
   meRed: "#c40308",
@@ -186,6 +188,17 @@ const FLAGS: Record<string, ReactNode> = {
     <>
       <rect width="24" height="8" fill={c.white} />
       <rect y="8" width="24" height="8" fill={c.plRed} />
+    </>
+  ),
+
+  // Pojednostavljeno: 7 crvenih pruga i plavo polje bez zvezdica
+  US: (
+    <>
+      <rect width="24" height="16" fill={c.white} />
+      {[0, 2, 4, 6, 8, 10, 12].map((i) => (
+        <rect key={i} y={(i * 16) / 13} width="24" height={16 / 13} fill={c.usRed} />
+      ))}
+      <rect width="9.6" height={(7 * 16) / 13} fill={c.usBlue} />
     </>
   ),
 

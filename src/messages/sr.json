@@ -169,9 +169,33 @@
     },
     "testimonial": {
       "kicker": "Utisci klijenata",
-      "quote": "Ekipa je sjajna! Bili su uz mene od prve konsultacije do dobijanja vize. Svaki korak je bio jasan i bez stresa — toplo preporučujem svima.",
-      "author": "Andrej Pap",
-      "role": "klijent — turistička viza"
+      "prev": "Prethodni utisak",
+      "next": "Sledeći utisak",
+      "goTo": "Prikaži utisak {n}",
+      "pause": "Zaustavi automatsko listanje",
+      "play": "Pokreni automatsko listanje",
+      "items": {
+        "andrej": {
+          "quote": "Ekipa je sjajna! Bili su uz mene od prve konsultacije do dobijanja vize. Svaki korak je bio jasan i bez stresa — toplo preporučujem svima.",
+          "author": "Andrej Pap",
+          "role": "klijent — turistička viza"
+        },
+        "igor": {
+          "quote": "Otvoren pristup i otvorena komunikacija, kao i jasno strukturiran proces i priprema. Hvala za svu pruženu pomoć!",
+          "author": "Igor Jovanović",
+          "role": "klijent — turistička viza"
+        },
+        "aljosa": {
+          "quote": "Hvala za pruženu priliku za studiranje u Americi. Izuzetno profesionalni i uvek dostupni za vas!",
+          "author": "Aljoša Mitić",
+          "role": "klijent — studentska viza"
+        },
+        "marko": {
+          "quote": "Profesionalno, brzo i sa puno razumevanja. Preporučujem svakome.",
+          "author": "Marko Drašković",
+          "role": "klijent — turistička viza"
+        }
+      }
     },
     "partners": {
       "kicker": "Partneri",

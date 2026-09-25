@@ -23,6 +23,9 @@ const remote: Record<string, string> = {
   studentAleksa: `${WIX}36a1e1_ba8064e638fa44fa8cb97f7c0c8a7d58~mv2.png`,
   studentBorivoje: `${WIX}36a1e1_67ac39f39f5949b194c0f68033021641~mv2.png`,
   testimonialAndrej: `${WIX}36a1e1_e5e30d935ae14001a6c082d45088bbdf~mv2.jpeg`,
+  testimonialIgor: `${WIX}36a1e1_e1a9febd98ee43c5a685d87b2ab37812~mv2.jpg/v1/fill/w_600,h_600,al_c,q_85/photo.jpg`,
+  testimonialAljosa: `${WIX}36a1e1_c3bec17af725446c818aff0081a66b1b~mv2.jpg/v1/fill/w_600,h_600,al_c,q_85/photo.jpg`,
+  testimonialMarko: `${WIX}36a1e1_2e5df7d960c74eb8b3ae7e95d9b4b4b5~mv2.jpg/v1/fill/w_600,h_600,al_c,q_85/photo.jpg`,
 
   // Logotipi partnerskih univerziteta i škola — sa starog sajta
   uniEmuni: `${WIX}36a1e1_cf54461709f34961bba80b2e4d3d89c5~mv2.png`,

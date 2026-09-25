@@ -169,9 +169,33 @@
     },
     "testimonial": {
       "kicker": "Opiniones de clientes",
-      "quote": "¡El equipo es genial! Estuvieron conmigo desde la primera consulta hasta obtener el visado. Cada paso fue claro y sin estrés — los recomiendo de corazón.",
-      "author": "Andrej Pap",
-      "role": "cliente — visado de turista"
+      "prev": "Opinión anterior",
+      "next": "Siguiente opinión",
+      "goTo": "Mostrar opinión {n}",
+      "pause": "Pausar reproducción automática",
+      "play": "Reanudar reproducción automática",
+      "items": {
+        "andrej": {
+          "quote": "¡El equipo es genial! Estuvieron conmigo desde la primera consulta hasta obtener el visado. Cada paso fue claro y sin estrés — los recomiendo de corazón.",
+          "author": "Andrej Pap",
+          "role": "cliente — visado de turista"
+        },
+        "igor": {
+          "quote": "Un enfoque abierto y una comunicación abierta, además de un proceso y una preparación claramente estructurados. ¡Gracias por toda la ayuda!",
+          "author": "Igor Jovanović",
+          "role": "cliente — visado de turista"
+        },
+        "aljosa": {
+          "quote": "Gracias por la oportunidad de estudiar en Estados Unidos. ¡Sumamente profesionales y siempre disponibles para ti!",
+          "author": "Aljoša Mitić",
+          "role": "cliente — visado de estudiante"
+        },
+        "marko": {
+          "quote": "Profesionales, rápidos y muy comprensivos. Los recomiendo a todos.",
+          "author": "Marko Drašković",
+          "role": "cliente — visado de turista"
+        }
+      }
     },
     "partners": {
       "kicker": "Socios",

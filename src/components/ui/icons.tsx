@@ -98,6 +98,24 @@ export function ChatBubble({ className = "h-6 w-6", ...props }: IconProps) {
   );
 }
 
+/** Pauza — zaustavlja automatsko listanje (karusel utisaka). */
+export function Pause({ className = "h-4 w-4", ...props }: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" className={className} aria-hidden {...props}>
+      <path {...line} strokeWidth={2.4} d="M9 6.5v11M15 6.5v11" />
+    </svg>
+  );
+}
+
+/** Pusti — nastavlja automatsko listanje (par ikonici Pause). */
+export function Play({ className = "h-4 w-4", ...props }: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" className={className} aria-hidden {...props}>
+      <path {...line} strokeWidth={2.2} fill="currentColor" d="M8.5 6.2v11.6L18 12z" />
+    </svg>
+  );
+}
+
 /**
  * Navodnik iznad citata — pun oblik, jer je ovo tipografski znak, a ne ikona.
  */
