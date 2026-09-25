@@ -21,7 +21,10 @@ export function LanguageSwitcher({ solid = true }: { solid?: boolean }) {
   const buttonRef = useRef<HTMLButtonElement>(null);
   const reduce = useReducedMotion();
 
+  // Slušaoci postoje samo dok je lista otvorena — inače bi Escape iz drugih
+  // komponenti (npr. chata) prebacivao fokus na ovo dugme.
   useEffect(() => {
+    if (!open) return;
     const onClick = (e: MouseEvent) => {
       if (ref.current && !ref.current.contains(e.target as Node)) setOpen(false);
     };
@@ -37,7 +40,7 @@ export function LanguageSwitcher({ solid = true }: { solid?: boolean }) {
       document.removeEventListener("click", onClick);
       document.removeEventListener("keydown", onKey);
     };
-  }, []);
+  }, [open]);
 
   return (
     <div ref={ref} className="relative">

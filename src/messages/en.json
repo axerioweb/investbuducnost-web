@@ -1007,11 +1007,189 @@
     "close": "Close chat",
     "title": "Invest Budućnost",
     "status": "We usually reply within a few hours",
-    "greeting": "Hi! 👋 How can we help — visas, studies or a job abroad?",
-    "placeholder": "Type a message…",
+    "greeting": "Hi! 👋 What are you interested in? Pick a topic for instant answers to the most common questions — and our team is on WhatsApp for everything else.",
     "send": "Send",
-    "demoNote": "The chat is coming soon. Until then, reach us via the contact form or phone.",
-    "ctaContact": "Go to contact"
+    "teaser": "Got a question? We reply fast",
+    "teaserClose": "Hide message",
+    "flow": {
+      "options": "Suggested questions",
+      "learnMore": "Learn more",
+      "faqIntro": "Here's what people ask us most — tap a question:",
+      "nudge": "For your specific case, the fastest way is to ask our team — your WhatsApp message is ready, just tap the button below.",
+      "allAnswered": "Those are all the common questions for this topic. Let's sort out the rest together on WhatsApp!",
+      "questionPlaceholder": "Or type your own question…",
+      "questionReply": "Great question! Tap the button below — WhatsApp will open with your question, just hit Send.",
+      "whatsapp": "Continue on WhatsApp",
+      "whatsappDirect": "Message us on WhatsApp now",
+      "whatsappWithQuestion": "Send question on WhatsApp",
+      "whatsappHeader": "Open WhatsApp",
+      "newTab": "opens in a new window",
+      "contactForm": "I'd rather use the contact form",
+      "restart": "Change topic",
+      "topics": {
+        "europe": {
+          "label": "Study in Europe",
+          "info": "We pick a program at 25+ European universities, prepare your documents and guide you all the way to the visa.",
+          "faq": {
+            "cost": {
+              "q": "How much does it cost?",
+              "a": "It depends on the university and program — tuition and living costs for each partner institution are on the Study in Europe page. We'll prepare an offer tailored to your budget on request."
+            },
+            "language": {
+              "q": "What language are classes in?",
+              "a": "Most partner universities teach in English, and some also offer programs in Spanish, Turkish or Italian."
+            },
+            "intake": {
+              "q": "When can I enroll?",
+              "a": "The main intake is in the fall, but many universities also have a spring intake in February — and Wittenborg in the Netherlands has six intakes a year."
+            },
+            "choice": {
+              "q": "How do I choose a university?",
+              "a": "Send us your grades and wishes — we'll suggest the best options for your profile and budget, free of charge."
+            }
+          }
+        },
+        "camps": {
+          "label": "Summer camps",
+          "info": "Camps in Barcelona, Rome, Istanbul, Budapest and other cities — language, new experiences and friends.",
+          "faq": {
+            "discount": {
+              "q": "Is there a discount?",
+              "a": "Yes — 15% off all summer camps abroad for 2026. Places are limited, so it's best to book early."
+            },
+            "age": {
+              "q": "What ages are the camps for?",
+              "a": "We have programs for high school students (e.g. a business camp in Barcelona for ages 16–18) and for adults and university students. The exact age range is listed with each camp."
+            },
+            "accommodation": {
+              "q": "Is accommodation included?",
+              "a": "It depends on the camp — some include accommodation and full board, while for others you choose and pay for accommodation separately. Details are on the camps page."
+            },
+            "certificate": {
+              "q": "Do I get a certificate?",
+              "a": "Yes, every program ends with a certificate, and many also award ECTS credits you can transfer to your home university."
+            }
+          }
+        },
+        "china": {
+          "label": "Study in China",
+          "info": "English-taught degrees at XJTLU, with scholarships of up to €26,000. We guide you through all 6 phases.",
+          "faq": {
+            "scholarship": {
+              "q": "How big are the scholarships?",
+              "a": "With the maximum scholarship you can save up to €26,000 over four years. We'll check whether you qualify, free of charge."
+            },
+            "language": {
+              "q": "Do I need to speak Chinese?",
+              "a": "No — all degrees at XJTLU are taught in English, and you get a dual degree: Chinese and British (University of Liverpool)."
+            },
+            "timeline": {
+              "q": "How long does applying take?",
+              "a": "We apply to 3–5 universities at once, and admission letters arrive within 3–6 weeks. After that we guide you through the visa, travel and housing."
+            },
+            "programs": {
+              "q": "Which programs can I study?",
+              "a": "Over 50 English-taught bachelor's programs — from business and finance to artificial intelligence — plus one-year MSc master's programs."
+            }
+          }
+        },
+        "f1": {
+          "label": "F1 student visa",
+          "info": "From documents and the I-20 form to the embassy interview — we go through all 6 steps to the F1 visa together.",
+          "faq": {
+            "scholarship": {
+              "q": "What are my scholarship chances?",
+              "a": "More than 70% of our students receive a scholarship. Send us your grades and we'll assess your chances for free."
+            },
+            "sports": {
+              "q": "Do you help athletes?",
+              "a": "Yes — we film a professional highlight video, send your profile to US coaches and guide you to an athletic scholarship."
+            },
+            "timeline": {
+              "q": "How long does it take?",
+              "a": "The student package takes up to two months — from documents and enrollment to the embassy interview."
+            },
+            "i20": {
+              "q": "What is the I-20?",
+              "a": "The I-20 is the document a US school issues once you're admitted — there's no F1 visa without it. We arrange enrollment and handle all I-20 formalities for you."
+            }
+          }
+        },
+        "b1b2": {
+          "label": "B1/B2 tourist visa",
+          "info": "Profile review, the DS-160 form and interview prep — the whole process in one place.",
+          "faq": {
+            "timeline": {
+              "q": "How long does it take?",
+              "a": "One month at most — from profile review and the DS-160 form to the embassy interview."
+            },
+            "documents": {
+              "q": "Which documents do I need?",
+              "a": "Proof of employment, a bank statement (€3,000–6,000), proof of property, a valid passport and a visa photo — plus a marriage certificate and children's birth certificates for families. We check everything together."
+            },
+            "family": {
+              "q": "Do you offer family discounts?",
+              "a": "Yes — families get a reduced processing fee per person, and we prepare the documents for all members together."
+            },
+            "interview": {
+              "q": "Do you prepare me for the interview?",
+              "a": "Yes — we run a mock embassy interview and go through the most commonly asked questions."
+            }
+          }
+        },
+        "usa": {
+          "label": "Jobs in the USA",
+          "info": "Legal jobs in New York, Chicago and Miami, with support from the visa to housing.",
+          "faq": {
+            "salary": {
+              "q": "How much can I earn?",
+              "a": "From $5,000 to $10,000 a month, and $15,000–25,000+ at peak season. Truck driving is the best-paid position."
+            },
+            "experience": {
+              "q": "Do I need experience?",
+              "a": "Experience is a plus but not always required. Men and women of all backgrounds apply, from the Balkans and all over Europe."
+            },
+            "jobs": {
+              "q": "What jobs do you offer?",
+              "a": "Truck driving, moving, hospitality and catering — positions are open all year round."
+            },
+            "support": {
+              "q": "What do you help with?",
+              "a": "Everything: documents and visa, interviews with employers, housing, a bank account, a driver's license and flights."
+            }
+          }
+        },
+        "other": {
+          "label": "Something else",
+          "info": "No problem — here are answers to general questions, and our team is happy to help with anything else.",
+          "faq": {
+            "start": {
+              "q": "How do we get started?",
+              "a": "Just send a scan of a valid ID and make the payment to the agency's official account. Before that, we're happy to answer all your questions."
+            },
+            "experience": {
+              "q": "How experienced are you?",
+              "a": "Over 8 years of working with students and travelers and more than 320 successful partnerships. Over 70% of our students receive scholarships."
+            },
+            "timeline": {
+              "q": "How long does the process take?",
+              "a": "The tourist package takes one month at most, and the student package up to two months."
+            },
+            "offices": {
+              "q": "Where are you located?",
+              "a": "We have offices in Jagodina, Podgorica and Ljubljana — addresses and phone numbers are on the Contact page."
+            }
+          }
+        }
+      },
+      "wa": {
+        "greeting": "Hi! I'm writing from the Invest Budućnost website.",
+        "general": "I have a question about your services.",
+        "topic": "I'm interested in: {topic}",
+        "asked": "Questions from the chat: {questions}",
+        "question": "My question: {question}"
+      }
+    }
   },
   "notFound": {
     "title": "Page not found",

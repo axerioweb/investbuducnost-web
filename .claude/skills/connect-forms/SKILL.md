@@ -26,10 +26,12 @@ porukama uspeha/greške sa servera i dodaj loading stanje na dugmetu.
 
 ## Chat — `src/components/chat/ChatWidget.tsx`
 
-Opcije: (a) embed provajdera (Tawk.to/Crisp) — tada widget zameni njihovim SDK-om
-ali zadrži postojeći vizuelni stil ako provajder dozvoljava; (b) sopstveni backend —
-poveži `handleSend()` na API/WebSocket i renderuj poruke iz stanja.
-Ukloni `demoNote` logiku kada chat postane funkcionalan.
+Chat VIŠE NIJE demo: tema → česta pitanja sa odgovorima (+ opciono sopstveno
+pitanje) → `wa.me` link sa unapred napisanom porukom (korisnik je sam šalje).
+WhatsApp dugme je dostupno u svakom koraku.
+Teme/pitanja: `src/data/chatFlow.ts` + `chat.flow.*` u messages; broj: `site.whatsapp`.
+Faza 2 (opciono): pri kliku na „Nastavi na WhatsApp-u" paralelno poslati odgovore
+na API rutu (email/baza) da se upit ne izgubi ako korisnik ne pošalje poruku.
 
 ## Verifikacija
 

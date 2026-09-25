@@ -1007,11 +1007,189 @@
     "close": "Zatvori chat",
     "title": "Invest Budućnost",
     "status": "Obično odgovaramo u roku od nekoliko sati",
-    "greeting": "Zdravo! 👋 Kako možemo da ti pomognemo — viza, studije ili posao u inostranstvu?",
-    "placeholder": "Napiši poruku…",
+    "greeting": "Zdravo! 👋 Šta te zanima? Izaberi temu i odmah dobijaš odgovore na najčešća pitanja — a naš tim je tu na WhatsApp-u za sve ostalo.",
     "send": "Pošalji",
-    "demoNote": "Chat je u pripremi — uskoro dostupan. Do tada nas kontaktiraj preko forme ili telefona.",
-    "ctaContact": "Idi na kontakt"
+    "teaser": "Imaš pitanje? Odgovaramo brzo",
+    "teaserClose": "Sakrij poruku",
+    "flow": {
+      "options": "Ponuđena pitanja",
+      "learnMore": "Saznaj više",
+      "faqIntro": "Evo šta nas najčešće pitaju — klikni na pitanje:",
+      "nudge": "Za tvoj konkretan slučaj najbrže je da pitaš naš tim — poruka za WhatsApp je već spremna, samo klikni dugme ispod.",
+      "allAnswered": "To su sva česta pitanja za ovu temu. Ostalo rešavamo zajedno na WhatsApp-u!",
+      "questionPlaceholder": "Ili napiši svoje pitanje…",
+      "questionReply": "Odlično pitanje! Klikni dugme ispod — otvoriće se WhatsApp sa tvojim pitanjem, samo pritisni Pošalji.",
+      "whatsapp": "Nastavi na WhatsApp-u",
+      "whatsappDirect": "Piši nam odmah na WhatsApp-u",
+      "whatsappWithQuestion": "Pošalji pitanje na WhatsApp",
+      "whatsappHeader": "Otvori WhatsApp",
+      "newTab": "otvara se u novom prozoru",
+      "contactForm": "Radije preko kontakt forme",
+      "restart": "Promeni temu",
+      "topics": {
+        "europe": {
+          "label": "Studije u Evropi",
+          "info": "Biramo program na 25+ evropskih univerziteta, pripremamo dokumenta i vodimo te do vize.",
+          "faq": {
+            "cost": {
+              "q": "Koliko koštaju studije?",
+              "a": "Zavisi od univerziteta i programa — školarine i troškove života za svaku partnersku instituciju vidiš na stranici Studije u Evropi. Ponudu prilagođenu tvom budžetu pripremamo na upit."
+            },
+            "language": {
+              "q": "Na kom jeziku je nastava?",
+              "a": "Kod većine partnerskih univerziteta nastava je na engleskom, a pojedini nude programe i na španskom, turskom ili italijanskom."
+            },
+            "intake": {
+              "q": "Kada mogu da upišem studije?",
+              "a": "Glavni upisni rok je na jesen, ali mnogi univerziteti imaju i prolećni upis u februaru — a Wittenborg u Holandiji čak šest rokova godišnje."
+            },
+            "choice": {
+              "q": "Kako da izaberem univerzitet?",
+              "a": "Pošalji nam ocene i želje — besplatno ćemo ti predložiti najbolje opcije za tvoj profil i budžet."
+            }
+          }
+        },
+        "camps": {
+          "label": "Letnji kampovi",
+          "info": "Kampovi u Barseloni, Rimu, Istanbulu, Budimpešti i drugim gradovima — jezik, novo iskustvo i prijatelji.",
+          "faq": {
+            "discount": {
+              "q": "Da li postoji popust?",
+              "a": "Da — 15% popusta na sve letnje kampove u inostranstvu za 2026. godinu. Broj mesta je ograničen, pa je najbolje rezervisati na vreme."
+            },
+            "age": {
+              "q": "Za koji uzrast su kampovi?",
+              "a": "Imamo programe za srednjoškolce (npr. poslovni kamp u Barseloni za 16–18 godina) i za punoletne polaznike i studente. Tačan uzrast piše uz svaki kamp."
+            },
+            "accommodation": {
+              "q": "Da li je smeštaj uključen?",
+              "a": "Zavisi od kampa — negde su uključeni smeštaj i pun pansion, a negde se smeštaj bira i plaća posebno. Detalje za svaki program vidiš na stranici kampova."
+            },
+            "certificate": {
+              "q": "Da li se dobija sertifikat?",
+              "a": "Da, svaki program se završava sertifikatom, a mnogi donose i ECTS kredite koji se mogu preneti na matični fakultet."
+            }
+          }
+        },
+        "china": {
+          "label": "Studije u Kini",
+          "info": "Studije na engleskom na XJTLU univerzitetu, uz stipendije do 26.000 €. Vodimo te kroz svih 6 faza.",
+          "faq": {
+            "scholarship": {
+              "q": "Koliko iznose stipendije?",
+              "a": "Sa maksimalnom stipendijom možeš uštedeti do 26.000 € za četiri godine studija. Besplatno proveravamo da li ispunjavaš uslove."
+            },
+            "language": {
+              "q": "Da li mi treba kineski?",
+              "a": "Ne — sve studije na XJTLU su na engleskom, a diploma je dvostruka: kineska i britanska (University of Liverpool)."
+            },
+            "timeline": {
+              "q": "Koliko traje prijava?",
+              "a": "Aplikaciju šaljemo na 3–5 univerziteta odjednom, a prijemna pisma stižu za 3–6 nedelja. Posle toga te vodimo kroz vizu, put i smeštaj."
+            },
+            "programs": {
+              "q": "Koje programe mogu da upišem?",
+              "a": "Preko 50 osnovnih programa na engleskom — od biznisa i finansija do veštačke inteligencije — i jednogodišnje MSc master programe."
+            }
+          }
+        },
+        "f1": {
+          "label": "Studentska viza F1",
+          "info": "Od dokumentacije i I-20 obrasca do intervjua u ambasadi — prolazimo zajedno svih 6 koraka do F1 vize.",
+          "faq": {
+            "scholarship": {
+              "q": "Kakve su šanse za stipendiju?",
+              "a": "Više od 70% naših studenata dobija stipendiju. Pošalji nam ocene i besplatno ćemo proceniti tvoje šanse."
+            },
+            "sports": {
+              "q": "Da li pomažete sportistima?",
+              "a": "Da — snimamo profesionalni highlight video, šaljemo tvoj profil američkim trenerima i vodimo proces do sportske stipendije."
+            },
+            "timeline": {
+              "q": "Koliko traje proces?",
+              "a": "Studentski paket traje do dva meseca — od dokumentacije i upisa do intervjua u ambasadi."
+            },
+            "i20": {
+              "q": "Šta je I-20?",
+              "a": "I-20 je dokument koji izdaje američka škola kada te primi — bez njega nema F1 vize. Mi ugovaramo upis i završavamo sve formalnosti oko I-20 umesto tebe."
+            }
+          }
+        },
+        "b1b2": {
+          "label": "Turistička viza B1/B2",
+          "info": "Analiza profila, DS-160 formular i priprema za intervju — kompletan proces na jednom mestu.",
+          "faq": {
+            "timeline": {
+              "q": "Koliko traje proces?",
+              "a": "Najviše mesec dana — od analize profila i DS-160 formulara do intervjua u ambasadi."
+            },
+            "documents": {
+              "q": "Koja dokumenta su potrebna?",
+              "a": "Potvrda o zaposlenju, izvod iz banke (3.000–6.000 €), dokaz o imovini, važeći pasoš i fotografija za vizu — a za porodice i venčani list i izvodi za decu. Sve proveravamo zajedno."
+            },
+            "family": {
+              "q": "Imate li popust za porodice?",
+              "a": "Da — za porodice je cena obrade po osobi snižena, a dokumentaciju pripremamo zajedno za sve članove."
+            },
+            "interview": {
+              "q": "Da li me pripremate za intervju?",
+              "a": "Da — radimo simulaciju razgovora u ambasadi i prolazimo kroz pitanja koja se najčešće postavljaju."
+            }
+          }
+        },
+        "usa": {
+          "label": "Posao u SAD",
+          "info": "Legalni poslovi u New Yorku, Chicagu i Miamiju, uz podršku od vize do smeštaja.",
+          "faq": {
+            "salary": {
+              "q": "Kolika je zarada?",
+              "a": "Od 5.000 do 10.000 USD mesečno, a u špicu sezone i 15.000–25.000+ USD. Najplaćenija pozicija je vožnja kamiona."
+            },
+            "experience": {
+              "q": "Da li mi treba iskustvo?",
+              "a": "Iskustvo je poželjno, ali nije uvek obavezno. Apliciraju muškarci i žene svih profila, sa Balkana i iz cele Evrope."
+            },
+            "jobs": {
+              "q": "Koje poslove nudite?",
+              "a": "Vožnja kamiona, selidbe, ugostiteljstvo i ketering — pozicije su otvorene tokom cele godine."
+            },
+            "support": {
+              "q": "U čemu mi sve pomažete?",
+              "a": "U svemu: dokumentacija i viza, intervjui sa poslodavcima, smeštaj, bankovni račun, vozačka dozvola i aviokarte."
+            }
+          }
+        },
+        "other": {
+          "label": "Nešto drugo",
+          "info": "Nema problema — evo odgovora na opšta pitanja, a sve ostalo pitaj naš tim.",
+          "faq": {
+            "start": {
+              "q": "Kako započinjemo saradnju?",
+              "a": "Dovoljno je da dostaviš skeniran važeći lični dokument i izvršiš uplatu na zvanični račun agencije. Pre toga rado odgovaramo na sva tvoja pitanja."
+            },
+            "experience": {
+              "q": "Koliko iskustva imate?",
+              "a": "Više od 8 godina rada sa studentima i turistima i preko 320 uspešnih saradnji. Više od 70% naših studenata dobija stipendije."
+            },
+            "timeline": {
+              "q": "Koliko traje proces?",
+              "a": "Turistički paket traje najviše mesec dana, a studentski do dva meseca."
+            },
+            "offices": {
+              "q": "Gde se nalazite?",
+              "a": "Kancelarije imamo u Jagodini, Podgorici i Ljubljani — adrese i telefoni su na stranici Kontakt."
+            }
+          }
+        }
+      },
+      "wa": {
+        "greeting": "Zdravo! Pišem vam sa sajta Invest Budućnost.",
+        "general": "Imam pitanje u vezi sa vašim uslugama.",
+        "topic": "Zanima me: {topic}",
+        "asked": "Pitanja iz chata: {questions}",
+        "question": "Moje pitanje: {question}"
+      }
+    }
   },
   "notFound": {
     "title": "Stranica nije pronađena",

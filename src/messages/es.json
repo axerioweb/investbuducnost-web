@@ -1006,12 +1006,190 @@
     "open": "Abrir chat",
     "close": "Cerrar chat",
     "title": "Invest Budućnost",
-    "status": "Solemos responder en unas horas",
-    "greeting": "¡Hola! 👋 ¿En qué podemos ayudarte — visados, estudios o trabajo en el extranjero?",
-    "placeholder": "Escribe un mensaje…",
+    "status": "Solemos responder en unas pocas horas",
+    "greeting": "¡Hola! 👋 ¿Qué te interesa? Elige un tema y obtén al instante respuestas a las preguntas más frecuentes — y nuestro equipo está en WhatsApp para todo lo demás.",
     "send": "Enviar",
-    "demoNote": "El chat estará disponible muy pronto. Mientras tanto, contáctanos por el formulario o por teléfono.",
-    "ctaContact": "Ir a contacto"
+    "teaser": "¿Tienes una pregunta? Respondemos rápido",
+    "teaserClose": "Ocultar mensaje",
+    "flow": {
+      "options": "Preguntas sugeridas",
+      "learnMore": "Más información",
+      "faqIntro": "Esto es lo que más nos preguntan — toca una pregunta:",
+      "nudge": "Para tu caso concreto, lo más rápido es preguntar a nuestro equipo — tu mensaje de WhatsApp ya está listo, solo toca el botón de abajo.",
+      "allAnswered": "Esas son todas las preguntas frecuentes de este tema. ¡Lo demás lo resolvemos juntos en WhatsApp!",
+      "questionPlaceholder": "O escribe tu propia pregunta…",
+      "questionReply": "¡Buena pregunta! Toca el botón de abajo — se abrirá WhatsApp con tu pregunta, solo pulsa Enviar.",
+      "whatsapp": "Continuar en WhatsApp",
+      "whatsappDirect": "Escríbenos ya por WhatsApp",
+      "whatsappWithQuestion": "Enviar pregunta por WhatsApp",
+      "whatsappHeader": "Abrir WhatsApp",
+      "newTab": "se abre en una ventana nueva",
+      "contactForm": "Prefiero el formulario de contacto",
+      "restart": "Cambiar de tema",
+      "topics": {
+        "europe": {
+          "label": "Estudiar en Europa",
+          "info": "Elegimos un programa en más de 25 universidades europeas, preparamos tus documentos y te acompañamos hasta el visado.",
+          "faq": {
+            "cost": {
+              "q": "¿Cuánto cuesta estudiar?",
+              "a": "Depende de la universidad y del programa — las matrículas y el coste de vida de cada institución están en la página Estudiar en Europa. Preparamos una oferta ajustada a tu presupuesto bajo petición."
+            },
+            "language": {
+              "q": "¿En qué idioma son las clases?",
+              "a": "La mayoría de las universidades asociadas enseñan en inglés, y algunas también ofrecen programas en español, turco o italiano."
+            },
+            "intake": {
+              "q": "¿Cuándo puedo matricularme?",
+              "a": "El plazo principal es en otoño, pero muchas universidades también admiten en febrero — y Wittenborg, en los Países Bajos, tiene seis plazos al año."
+            },
+            "choice": {
+              "q": "¿Cómo elijo universidad?",
+              "a": "Envíanos tus notas y tus preferencias — te proponemos gratis las mejores opciones para tu perfil y presupuesto."
+            }
+          }
+        },
+        "camps": {
+          "label": "Campamentos de verano",
+          "info": "Campamentos en Barcelona, Roma, Estambul, Budapest y otras ciudades — idiomas, nuevas experiencias y amigos.",
+          "faq": {
+            "discount": {
+              "q": "¿Hay algún descuento?",
+              "a": "Sí — 15% de descuento en todos los campamentos de verano en el extranjero para 2026. Las plazas son limitadas, así que conviene reservar pronto."
+            },
+            "age": {
+              "q": "¿Para qué edades son?",
+              "a": "Tenemos programas para estudiantes de secundaria (p. ej. un campamento de negocios en Barcelona para 16–18 años) y para adultos y universitarios. La edad exacta figura en cada campamento."
+            },
+            "accommodation": {
+              "q": "¿Incluye alojamiento?",
+              "a": "Depende del campamento — algunos incluyen alojamiento y pensión completa, y en otros el alojamiento se elige y se paga aparte. Los detalles están en la página de campamentos."
+            },
+            "certificate": {
+              "q": "¿Dan certificado?",
+              "a": "Sí, cada programa termina con un certificado, y muchos otorgan créditos ECTS que puedes convalidar en tu universidad."
+            }
+          }
+        },
+        "china": {
+          "label": "Estudiar en China",
+          "info": "Carreras en inglés en XJTLU, con becas de hasta 26.000 €. Te acompañamos en las 6 fases.",
+          "faq": {
+            "scholarship": {
+              "q": "¿De cuánto son las becas?",
+              "a": "Con la beca máxima puedes ahorrar hasta 26.000 € en cuatro años. Comprobamos gratis si cumples los requisitos."
+            },
+            "language": {
+              "q": "¿Necesito saber chino?",
+              "a": "No — todas las carreras en XJTLU se imparten en inglés, y el título es doble: chino y británico (University of Liverpool)."
+            },
+            "timeline": {
+              "q": "¿Cuánto tarda la solicitud?",
+              "a": "Enviamos la solicitud a 3–5 universidades a la vez, y las cartas de admisión llegan en 3–6 semanas. Después te guiamos con el visado, el viaje y el alojamiento."
+            },
+            "programs": {
+              "q": "¿Qué programas puedo estudiar?",
+              "a": "Más de 50 grados en inglés — desde empresa y finanzas hasta inteligencia artificial — y másteres MSc de un año."
+            }
+          }
+        },
+        "f1": {
+          "label": "Visado de estudiante F1",
+          "info": "Desde los documentos y el formulario I-20 hasta la entrevista en la embajada — recorremos juntos los 6 pasos hacia el visado F1.",
+          "faq": {
+            "scholarship": {
+              "q": "¿Qué posibilidades tengo de beca?",
+              "a": "Más del 70% de nuestros estudiantes consigue una beca. Envíanos tus notas y evaluamos tus posibilidades gratis."
+            },
+            "sports": {
+              "q": "¿Ayudáis a deportistas?",
+              "a": "Sí — grabamos un vídeo highlight profesional, enviamos tu perfil a entrenadores de EE. UU. y te acompañamos hasta la beca deportiva."
+            },
+            "timeline": {
+              "q": "¿Cuánto dura el proceso?",
+              "a": "El paquete de estudiante dura hasta dos meses — desde los documentos y la matrícula hasta la entrevista en la embajada."
+            },
+            "i20": {
+              "q": "¿Qué es el I-20?",
+              "a": "El I-20 es el documento que emite la escuela estadounidense cuando te admite — sin él no hay visado F1. Nosotros gestionamos la matrícula y todos los trámites del I-20 por ti."
+            }
+          }
+        },
+        "b1b2": {
+          "label": "Visado turista B1/B2",
+          "info": "Análisis del perfil, formulario DS-160 y preparación de la entrevista — todo el proceso en un solo lugar.",
+          "faq": {
+            "timeline": {
+              "q": "¿Cuánto dura el proceso?",
+              "a": "Como máximo un mes — desde el análisis del perfil y el formulario DS-160 hasta la entrevista en la embajada."
+            },
+            "documents": {
+              "q": "¿Qué documentos necesito?",
+              "a": "Certificado laboral, extracto bancario (3.000–6.000 €), prueba de bienes, pasaporte vigente y foto para el visado — y, para familias, certificado de matrimonio y partidas de nacimiento de los hijos. Lo revisamos todo juntos."
+            },
+            "family": {
+              "q": "¿Hay descuento para familias?",
+              "a": "Sí — las familias tienen un precio de tramitación reducido por persona, y preparamos la documentación de todos los miembros a la vez."
+            },
+            "interview": {
+              "q": "¿Me preparáis para la entrevista?",
+              "a": "Sí — hacemos una simulación de la entrevista en la embajada y repasamos las preguntas más habituales."
+            }
+          }
+        },
+        "usa": {
+          "label": "Trabajo en EE. UU.",
+          "info": "Empleos legales en Nueva York, Chicago y Miami, con apoyo desde el visado hasta el alojamiento.",
+          "faq": {
+            "salary": {
+              "q": "¿Cuánto se gana?",
+              "a": "De 5.000 a 10.000 USD al mes, y 15.000–25.000+ USD en temporada alta. Conducir camiones es el puesto mejor pagado."
+            },
+            "experience": {
+              "q": "¿Necesito experiencia?",
+              "a": "La experiencia es un plus, pero no siempre es obligatoria. Se presentan hombres y mujeres de todos los perfiles, de los Balcanes y de toda Europa."
+            },
+            "jobs": {
+              "q": "¿Qué empleos ofrecéis?",
+              "a": "Conducción de camiones, mudanzas, hostelería y catering — hay puestos abiertos todo el año."
+            },
+            "support": {
+              "q": "¿En qué me ayudáis?",
+              "a": "En todo: documentos y visado, entrevistas con empleadores, alojamiento, cuenta bancaria, carné de conducir y vuelos."
+            }
+          }
+        },
+        "other": {
+          "label": "Otra cosa",
+          "info": "Sin problema — aquí tienes respuestas a preguntas generales, y nuestro equipo te ayuda con todo lo demás.",
+          "faq": {
+            "start": {
+              "q": "¿Cómo empezamos?",
+              "a": "Basta con enviar un escaneo de un documento de identidad vigente y hacer el pago en la cuenta oficial de la agencia. Antes de eso, respondemos con gusto a todas tus preguntas."
+            },
+            "experience": {
+              "q": "¿Cuánta experiencia tenéis?",
+              "a": "Más de 8 años trabajando con estudiantes y viajeros y más de 320 colaboraciones exitosas. Más del 70% de nuestros estudiantes consigue beca."
+            },
+            "timeline": {
+              "q": "¿Cuánto dura el proceso?",
+              "a": "El paquete turístico dura como máximo un mes, y el de estudiante hasta dos meses."
+            },
+            "offices": {
+              "q": "¿Dónde estáis?",
+              "a": "Tenemos oficinas en Jagodina, Podgorica y Liubliana — las direcciones y teléfonos están en la página de Contacto."
+            }
+          }
+        }
+      },
+      "wa": {
+        "greeting": "¡Hola! Os escribo desde la web de Invest Budućnost.",
+        "general": "Tengo una pregunta sobre vuestros servicios.",
+        "topic": "Me interesa: {topic}",
+        "asked": "Preguntas del chat: {questions}",
+        "question": "Mi pregunta: {question}"
+      }
+    }
   },
   "notFound": {
     "title": "Página no encontrada",

@@ -5,6 +5,12 @@ export const site = {
   url: "https://www.investbuducnost.info",
   email: "investbuducnost@gmail.com",
   founder: "Bogdan Radosavljević",
+  /**
+   * Broj na koji chat šalje poruku (wa.me link) — samo cifre, sa pozivnim
+   * brojem zemlje, bez „+", razmaka i vodeće nule.
+   * TODO: privremeno glavni broj (Bogdan) — zameniti potvrđenim WhatsApp brojem.
+   */
+  whatsapp: "381659010720",
   social: {
     facebook: "https://www.facebook.com/investbuducnost/",
     instagram: "https://instagram.com/invest_buducnost",
