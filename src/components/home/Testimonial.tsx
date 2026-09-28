@@ -16,9 +16,14 @@ const ITEMS = [
 ] as const;
 
 const AUTOPLAY_MS = 7000;
+// Prevlačenje duže od ovoga (px) ili brže od SWIPE_VELOCITY (px/s) menja karticu.
+const SWIPE_OFFSET = 50;
+const SWIPE_VELOCITY = 400;
 
+// Display nije u osnovnoj klasi — na mobilnom se kontrole skrivaju (listanje je
+// prevlačenjem), pa svako dugme samo bira kada je vidljivo.
 const control =
-  "flex h-10 w-10 items-center justify-center rounded-full border border-brand-200 text-brand-600 transition-colors hover:border-brand-300 hover:bg-brand-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-500";
+  "h-10 w-10 items-center justify-center rounded-full border border-brand-200 text-brand-600 transition-colors hover:border-brand-300 hover:bg-brand-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-500";
 
 export function Testimonial() {
   const t = useTranslations("home.testimonial");
@@ -104,7 +109,29 @@ export function Testimonial() {
                 animate={{ opacity: 1, x: 0 }}
                 exit={{ opacity: 0, x: -dir * offset }}
                 transition={{ duration: reduce ? 0 : 0.45, ease: [0.21, 0.65, 0.36, 1] }}
-                className="col-start-1 row-start-1 flex flex-col justify-center"
+                // Listanje prevlačenjem (na mobilnom jedini način pored tačkica).
+                // drag="x" postavlja touch-action: pan-y, pa vertikalni skrol radi.
+                drag="x"
+                dragSnapToOrigin
+                dragElastic={0.2}
+                onDragEnd={(_, info) => {
+                  const { x, y } = info.offset;
+                  // Pretežno vertikalan pokret je skrol stranice, ne listanje.
+                  if (Math.abs(x) < Math.abs(y)) return;
+                  const vx = info.velocity.x;
+                  const step =
+                    x < -SWIPE_OFFSET || vx < -SWIPE_VELOCITY
+                      ? 1
+                      : x > SWIPE_OFFSET || vx > SWIPE_VELOCITY
+                        ? -1
+                        : 0;
+                  if (!step) return;
+                  // Korisnik je preuzeo listanje — autoplay staje (WCAG 2.2.2),
+                  // jer na mobilnom nema dugmeta za pauzu.
+                  setStopped(true);
+                  go(step);
+                }}
+                className="col-start-1 row-start-1 flex flex-col justify-center select-none max-md:cursor-grab max-md:active:cursor-grabbing"
               >
                 <blockquote className="font-display text-xl leading-relaxed text-ink md:text-2xl">
                   {t(`items.${item.key}.quote`)}
@@ -116,6 +143,7 @@ export function Testimonial() {
                     alt=""
                     width={48}
                     height={48}
+                    draggable={false}
                     className="h-12 w-12 rounded-full object-cover ring-2 ring-brand-300"
                   />
                   <div className="text-left">
@@ -128,7 +156,7 @@ export function Testimonial() {
           </div>
 
           <div className="mt-8 flex items-center justify-center gap-4">
-            <button type="button" onClick={() => go(-1)} aria-label={t("prev")} className={control}>
+            <button type="button" onClick={() => go(-1)} aria-label={t("prev")} className={`${control} hidden md:flex`}>
               <ArrowRight className="h-4 w-4 rotate-180" />
             </button>
             <div className="flex items-center gap-1">
@@ -136,7 +164,12 @@ export function Testimonial() {
                 <button
                   key={it.key}
                   type="button"
-                  onClick={() => setState(([cur]) => [i, i >= cur ? 1 : -1])}
+                  onClick={() => {
+                    // Izbor kartice je ručno listanje — autoplay staje, kao i
+                    // posle prevlačenja (na mobilnom nema dugmeta za pauzu).
+                    setStopped(true);
+                    setState(([cur]) => [i, i >= cur ? 1 : -1]);
+                  }}
                   aria-label={t("goTo", { n: i + 1 })}
                   aria-current={i === index ? "true" : undefined}
                   className="group flex h-6 w-6 items-center justify-center rounded-full focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-brand-500"
@@ -149,16 +182,16 @@ export function Testimonial() {
                 </button>
               ))}
             </div>
-            <button type="button" onClick={() => go(1)} aria-label={t("next")} className={control}>
+            <button type="button" onClick={() => go(1)} aria-label={t("next")} className={`${control} hidden md:flex`}>
               <ArrowRight className="h-4 w-4" />
             </button>
-            {/* Uz reduced motion nema rotacije, pa ni dugmeta — sakriva ga CSS
-                da server i klijent renderuju isto stablo. */}
+            {/* Vidljivo samo na desktopu i bez reduced motion (tada nema rotacije) —
+                sakriva ga CSS da server i klijent renderuju isto stablo. */}
             <button
               type="button"
               onClick={() => setStopped((s) => !s)}
               aria-label={stopped ? t("play") : t("pause")}
-              className={`${control} motion-reduce:hidden`}
+              className={`${control} hidden md:motion-safe:flex`}
             >
               {stopped ? <Play className="h-3.5 w-3.5" /> : <Pause className="h-4 w-4" />}
             </button>
