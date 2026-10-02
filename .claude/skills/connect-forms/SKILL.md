@@ -1,28 +1,25 @@
 ---
 name: connect-forms
-description: Aktiviranje kontakt forme, newslettera i chata (trenutno su vizuelni/demo). Koristi kada vlasnik obezbedi backend i zatraži da forme postanu funkcionalne.
+description: Izmene backenda kontakt forme (Gmail), vraćanje newslettera ili povezivanje chata sa API-jem. Koristi kada treba promeniti način slanja upita ili dodati novu formu.
 ---
 
 # Povezivanje formi i chata sa backendom
 
 Sve tri komponente su namerno u demo režimu — UI je gotov, samo se menja submit logika.
 
-## Kontakt forma — `src/components/forms/ContactForm.tsx`
+## Kontakt forma — POVEZANA
 
-1. Kreiraj API rutu `src/app/api/contact/route.ts` (POST): validacija (zod),
-   honeypot polje protiv spama, rate limit, slanje mejla (Resend/Nodemailer/SMTP)
-   na `investbuducnost@gmail.com`.
-2. U `onSubmit` zameni `setSubmitted(true)` sa `fetch("/api/contact", …)` +
-   stanja loading/success/error.
-3. U messages fajlovima (sva 3 jezika!) zameni `contact.form.demo` porukama
-   uspeha/greške i ukloni demo napomenu.
-4. Proxy matcher u `src/proxy.ts` već preskače `/api` — ne diraj.
+`src/components/forms/ContactForm.tsx` → `src/app/api/contact/route.ts` → Gmail SMTP
+(nodemailer, lozinka za aplikacije; promenljive u `.env.example`). Sadrži honeypot,
+minimalno vreme popunjavanja, rate limit i obaveznu saglasnost (`contact.form.consent`
+sa linkom na `/privacy`). Promena primaoca: `CONTACT_TO_EMAIL`. Prelazak na Resend ili
+drugi servis menja samo blok `transporter.sendMail` u API ruti.
 
-## Newsletter — `src/components/forms/NewsletterForm.tsx`
+## Newsletter — UKLONJEN
 
-Isti obrazac: `POST /api/newsletter` → provajder (Mailchimp/Brevo/Buttondown).
-Komponenta već ima `role="status"` poruku (`footer.newsletter.success`) — zameni je
-porukama uspeha/greške sa servera i dodaj loading stanje na dugmetu.
+Ako se vrati: nova komponenta + `POST /api/newsletter` → provajder
+(Brevo/Mailchimp), double opt-in, i dopuna politike privatnosti (svrha, pravni
+osnov = pristanak, primalac = provajder, odjava).
 
 ## Chat — `src/components/chat/ChatWidget.tsx`
 

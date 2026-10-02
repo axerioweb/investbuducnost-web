@@ -44,6 +44,10 @@
     },
     "institution": {
       "title": "{name}"
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "description": "How Invest Budućnost collects, uses and stores personal data from the website and our communication, how long we keep it and what your rights are."
     }
   },
   "nav": {
@@ -206,12 +210,6 @@
       "title": "Your future won't wait.",
       "text": "Book a free consultation and discover your options — no strings attached.",
       "button": "Book a consultation"
-    },
-    "newsletter": {
-      "title": "Stay up to date — stay one step ahead",
-      "placeholder": "Your email address",
-      "button": "Subscribe",
-      "note": "By subscribing you agree to receive our updates. No spam."
     }
   },
   "europe": {
@@ -971,8 +969,14 @@
       },
       "message": "Your message",
       "submit": "Send message",
-      "note": "We'll be in touch with you soon!",
-      "demo": "The form is currently in demo mode — sending will be activated soon."
+      "consent": "I have read the <link>Privacy Policy</link> and understand how my data is used to respond to my inquiry.",
+      "sending": "Sending…",
+      "success": "Thank you! Your message has been sent — we will get back to you shortly.",
+      "error": "Sending failed. Please try again or write to us directly at {email}.",
+      "rateLimited": "You have sent several messages in a short time. Please try again in a few minutes.",
+      "optional": "optional",
+      "requiredNote": "Fields marked with an asterisk (*) are required.",
+      "newTab": "opens in a new tab"
     },
     "info": {
       "title": "Direct contact",
@@ -992,15 +996,9 @@
     "explore": "Explore",
     "services": "Services",
     "contact": "Contact",
-    "newsletter": {
-      "title": "Stay one step ahead",
-      "text": "News about scholarships, camps and visas — straight to your inbox.",
-      "placeholder": "Email address",
-      "button": "Subscribe",
-      "success": "You're subscribed — see you in your inbox!"
-    },
     "rights": "All rights reserved.",
-    "availability": "Available in Serbia, Montenegro and Slovenia"
+    "availability": "Available in Serbia, Montenegro and Slovenia",
+    "privacy": "Privacy Policy"
   },
   "chat": {
     "open": "Open chat",
@@ -1223,5 +1221,137 @@
     "ctaButton": "Free assessment",
     "cityPhotoAlt": "{city} — the city where {name} is based",
     "breadcrumb": "Breadcrumb"
+  },
+  "privacy": {
+    "hero": {
+      "kicker": "Privacy",
+      "title": "Privacy Policy",
+      "subtitle": "What data we collect, why we use it and how we protect it."
+    },
+    "updated": "Last updated: {date}",
+    "controllerCard": {
+      "address": "Address",
+      "email": "Email",
+      "phone": "Phone",
+      "companyId": "Company ID",
+      "taxId": "Tax ID"
+    },
+    "sections": [
+      {
+        "id": "controller",
+        "title": "Who is the data controller",
+        "paragraphs": [
+          "The controller of your personal data is Invest Budućnost, an agency advising on studies, visas and employment abroad, based in Jagodina, Serbia.",
+          "This policy explains what data we collect through the website and in our communication with you, why, how long we keep it and what rights you have. It applies in accordance with the Law on Personal Data Protection of the Republic of Serbia (Official Gazette of RS, No. 87/2018) and, for users in the European Union, the General Data Protection Regulation (GDPR)."
+        ]
+      },
+      {
+        "id": "data",
+        "title": "What data we collect",
+        "items": [
+          "Contact form: first and last name, email address, phone number (if provided), selected topic and message content.",
+          "Direct communication: data you send us by email, phone, WhatsApp or social media — for example education, passport or financial details when you entrust us with an application or visa.",
+          "Technical data: on every visit the server automatically logs the IP address, browser type and time of access. This data is used solely for security and to keep the website running properly."
+        ],
+        "after": [
+          "We do not ask for sensitive data (e.g. health data) unless it is required for a specific service, such as a visa application, and you provide it yourself."
+        ]
+      },
+      {
+        "id": "purpose",
+        "title": "Why we process data and on what legal basis",
+        "items": [
+          "To answer your inquiry and prepare an offer — steps taken at your request before entering into a contract (Article 12(1)(2) of the Law; Article 6(1)(b) GDPR).",
+          "To provide the agreed service (university or camp application, visa preparation, employment placement) — performance of a contract (same legal basis).",
+          "To comply with legal obligations, e.g. accounting and tax (Article 12(1)(3) of the Law; Article 6(1)(c) GDPR).",
+          "To protect the website from abuse and spam — legitimate interest (Article 12(1)(6) of the Law; Article 6(1)(f) GDPR)."
+        ],
+        "after": [
+          "We do not use your data for automated decision-making or profiling, and we do not send you marketing messages without your separate consent."
+        ]
+      },
+      {
+        "id": "recipients",
+        "title": "Who else has access to the data",
+        "paragraphs": [
+          "We do not sell your data or share it for marketing purposes. Access is limited to:"
+        ],
+        "items": [
+          "Google (Gmail) — contact form inquiries are delivered to our business Gmail account.",
+          "The website hosting provider — technically stores server logs.",
+          "Meta (WhatsApp) — if you write to us via WhatsApp; WhatsApp's privacy rules then also apply.",
+          "Partner institutions (universities, camps, employers, exchange programmes) — only when you entrust us with a service and only the data needed for your application.",
+          "Public authorities — only when required by law."
+        ]
+      },
+      {
+        "id": "transfer",
+        "title": "Transfers outside Serbia",
+        "paragraphs": [
+          "Some recipients are located outside the Republic of Serbia: Google and the hosting provider may process data in the European Union and the USA, and partner institutions are in the countries you apply to (e.g. the USA, EU countries, China).",
+          "Data is transferred to countries with an adequate level of protection or under appropriate safeguards (standard contractual clauses, the EU–US Data Privacy Framework), or where the transfer is necessary to perform the service you requested (Article 69 of the Law; Article 49 GDPR)."
+        ]
+      },
+      {
+        "id": "retention",
+        "title": "How long we keep data",
+        "items": [
+          "Inquiries that do not lead to cooperation — up to 12 months after the last communication, then deleted.",
+          "Client data — for the duration of the cooperation and up to 3 years after it ends.",
+          "Accounting records — as long as required by law.",
+          "Server logs — briefly, usually up to 30 days."
+        ]
+      },
+      {
+        "id": "cookies",
+        "title": "Cookies",
+        "paragraphs": [
+          "The website does not use cookies, analytics or advertising tools and does not load third-party content that could track you — fonts and images are served from our own server. That is why we do not show a cookie consent banner.",
+          "The website chat keeps your choices only in the browser's memory (sessionStorage) while the tab is open, so the conversation is not lost when you move to another page. This data is never sent to us and is erased when you close the tab. A WhatsApp message is sent by you, only when you press “Send” yourself.",
+          "If we introduce analytics or cookies in the future, we will update this policy first and ask for your consent where required."
+        ]
+      },
+      {
+        "id": "rights",
+        "title": "Your rights",
+        "paragraphs": [
+          "At any time you may request:"
+        ],
+        "items": [
+          "access to your data and a copy of it;",
+          "rectification of inaccurate or completion of incomplete data;",
+          "erasure of your data;",
+          "restriction of processing;",
+          "transfer of your data to another controller;",
+          "to object to processing based on legitimate interest;",
+          "to withdraw consent, without affecting the lawfulness of processing before withdrawal."
+        ],
+        "after": [
+          "Send your request to our email address. We respond without delay and within 30 days at the latest. Exercising your rights is free of charge.",
+          "If you believe the processing is unlawful, you may lodge a complaint with the Commissioner for Information of Public Importance and Personal Data Protection (Bulevar kralja Aleksandra 15, 11120 Belgrade, www.poverenik.rs). Users in Slovenia may contact the Information Commissioner (www.ip-rs.si), and users in Montenegro the Agency for Personal Data Protection and Free Access to Information (www.azlp.me)."
+        ]
+      },
+      {
+        "id": "minors",
+        "title": "Minors",
+        "paragraphs": [
+          "Our services, such as summer camps and studies, are often intended for young people. If you are under 15, the contact form should be filled in by a parent or guardian. We always contract services for minors with a parent or guardian."
+        ]
+      },
+      {
+        "id": "security",
+        "title": "Security",
+        "paragraphs": [
+          "The website uses an encrypted connection (HTTPS). Data is accessed only by team members who need it for their work, and we apply technical and organisational measures against unauthorised access, loss and misuse."
+        ]
+      },
+      {
+        "id": "changes",
+        "title": "Changes to this policy",
+        "paragraphs": [
+          "We may update this policy from time to time. The current version is always published on this page, with the date of the last update at the top."
+        ]
+      }
+    ]
   }
 }

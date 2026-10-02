@@ -3,7 +3,6 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { site } from "@/data/site";
 import { asset } from "@/data/assets";
-import { NewsletterForm } from "@/components/forms/NewsletterForm";
 import { Flag } from "@/components/ui/Flag";
 import { FacebookIcon, InstagramIcon } from "@/components/ui/icons";
 
@@ -102,18 +101,12 @@ export function Footer() {
             </ul>
           </nav>
 
-          {/* Newsletter + contact */}
+          {/* Contact */}
           <div>
             <h3 className="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-brand-300">
-              {t("newsletter.title")}
+              {t("contact")}
             </h3>
-            <p className="mb-4 text-sm text-white/70">{t("newsletter.text")}</p>
-            <NewsletterForm
-              placeholder={t("newsletter.placeholder")}
-              buttonLabel={t("newsletter.button")}
-              successLabel={t("newsletter.success")}
-            />
-            <address className="mt-6 space-y-1.5 text-sm not-italic text-white/70">
+            <address className="space-y-1.5 text-sm not-italic text-white/70">
               <p>{site.offices[0].address}</p>
               <p>
                 <a href={`tel:${site.offices[0].phones[0].tel}`} className="hover:text-brand-300">
@@ -133,6 +126,9 @@ export function Footer() {
           <p>
             © {year} {site.name}. {t("rights")}
           </p>
+          <Link href="/privacy" className="transition-colors hover:text-brand-300">
+            {t("privacy")}
+          </Link>
           <p className="flex items-center gap-2">
             {site.offices.map((office) => (
               <Flag key={office.id} code={office.countryCode} className="h-3 w-[1.125rem]" />

@@ -44,6 +44,10 @@
     },
     "institution": {
       "title": "{name}"
+    },
+    "privacy": {
+      "title": "Politika privatnosti",
+      "description": "Kako Invest Budućnost prikuplja, koristi i čuva podatke o ličnosti sa sajta i iz komunikacije, koliko dugo ih čuva i koja su vaša prava."
     }
   },
   "nav": {
@@ -206,12 +210,6 @@
       "title": "Tvoja budućnost ne čeka.",
       "text": "Zakaži besplatnu konsultaciju i saznaj koje su ti opcije — bez obaveza.",
       "button": "Zakaži konsultaciju"
-    },
-    "newsletter": {
-      "title": "Budi u toku sa svim novostima — budi korak ispred",
-      "placeholder": "Tvoja email adresa",
-      "button": "Prijavi se",
-      "note": "Prijavom prihvataš da ti šaljemo novosti. Bez spama."
     }
   },
   "europe": {
@@ -971,8 +969,14 @@
       },
       "message": "Vaša poruka",
       "submit": "Pošalji poruku",
-      "note": "Uskoro ćemo stupiti u kontakt sa vama!",
-      "demo": "Forma je trenutno u demo režimu — slanje će uskoro biti aktivirano."
+      "consent": "Pročitao/la sam <link>Politiku privatnosti</link> i razumem kako se moji podaci koriste za odgovor na upit.",
+      "sending": "Šalje se…",
+      "success": "Hvala! Poruka je poslata — javićemo vam se u najkraćem roku.",
+      "error": "Slanje nije uspelo. Pokušajte ponovo ili nam pišite direktno na {email}.",
+      "rateLimited": "Poslali ste više poruka u kratkom roku. Pokušajte ponovo za nekoliko minuta.",
+      "optional": "opciono",
+      "requiredNote": "Polja označena zvezdicom (*) su obavezna.",
+      "newTab": "otvara se u novoj kartici"
     },
     "info": {
       "title": "Direktan kontakt",
@@ -992,15 +996,9 @@
     "explore": "Istraži",
     "services": "Usluge",
     "contact": "Kontakt",
-    "newsletter": {
-      "title": "Budi korak ispred",
-      "text": "Novosti o stipendijama, kampovima i vizama — direktno u inbox.",
-      "placeholder": "Email adresa",
-      "button": "Prijavi se",
-      "success": "Uspešno si prijavljen — vidimo se u inboxu!"
-    },
     "rights": "Sva prava zadržana.",
-    "availability": "Dostupni u Srbiji, Crnoj Gori i Sloveniji"
+    "availability": "Dostupni u Srbiji, Crnoj Gori i Sloveniji",
+    "privacy": "Politika privatnosti"
   },
   "chat": {
     "open": "Otvori chat",
@@ -1223,5 +1221,137 @@
     "ctaButton": "Besplatna procena",
     "cityPhotoAlt": "{city} — grad u kome se nalazi {name}",
     "breadcrumb": "Putanja"
+  },
+  "privacy": {
+    "hero": {
+      "kicker": "Privatnost",
+      "title": "Politika privatnosti",
+      "subtitle": "Koje podatke prikupljamo, zašto ih koristimo i kako ih štitimo."
+    },
+    "updated": "Poslednja izmena: {date}",
+    "controllerCard": {
+      "address": "Adresa",
+      "email": "Email",
+      "phone": "Telefon",
+      "companyId": "Matični broj",
+      "taxId": "PIB"
+    },
+    "sections": [
+      {
+        "id": "controller",
+        "title": "Ko je rukovalac podacima",
+        "paragraphs": [
+          "Rukovalac vašim podacima o ličnosti je Invest Budućnost, agencija za savetovanje o studijama, vizama i zapošljavanju u inostranstvu, sa sedištem u Jagodini.",
+          "Ova politika objašnjava koje podatke prikupljamo preko sajta i u komunikaciji sa vama, zašto, koliko dugo ih čuvamo i koja prava imate. Primenjuje se u skladu sa Zakonom o zaštiti podataka o ličnosti Republike Srbije („Službeni glasnik RS“, br. 87/2018), a za korisnike iz Evropske unije i u skladu sa Opštom uredbom o zaštiti podataka (GDPR)."
+        ]
+      },
+      {
+        "id": "data",
+        "title": "Koje podatke prikupljamo",
+        "items": [
+          "Kontakt forma: ime i prezime, email adresa, broj telefona (ako ga navedete), izabrana tema i sadržaj poruke.",
+          "Direktna komunikacija: podaci koje nam sami pošaljete mejlom, telefonom, preko WhatsApp-a ili društvenih mreža — na primer podaci o školovanju, pasošu ili finansijama kada nam poverite pripremu prijave ili vize.",
+          "Tehnički podaci: pri svakoj poseti server automatski beleži IP adresu, vrstu pregledača i vreme pristupa. Ovi podaci služe isključivo za bezbednost i ispravan rad sajta."
+        ],
+        "after": [
+          "Ne tražimo osetljive podatke (npr. o zdravlju), osim kada su neophodni za konkretnu uslugu, kao što je vizni zahtev, i kada ih sami dostavite."
+        ]
+      },
+      {
+        "id": "purpose",
+        "title": "Zašto obrađujemo podatke i na osnovu čega",
+        "items": [
+          "Da odgovorimo na vaš upit i pripremimo ponudu — radnje preduzete na vaš zahtev pre zaključenja ugovora (član 12. stav 1. tačka 2) Zakona; član 6(1)(b) GDPR).",
+          "Da pružimo ugovorenu uslugu (prijava na univerzitet ili kamp, priprema vize, posredovanje pri zapošljavanju) — izvršenje ugovora (isti pravni osnov).",
+          "Da ispunimo zakonske obaveze, npr. računovodstvene i poreske (član 12. stav 1. tačka 3) Zakona; član 6(1)(c) GDPR).",
+          "Da zaštitimo sajt od zloupotrebe i spama — legitimni interes (član 12. stav 1. tačka 6) Zakona; član 6(1)(f) GDPR)."
+        ],
+        "after": [
+          "Podatke ne koristimo za automatizovano donošenje odluka ni za profilisanje i ne šaljemo vam reklamne poruke bez vašeg posebnog pristanka."
+        ]
+      },
+      {
+        "id": "recipients",
+        "title": "Ko još ima pristup podacima",
+        "paragraphs": [
+          "Vaše podatke ne prodajemo i ne ustupamo u marketinške svrhe. Pristup imaju samo:"
+        ],
+        "items": [
+          "Google (Gmail) — upiti sa kontakt forme stižu na naš poslovni Gmail nalog.",
+          "Pružalac usluge hostinga sajta — tehnički čuva serverske zapise.",
+          "Meta (WhatsApp) — ako nam pišete preko WhatsApp-a; tada se primenjuju i pravila privatnosti WhatsApp-a.",
+          "Partnerske institucije (univerziteti, kampovi, poslodavci, programi razmene) — samo kada nam poverite uslugu i samo podaci potrebni za vašu prijavu.",
+          "Državni organi — samo kada to zakon nalaže."
+        ]
+      },
+      {
+        "id": "transfer",
+        "title": "Prenos podataka van Srbije",
+        "paragraphs": [
+          "Pojedini primaoci nalaze se van Republike Srbije: Google i pružalac hostinga mogu obrađivati podatke u Evropskoj uniji i SAD, a partnerske institucije su u zemljama u koje se prijavljujete (npr. SAD, zemlje EU, Kina).",
+          "Prenos se vrši u zemlje sa primerenim nivoom zaštite ili uz odgovarajuće mere zaštite (standardne ugovorne klauzule, EU–SAD okvir za privatnost podataka), odnosno kada je neophodan za izvršenje usluge koju ste tražili (član 69. Zakona; član 49. GDPR)."
+        ]
+      },
+      {
+        "id": "retention",
+        "title": "Koliko dugo čuvamo podatke",
+        "items": [
+          "Upiti koji ne prerastu u saradnju — do 12 meseci od poslednje komunikacije, a zatim se brišu.",
+          "Podaci klijenata — tokom trajanja saradnje i najduže 3 godine nakon njenog završetka.",
+          "Računovodstvena dokumentacija — onoliko koliko propisuje zakon.",
+          "Serverski zapisi — kratko, najčešće do 30 dana."
+        ]
+      },
+      {
+        "id": "cookies",
+        "title": "Kolačići",
+        "paragraphs": [
+          "Sajt ne koristi kolačiće, analitičke ni reklamne alate i ne učitava sadržaj trećih strana koji bi vas pratio — fontovi i slike isporučuju se sa našeg servera. Zato vam ne prikazujemo baner za pristanak na kolačiće.",
+          "Chat na sajtu pamti vaše izbore samo u memoriji pregledača (sessionStorage) dok je kartica otvorena, kako se razgovor ne bi prekinuo pri prelasku na drugu stranicu. Ti podaci nam se ne šalju i brišu se zatvaranjem kartice. Poruku na WhatsApp-u šaljete vi, tek kada sami pritisnete „Pošalji“.",
+          "Ako u budućnosti uvedemo analitiku ili kolačiće, prethodno ćemo ažurirati ovu politiku i, gde je potrebno, tražiti vaš pristanak."
+        ]
+      },
+      {
+        "id": "rights",
+        "title": "Vaša prava",
+        "paragraphs": [
+          "U svakom trenutku možete da zatražite:"
+        ],
+        "items": [
+          "pristup podacima i njihovu kopiju;",
+          "ispravku netačnih ili dopunu nepotpunih podataka;",
+          "brisanje podataka;",
+          "ograničenje obrade;",
+          "prenos podataka drugom rukovaocu;",
+          "prigovor na obradu zasnovanu na legitimnom interesu;",
+          "opoziv pristanka, bez uticaja na zakonitost obrade pre opoziva."
+        ],
+        "after": [
+          "Zahtev pošaljite na našu email adresu. Odgovaramo bez odlaganja, a najkasnije u roku od 30 dana. Ostvarivanje prava je besplatno.",
+          "Ako smatrate da obrada nije zakonita, možete podneti pritužbu Povereniku za informacije od javnog značaja i zaštitu podataka o ličnosti (Bulevar kralja Aleksandra 15, 11120 Beograd, www.poverenik.rs). Korisnici iz Slovenije mogu se obratiti Informacijskom pooblaščencu (www.ip-rs.si), a iz Crne Gore Agenciji za zaštitu ličnih podataka i slobodan pristup informacijama (www.azlp.me)."
+        ]
+      },
+      {
+        "id": "minors",
+        "title": "Maloletnici",
+        "paragraphs": [
+          "Naše usluge, poput letnjih kampova i studija, često su namenjene mladima. Ako imate manje od 15 godina, kontakt formu treba da popuni roditelj ili staratelj. Usluge za maloletnike uvek ugovaramo sa roditeljem ili starateljem."
+        ]
+      },
+      {
+        "id": "security",
+        "title": "Bezbednost",
+        "paragraphs": [
+          "Sajt koristi šifrovanu vezu (HTTPS). Podacima pristupaju samo članovi tima kojima su potrebni za rad, a primenjujemo i tehničke i organizacione mere zaštite od neovlašćenog pristupa, gubitka i zloupotrebe."
+        ]
+      },
+      {
+        "id": "changes",
+        "title": "Izmene politike",
+        "paragraphs": [
+          "Politiku možemo povremeno ažurirati. Važeća verzija uvek je objavljena na ovoj stranici, sa datumom poslednje izmene na vrhu."
+        ]
+      }
+    ]
   }
 }

@@ -6,6 +6,12 @@ export const site = {
   email: "investbuducnost@gmail.com",
   founder: "Bogdan Radosavljević",
   /**
+   * Registracioni podaci rukovaoca (APR) — prikazuju se u politici privatnosti
+   * samo kada su popunjeni.
+   * TODO: upisati matični broj i PIB od vlasnika.
+   */
+  registration: { companyId: "", taxId: "" } as { companyId: string; taxId: string },
+  /**
    * Broj na koji chat šalje poruku (wa.me link) — samo cifre, sa pozivnim
    * brojem zemlje, bez „+", razmaka i vodeće nule.
    * TODO: privremeno glavni broj (Bogdan) — zameniti potvrđenim WhatsApp brojem.

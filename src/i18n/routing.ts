@@ -18,6 +18,9 @@ export const routing = defineRouting({
   // servira srpsku verziju (canonical + x-default), a jezik se bira
   // prekidačem. Sprečava 307 redirect crawlera sa "/" na "/en".
   localeDetection: false,
+  // Kolačić NEXT_LOCALE služi samo prepoznavanju jezika, koje je isključeno —
+  // bez njega sajt ne postavlja nijedan kolačić (vidi politiku privatnosti).
+  localeCookie: false,
   pathnames: {
     "/": "/",
     "/europe": {
@@ -71,6 +74,11 @@ export const routing = defineRouting({
       sr: "/kontakt",
       en: "/contact",
       es: "/contacto",
+    },
+    "/privacy": {
+      sr: "/politika-privatnosti",
+      en: "/privacy-policy",
+      es: "/politica-de-privacidad",
     },
   },
 });

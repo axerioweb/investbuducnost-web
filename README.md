@@ -35,10 +35,40 @@ npm run download-assets
 Dodavanje novog jezika: prati `.claude/skills/add-language/SKILL.md` (4 mala koraka —
 routing, config, messages fajl, JSON-LD).
 
-## Šta je namerno u demo režimu
+## Kontakt forma (Gmail)
 
-- **Kontakt forma**, **newsletter** i **chat widget** su vizuelno kompletni ali ne
-  šalju podatke. Aktivacija: `.claude/skills/connect-forms/SKILL.md`.
+Forma šalje na `POST /api/contact`, koja upit prosleđuje mejlom preko Gmail SMTP-a
+na `investbuducnost@gmail.com` (reply-to je adresa pošiljaoca — „Odgovori" u Gmailu
+ide direktno klijentu). Zaštita: honeypot polje, minimalno vreme popunjavanja,
+ograničenje 5 poruka / 10 min po IP adresi, obavezna saglasnost sa politikom privatnosti.
+
+Podešavanje (jednom):
+
+1. Na Gmail nalogu uključi **verifikaciju u dva koraka**.
+2. Napravi **lozinku za aplikacije**: <https://myaccount.google.com/apppasswords>.
+3. Kopiraj `.env.example` u `.env.local` i upiši `GMAIL_APP_PASSWORD`.
+4. Iste promenljive (`GMAIL_USER`, `GMAIL_APP_PASSWORD`) unesi kod hosting
+   provajdera (npr. Vercel → Settings → Environment Variables) i ponovo deployuj.
+
+Bez lozinke forma prikazuje poruku o grešci sa email adresom za direktan kontakt.
+
+Chat šalje korisnika na WhatsApp (`site.whatsapp`). Newsletter je uklonjen.
+
+## Privatnost
+
+- Stranica **Politika privatnosti** (`/politika-privatnosti`, `/en/privacy-policy`,
+  `/es/politica-de-privacidad`), tekst u `privacy.*` u messages fajlovima. Pri
+  izmeni teksta ažuriraj `LAST_UPDATED` u `src/app/[locale]/privacy/page.tsx`.
+- Sajt **ne postavlja nijedan kolačić** (`localeCookie: false` u routingu), pa
+  baner za kolačiće nije potreban. Ako se doda analitika ili skripta treće strane,
+  prvo ažurirati politiku i po potrebi dodati baner za pristanak.
+- Matični broj i PIB se upisuju u `site.registration` (`src/data/site.ts`).
+
+## Preusmerenja sa starog sajta
+
+Adrese starog Wix sajta koje su promenjene (`/studije-u-eu`, `/kina`,
+`/zaposljavanje-u-usa` i 20 stranica institucija) trajno se preusmeravaju na nove —
+spisak je u `next.config.ts`.
 
 ## SEO
 

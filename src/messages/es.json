@@ -44,6 +44,10 @@
     },
     "institution": {
       "title": "{name}"
+    },
+    "privacy": {
+      "title": "Política de privacidad",
+      "description": "Cómo Invest Budućnost recoge, usa y conserva los datos personales del sitio web y de nuestra comunicación, durante cuánto tiempo y cuáles son tus derechos."
     }
   },
   "nav": {
@@ -206,12 +210,6 @@
       "title": "Tu futuro no espera.",
       "text": "Reserva una consulta gratuita y descubre tus opciones — sin compromiso.",
       "button": "Reservar consulta"
-    },
-    "newsletter": {
-      "title": "Mantente al día — ve un paso por delante",
-      "placeholder": "Tu correo electrónico",
-      "button": "Suscribirme",
-      "note": "Al suscribirte aceptas recibir nuestras novedades. Sin spam."
     }
   },
   "europe": {
@@ -971,8 +969,14 @@
       },
       "message": "Tu mensaje",
       "submit": "Enviar mensaje",
-      "note": "¡Nos pondremos en contacto contigo pronto!",
-      "demo": "El formulario está en modo demo — el envío se activará próximamente."
+      "consent": "He leído la <link>Política de privacidad</link> y entiendo cómo se usan mis datos para responder a mi consulta.",
+      "sending": "Enviando…",
+      "success": "¡Gracias! Tu mensaje se ha enviado — te responderemos lo antes posible.",
+      "error": "No se pudo enviar. Inténtalo de nuevo o escríbenos directamente a {email}.",
+      "rateLimited": "Has enviado varios mensajes en poco tiempo. Inténtalo de nuevo en unos minutos.",
+      "optional": "opcional",
+      "requiredNote": "Los campos marcados con asterisco (*) son obligatorios.",
+      "newTab": "se abre en una pestaña nueva"
     },
     "info": {
       "title": "Contacto directo",
@@ -992,15 +996,9 @@
     "explore": "Explorar",
     "services": "Servicios",
     "contact": "Contacto",
-    "newsletter": {
-      "title": "Ve un paso por delante",
-      "text": "Novedades sobre becas, campamentos y visados — directas a tu correo.",
-      "placeholder": "Correo electrónico",
-      "button": "Suscribirme",
-      "success": "¡Suscripción confirmada! Nos vemos en tu bandeja de entrada."
-    },
     "rights": "Todos los derechos reservados.",
-    "availability": "Disponibles en Serbia, Montenegro y Eslovenia"
+    "availability": "Disponibles en Serbia, Montenegro y Eslovenia",
+    "privacy": "Política de privacidad"
   },
   "chat": {
     "open": "Abrir chat",
@@ -1223,5 +1221,137 @@
     "ctaButton": "Evaluación gratuita",
     "cityPhotoAlt": "{city}, la ciudad donde se encuentra {name}",
     "breadcrumb": "Ruta de navegación"
+  },
+  "privacy": {
+    "hero": {
+      "kicker": "Privacidad",
+      "title": "Política de privacidad",
+      "subtitle": "Qué datos recogemos, para qué los usamos y cómo los protegemos."
+    },
+    "updated": "Última actualización: {date}",
+    "controllerCard": {
+      "address": "Dirección",
+      "email": "Correo",
+      "phone": "Teléfono",
+      "companyId": "Número de registro",
+      "taxId": "NIF"
+    },
+    "sections": [
+      {
+        "id": "controller",
+        "title": "Responsable del tratamiento",
+        "paragraphs": [
+          "El responsable de tus datos personales es Invest Budućnost, agencia de asesoramiento sobre estudios, visados y empleo en el extranjero, con sede en Jagodina (Serbia).",
+          "Esta política explica qué datos recogemos a través del sitio web y en nuestra comunicación contigo, para qué, durante cuánto tiempo los conservamos y qué derechos tienes. Se aplica conforme a la Ley de Protección de Datos Personales de la República de Serbia (Boletín Oficial n.º 87/2018) y, para usuarios de la Unión Europea, conforme al Reglamento General de Protección de Datos (RGPD)."
+        ]
+      },
+      {
+        "id": "data",
+        "title": "Qué datos recogemos",
+        "items": [
+          "Formulario de contacto: nombre y apellidos, correo electrónico, teléfono (si lo indicas), tema elegido y contenido del mensaje.",
+          "Comunicación directa: los datos que nos envíes por correo, teléfono, WhatsApp o redes sociales — por ejemplo, datos de estudios, pasaporte o situación económica cuando nos confíes una solicitud o un visado.",
+          "Datos técnicos: en cada visita el servidor registra automáticamente la dirección IP, el tipo de navegador y la hora de acceso. Se usan solo para la seguridad y el correcto funcionamiento del sitio."
+        ],
+        "after": [
+          "No pedimos datos sensibles (p. ej. de salud), salvo cuando son necesarios para un servicio concreto, como una solicitud de visado, y nos los facilitas tú."
+        ]
+      },
+      {
+        "id": "purpose",
+        "title": "Para qué tratamos los datos y con qué base legal",
+        "items": [
+          "Para responder a tu consulta y preparar una oferta — medidas a petición tuya antes de celebrar un contrato (art. 12.1.2 de la Ley; art. 6.1.b RGPD).",
+          "Para prestar el servicio acordado (solicitud a universidad o campamento, preparación del visado, intermediación laboral) — ejecución de un contrato (misma base legal).",
+          "Para cumplir obligaciones legales, p. ej. contables y fiscales (art. 12.1.3 de la Ley; art. 6.1.c RGPD).",
+          "Para proteger el sitio frente a abusos y spam — interés legítimo (art. 12.1.6 de la Ley; art. 6.1.f RGPD)."
+        ],
+        "after": [
+          "No usamos tus datos para decisiones automatizadas ni para elaborar perfiles, y no te enviamos publicidad sin tu consentimiento expreso."
+        ]
+      },
+      {
+        "id": "recipients",
+        "title": "Quién más tiene acceso a los datos",
+        "paragraphs": [
+          "No vendemos tus datos ni los cedemos con fines de marketing. Solo tienen acceso:"
+        ],
+        "items": [
+          "Google (Gmail) — las consultas del formulario llegan a nuestra cuenta de Gmail profesional.",
+          "El proveedor de alojamiento del sitio — almacena técnicamente los registros del servidor.",
+          "Meta (WhatsApp) — si nos escribes por WhatsApp; en ese caso se aplican también sus normas de privacidad.",
+          "Instituciones asociadas (universidades, campamentos, empleadores, programas de intercambio) — solo cuando nos confías un servicio y solo los datos necesarios para tu solicitud.",
+          "Autoridades públicas — solo cuando lo exige la ley."
+        ]
+      },
+      {
+        "id": "transfer",
+        "title": "Transferencias fuera de Serbia",
+        "paragraphs": [
+          "Algunos destinatarios están fuera de la República de Serbia: Google y el proveedor de alojamiento pueden tratar datos en la Unión Europea y EE. UU., y las instituciones asociadas están en los países a los que presentas tu solicitud (p. ej. EE. UU., países de la UE, China).",
+          "Las transferencias se realizan a países con un nivel de protección adecuado o con garantías apropiadas (cláusulas contractuales tipo, Marco de Privacidad de Datos UE–EE. UU.), o cuando son necesarias para prestar el servicio que solicitaste (art. 69 de la Ley; art. 49 RGPD)."
+        ]
+      },
+      {
+        "id": "retention",
+        "title": "Cuánto tiempo conservamos los datos",
+        "items": [
+          "Consultas que no dan lugar a una colaboración — hasta 12 meses desde la última comunicación; después se eliminan.",
+          "Datos de clientes — mientras dure la colaboración y hasta 3 años después de su finalización.",
+          "Documentación contable — el tiempo que exija la ley.",
+          "Registros del servidor — poco tiempo, normalmente hasta 30 días."
+        ]
+      },
+      {
+        "id": "cookies",
+        "title": "Cookies",
+        "paragraphs": [
+          "El sitio no usa cookies, herramientas de analítica ni de publicidad, y no carga contenido de terceros que pueda rastrearte — las fuentes y las imágenes se sirven desde nuestro propio servidor. Por eso no mostramos un aviso de cookies.",
+          "El chat del sitio guarda tus elecciones solo en la memoria del navegador (sessionStorage) mientras la pestaña está abierta, para que la conversación no se pierda al cambiar de página. Esos datos nunca se nos envían y se borran al cerrar la pestaña. El mensaje de WhatsApp lo envías tú, solo cuando pulsas «Enviar».",
+          "Si en el futuro incorporamos analítica o cookies, actualizaremos antes esta política y, cuando sea necesario, te pediremos tu consentimiento."
+        ]
+      },
+      {
+        "id": "rights",
+        "title": "Tus derechos",
+        "paragraphs": [
+          "En cualquier momento puedes solicitar:"
+        ],
+        "items": [
+          "el acceso a tus datos y una copia;",
+          "la rectificación de datos inexactos o la ampliación de datos incompletos;",
+          "la supresión de tus datos;",
+          "la limitación del tratamiento;",
+          "la portabilidad de tus datos a otro responsable;",
+          "oponerte al tratamiento basado en el interés legítimo;",
+          "retirar tu consentimiento, sin que ello afecte a la licitud del tratamiento anterior."
+        ],
+        "after": [
+          "Envía tu solicitud a nuestra dirección de correo. Respondemos sin demora y, como máximo, en 30 días. El ejercicio de tus derechos es gratuito.",
+          "Si consideras que el tratamiento no es lícito, puedes presentar una reclamación ante el Comisionado para la Información de Importancia Pública y la Protección de Datos Personales de Serbia (Bulevar kralja Aleksandra 15, 11120 Belgrado, www.poverenik.rs). Los usuarios de Eslovenia pueden dirigirse al Comisionado de Información (www.ip-rs.si) y los de Montenegro a la Agencia de Protección de Datos Personales y Libre Acceso a la Información (www.azlp.me)."
+        ]
+      },
+      {
+        "id": "minors",
+        "title": "Menores de edad",
+        "paragraphs": [
+          "Nuestros servicios, como los campamentos de verano y los estudios, suelen estar dirigidos a jóvenes. Si tienes menos de 15 años, el formulario de contacto debe rellenarlo tu padre, madre o tutor. Los servicios para menores siempre se contratan con su padre, madre o tutor."
+        ]
+      },
+      {
+        "id": "security",
+        "title": "Seguridad",
+        "paragraphs": [
+          "El sitio utiliza una conexión cifrada (HTTPS). Solo acceden a los datos los miembros del equipo que los necesitan para su trabajo, y aplicamos medidas técnicas y organizativas contra el acceso no autorizado, la pérdida y el uso indebido."
+        ]
+      },
+      {
+        "id": "changes",
+        "title": "Cambios en esta política",
+        "paragraphs": [
+          "Podemos actualizar esta política ocasionalmente. La versión vigente siempre se publica en esta página, con la fecha de la última actualización arriba."
+        ]
+      }
+    ]
   }
 }

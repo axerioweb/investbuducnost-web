@@ -16,6 +16,7 @@ const ROUTES: { path: AppPathname; priority: number }[] = [
   { path: "/about", priority: 0.7 },
   { path: "/faq", priority: 0.7 },
   { path: "/contact", priority: 0.8 },
+  { path: "/privacy", priority: 0.3 },
 ];
 
 /**

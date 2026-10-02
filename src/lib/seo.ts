@@ -16,7 +16,8 @@ type MetaKey =
   | "usa"
   | "about"
   | "faq"
-  | "contact";
+  | "contact"
+  | "privacy";
 
 /**
  * Gradi kompletne SEO metapodatke za stranicu:
